@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class Attack : MonoBehaviour
@@ -5,6 +6,7 @@ public class Attack : MonoBehaviour
     private int damage;
     private float speed;
     private Vector2 direction;
+    public GameObject Explosion;
 
     public void Initialize(int dmg, float spd, Vector2 dir)
     {
@@ -20,9 +22,16 @@ public class Attack : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+ 
+
         if (collision.CompareTag("Enemy"))
         {
+            Instantiate(Explosion, this.transform.position, this.transform.rotation);
             Destroy(gameObject);
         }
+
+
     }
+
+    
 }

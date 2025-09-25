@@ -15,4 +15,5 @@ MonoBehaviour:
   spellName: waterball
   spellDamage: 10
   spellSpeed: 5
+  typeSpell: 1
   spellPrefab: {fileID: 6751884239596387401, guid: c8f4cf3921e411c43983faaa94451d90, type: 3}

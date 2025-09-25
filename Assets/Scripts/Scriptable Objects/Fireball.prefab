@@ -124,6 +124,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Explosion: {fileID: 3586691902595377889, guid: 9b3d517299d73f44eb0b85158a4ec77a, type: 3}
+  spellData: {fileID: 11400000, guid: 44fa0e1580b13684c92ad8dac4763d30, type: 2}
+  shake: {fileID: 11400000, guid: ef9cad08869464240993996619563a41, type: 2}
 --- !u!61 &-5339341881785911532
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -158,7 +161,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.6372187, y: 0.3971697}
+  m_Offset: {x: -0.36, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.7124062, y: 0.3676101}
@@ -168,5 +171,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3, y: 3}
+  m_Size: {x: 2.31, y: 0.66}
   m_EdgeRadius: 0

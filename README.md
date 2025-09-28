@@ -8,9 +8,9 @@ Explore dungeons, recover lost pages of the "Book Name", and face powerful enemi
 ---
 
 ## Developer
-Ngakan Nyoman Arya Vedantha (Game Programmer)
-Nicholas Andianto ()
-Rafi...
+- Ngakan Nyoman Arya Vedantha 
+- Nicholas Andianto 
+- Muhammad Rafi
 <br>
 
 ## Features & Scripts 

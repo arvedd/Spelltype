@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: c26aa4d3162fa604fbafa42fa96a634e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6317018662018587822
+    second: Buff n Debuff P07 05_0
+  - first:
+      213: -4828509478853027140
+    second: Buff n Debuff P07 05_1
+  - first:
+      213: 2139125287201279989
+    second: Buff n Debuff P07 05_2
+  - first:
+      213: -5668086748085161375
+    second: Buff n Debuff P07 05_3
+  - first:
+      213: -4617952514266252610
+    second: Buff n Debuff P07 05_4
+  - first:
+      213: -3667498593231059789
+    second: Buff n Debuff P07 05_5
+  - first:
+      213: 1633219648463809114
+    second: Buff n Debuff P07 05_6
+  - first:
+      213: -1715433022718715817
+    second: Buff n Debuff P07 05_7
+  - first:
+      213: -5049665473217694622
+    second: Buff n Debuff P07 05_8
+  - first:
+      213: 3604826811677434782
+    second: Buff n Debuff P07 05_9
+  - first:
+      213: 4700557722555606212
+    second: Buff n Debuff P07 05_10
+  - first:
+      213: -1650084961068268823
+    second: Buff n Debuff P07 05_11
+  - first:
+      213: -8354809933487620173
+    second: Buff n Debuff P07 05_12
+  - first:
+      213: -9127351733686764753
+    second: Buff n Debuff P07 05_13
+  - first:
+      213: -4231655522503893706
+    second: Buff n Debuff P07 05_14
+  - first:
+      213: -4969416299771203110
+    second: Buff n Debuff P07 05_15
+  - first:
+      213: 3569829412669582151
+    second: Buff n Debuff P07 05_16
+  - first:
+      213: -7984051356087054487
+    second: Buff n Debuff P07 05_17
+  - first:
+      213: 5050205740751741879
+    second: Buff n Debuff P07 05_18
+  - first:
+      213: 8573010709377729893
+    second: Buff n Debuff P07 05_19
+  - first:
+      213: 6925467032272849872
+    second: Buff n Debuff P07 05_20
+  - first:
+      213: 4150164188771819297
+    second: Buff n Debuff P07 05_21
+  - first:
+      213: 27386010593096018
+    second: Buff n Debuff P07 05_22
+  - first:
+      213: 1578241880828040308
+    second: Buff n Debuff P07 05_23
+  - first:
+      213: 8894905119721717937
+    second: Buff n Debuff P07 05_24
+  - first:
+      213: -1806691426942837808
+    second: Buff n Debuff P07 05_25
+  - first:
+      213: 632524867203872799
+    second: Buff n Debuff P07 05_26
+  - first:
+      213: 4534065843917354349
+    second: Buff n Debuff P07 05_27
+  - first:
+      213: -6788024511398654358
+    second: Buff n Debuff P07 05_28
+  - first:
+      213: 3717430898883056942
+    second: Buff n Debuff P07 05_29
+  - first:
+      213: 975274757248195160
+    second: Buff n Debuff P07 05_30
+  - first:
+      213: -7211078954619729423
+    second: Buff n Debuff P07 05_31
+  - first:
+      213: -3243334155327381438
+    second: Buff n Debuff P07 05_32
+  - first:
+      213: -4355273372466405938
+    second: Buff n Debuff P07 05_33
+  - first:
+      213: 6401033644969719386
+    second: Buff n Debuff P07 05_34
+  - first:
+      213: 4734151439588970825
+    second: Buff n Debuff P07 05_35
+  - first:
+      213: 5903375508076776179
+    second: Buff n Debuff P07 05_36
+  - first:
+      213: 5028962497967184532
+    second: Buff n Debuff P07 05_37
+  - first:
+      213: 6629164776802359670
+    second: Buff n Debuff P07 05_38
+  - first:
+      213: 1463879807520723776
+    second: Buff n Debuff P07 05_39
+  - first:
+      213: -3355786497944328940
+    second: Buff n Debuff P07 05_40
+  - first:
+      213: -3593912002090702988
+    second: Buff n Debuff P07 05_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_0
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 43
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2536ed2fef07558a0800000000000000
+      internalID: -6317018662018587822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 47
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbadb562630bdfcb0800000000000000
+      internalID: -4828509478853027140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_2
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 49
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff00b97d13bfad10800000000000000
+      internalID: 2139125287201279989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 41
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162f8482229e651b0800000000000000
+      internalID: -5668086748085161375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_4
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 50
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebab98db7acb9efb0800000000000000
+      internalID: -4617952514266252610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_5
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 43
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4c730f57d6a1dc0800000000000000
+      internalID: -3667498593231059789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_6
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 2
+        width: 47
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5aafdafd9c5aa610800000000000000
+      internalID: 1633219648463809114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_7
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 6
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75850ec21ce8138e0800000000000000
+      internalID: -1715433022718715817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_8
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 9
+        width: 47
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264fd42a10cfbe9b0800000000000000
+      internalID: -5049665473217694622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_9
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 2
+        width: 47
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9366d2d2eae60230800000000000000
+      internalID: 3604826811677434782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_10
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 2
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c46523185cbb3140800000000000000
+      internalID: 4700557722555606212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_11
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 10
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2cf4e6878b919e0800000000000000
+      internalID: -1650084961068268823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_12
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 12
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfb09491a0cd0c80800000000000000
+      internalID: -8354809933487620173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_13
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 12
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bfd8df4f1255180800000000000000
+      internalID: -9127351733686764753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_14
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 32
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dd559f8b32645c0800000000000000
+      internalID: -4231655522503893706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_15
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 12
+        width: 83
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad1f9175436190bb0800000000000000
+      internalID: -4969416299771203110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_16
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b69e2efe49a8130800000000000000
+      internalID: 3569829412669582151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_17
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 26
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f84fbc793f23190800000000000000
+      internalID: -7984051356087054487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_18
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 7
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b365243d5fe51640800000000000000
+      internalID: 5050205740751741879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_19
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 27
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565441481d379f670800000000000000
+      internalID: 8573010709377729893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_20
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 22
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db4d4ab2933c1060800000000000000
+      internalID: 6925467032272849872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_21
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 23
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12f9a475758589930800000000000000
+      internalID: 4150164188771819297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_22
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 33
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25177397e6b416000800000000000000
+      internalID: 27386010593096018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_23
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 35
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4745664f0aa07e510800000000000000
+      internalID: 1578241880828040308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_24
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 29
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b001d3441d017b70800000000000000
+      internalID: 8894905119721717937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_25
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 33
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db145e28b75de6e0800000000000000
+      internalID: -1806691426942837808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_26
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 26
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18b945f30e27c800800000000000000
+      internalID: 632524867203872799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_27
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 38
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65fceeccdc3cee30800000000000000
+      internalID: 4534065843917354349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_28
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 30
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e407fdba71cc1a0800000000000000
+      internalID: -6788024511398654358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_29
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 34
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e255cfce4b7f69330800000000000000
+      internalID: 3717430898883056942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_30
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 34
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a1f28793fd88d00800000000000000
+      internalID: 975274757248195160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_31
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 24
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9889e85e91deb90800000000000000
+      internalID: -7211078954619729423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_32
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 24
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240e1d705cc5df2d0800000000000000
+      internalID: -3243334155327381438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_33
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 12
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd1c6661f5fe83c0800000000000000
+      internalID: -4355273372466405938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_34
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 7
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a567ebb9f2a05d850800000000000000
+      internalID: 6401033644969719386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_35
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 2
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941da95d6a513b140800000000000000
+      internalID: 4734151439588970825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_36
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 3
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa48a64fb00de150800000000000000
+      internalID: 5903375508076776179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_37
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 11
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49a58105fb67ac540800000000000000
+      internalID: 5028962497967184532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_38
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 1
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67916dedd368ffb50800000000000000
+      internalID: 6629164776802359670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_39
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043d321ddeeb05410800000000000000
+      internalID: 1463879807520723776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_40
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 2
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 415e9f7b5f9dd61d0800000000000000
+      internalID: -3355786497944328940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buff n Debuff P07 05_41
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 12
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477ee51531cdf1ec0800000000000000
+      internalID: -3593912002090702988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Buff n Debuff P07 05_0: -6317018662018587822
+      Buff n Debuff P07 05_1: -4828509478853027140
+      Buff n Debuff P07 05_10: 4700557722555606212
+      Buff n Debuff P07 05_11: -1650084961068268823
+      Buff n Debuff P07 05_12: -8354809933487620173
+      Buff n Debuff P07 05_13: -9127351733686764753
+      Buff n Debuff P07 05_14: -4231655522503893706
+      Buff n Debuff P07 05_15: -4969416299771203110
+      Buff n Debuff P07 05_16: 3569829412669582151
+      Buff n Debuff P07 05_17: -7984051356087054487
+      Buff n Debuff P07 05_18: 5050205740751741879
+      Buff n Debuff P07 05_19: 8573010709377729893
+      Buff n Debuff P07 05_2: 2139125287201279989
+      Buff n Debuff P07 05_20: 6925467032272849872
+      Buff n Debuff P07 05_21: 4150164188771819297
+      Buff n Debuff P07 05_22: 27386010593096018
+      Buff n Debuff P07 05_23: 1578241880828040308
+      Buff n Debuff P07 05_24: 8894905119721717937
+      Buff n Debuff P07 05_25: -1806691426942837808
+      Buff n Debuff P07 05_26: 632524867203872799
+      Buff n Debuff P07 05_27: 4534065843917354349
+      Buff n Debuff P07 05_28: -6788024511398654358
+      Buff n Debuff P07 05_29: 3717430898883056942
+      Buff n Debuff P07 05_3: -5668086748085161375
+      Buff n Debuff P07 05_30: 975274757248195160
+      Buff n Debuff P07 05_31: -7211078954619729423
+      Buff n Debuff P07 05_32: -3243334155327381438
+      Buff n Debuff P07 05_33: -4355273372466405938
+      Buff n Debuff P07 05_34: 6401033644969719386
+      Buff n Debuff P07 05_35: 4734151439588970825
+      Buff n Debuff P07 05_36: 5903375508076776179
+      Buff n Debuff P07 05_37: 5028962497967184532
+      Buff n Debuff P07 05_38: 6629164776802359670
+      Buff n Debuff P07 05_39: 1463879807520723776
+      Buff n Debuff P07 05_4: -4617952514266252610
+      Buff n Debuff P07 05_40: -3355786497944328940
+      Buff n Debuff P07 05_41: -3593912002090702988
+      Buff n Debuff P07 05_5: -3667498593231059789
+      Buff n Debuff P07 05_6: 1633219648463809114
+      Buff n Debuff P07 05_7: -1715433022718715817
+      Buff n Debuff P07 05_8: -5049665473217694622
+      Buff n Debuff P07 05_9: 3604826811677434782
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

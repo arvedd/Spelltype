@@ -10,6 +10,7 @@ public class SpellTyper : MonoBehaviour
     [SerializeField] private TextMeshProUGUI messageDisplay;
     [SerializeField] private SpellBook spellBook;
     [SerializeField] private Transform castPoint;
+    [SerializeField] private HandManager handManager;
 
     private SpellData[] spell;
 
@@ -58,10 +59,10 @@ public class SpellTyper : MonoBehaviour
                 Vector2 dir = Vector2.right;
                 atk.Initialize(spell.spellDamage, spell.spellSpeed, dir);
             }
-
+            handManager.OnPlayerTyped(typedBuffer);
             messageDisplay.text = $"Casting spell: {spell.spellName}!";
         }
-        else 
+        else
         {
             messageDisplay.text = "You haven't unlocked that spell yet!";
         }

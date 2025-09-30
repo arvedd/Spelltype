@@ -1,18 +1,22 @@
+using System.Collections;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
     public EnemyData enemy;
     private int currentHP;
+    private SpriteRenderer spriteRenderer;
 
     void Start()
     {
         currentHP = enemy.enemyHp;
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     public void TakeDamage(SpellData spell)
     {
         int damage = spell.spellDamage;
+        StartCoroutine(FlashDamage());
 
         if (spell.typeSpell == enemy.enemyWeakness)
         {
@@ -32,6 +36,13 @@ public class Enemy : MonoBehaviour
             Die();
         }
 
+    }
+
+    private IEnumerator FlashDamage()
+    {
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        spriteRenderer.color = Color.white;
     }
 
     private void Die()

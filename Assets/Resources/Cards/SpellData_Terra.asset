@@ -15,6 +15,7 @@ MonoBehaviour:
   spellName: terra
   spellDamage: 15
   spellSpeed: 5
+  spellCost: 1
   elementImage: {fileID: -9182391099804656440, guid: ebada34f31b32be4b9fe39df24772bd4, type: 3}
   typeSpell: 3
   spellPrefab: {fileID: 3453524605822138424, guid: b1f9b4c59cfe578498865ef195a96fa8, type: 3}

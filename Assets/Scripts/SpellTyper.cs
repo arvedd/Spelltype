@@ -3,25 +3,30 @@ using TMPro;
 using System.Collections.Generic;
 using Unity.Mathematics;
 using Unity.VisualScripting;
+using System;
 
 public class SpellTyper : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI inputDisplay;
-    [SerializeField] private TextMeshProUGUI messageDisplay;
     [SerializeField] private SpellBook spellBook;
     [SerializeField] private Transform castPoint;
     [SerializeField] private HandManager handManager;
-
-    private SpellData[] spell;
-
     private string typedBuffer = "";
+    public Player player;
+    public event Action OnPlayerFinished;
+
+    void Awake()
+    {
+        inputDisplay = GameObject.Find("Word").GetComponent<TextMeshProUGUI>();
+        handManager = GameObject.Find("HandManager").GetComponent<HandManager>();
+    }
 
     void Update()
     {
         CheckInput();
     }
 
-    private void CheckInput()
+    public void CheckInput()
     {
         if (Input.anyKeyDown)
         {
@@ -48,23 +53,36 @@ public class SpellTyper : MonoBehaviour
 
     private void TryCastSpell()
     {
-        if (spellBook.HasSpell(typedBuffer))
-        {
-            SpellData spell = spellBook.GetSpell(typedBuffer);
-            GameObject obj = Instantiate(spell.spellPrefab, castPoint.position, Quaternion.identity);
+        SpellData spell = spellBook.GetSpell(typedBuffer);
 
-            Attack atk = obj.GetComponent<Attack>();
-            if (atk != null)
+        if (spell.spellCost <= player.currentAP)
+        {
+            if (spellBook.HasSpell(typedBuffer))
             {
-                Vector2 dir = Vector2.right;
-                atk.Initialize(spell.spellDamage, spell.spellSpeed, dir);
+                
+                player.UseAP(spell.spellCost);
+                GameObject obj = Instantiate(spell.spellPrefab, castPoint.position, Quaternion.identity);
+
+                Attack atk = obj.GetComponent<Attack>();
+                if (atk != null)
+                {
+                    Vector2 dir = Vector2.right;
+                    atk.Initialize(spell.spellDamage, spell.spellSpeed, dir);
+                }
+                handManager.OnPlayerTyped(typedBuffer);
             }
-            handManager.OnPlayerTyped(typedBuffer);
-            messageDisplay.text = $"Casting spell: {spell.spellName}!";
+            else
+            {
+                
+            }
         }
         else
         {
-            messageDisplay.text = "You haven't unlocked that spell yet!";
+            if (player.currentAP <= 0)
+            {
+                OnPlayerFinished?.Invoke();
+            }
+            Debug.Log("Not Enough AP");
         }
     }
 }

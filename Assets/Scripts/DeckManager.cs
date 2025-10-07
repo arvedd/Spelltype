@@ -1,9 +1,13 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class DeckManager : MonoBehaviour
 {
     public List<SpellData> allCards = new List<SpellData>();
+    public List<SpellData> drawPile = new List<SpellData>();
+    public List<SpellData> discardPile = new List<SpellData>();
+    public List<SpellData> PlayerDeck = new List<SpellData>();
 
     private int currentIndex = 0;
     public int startingHandSize = 4;
@@ -12,20 +16,34 @@ public class DeckManager : MonoBehaviour
 
     private HandManager handManager;
 
+    [SerializeField] private TextMeshProUGUI Drawpiletext;
+    [SerializeField] private TextMeshProUGUI Discardpiletext;
+
     void Start()
     {
         SpellData[] cards = Resources.LoadAll<SpellData>("Cards");
-
         allCards.AddRange(cards);
+
+        // Give player some starting cards 
+        AddCardToDeck("fireball");
+        AddCardToDeck("terra");
+        AddCardToDeck("ventus");
+        AddCardToDeck("fireball");
+        AddCardToDeck("waterball");
+
+        drawPile = new List<SpellData>(PlayerDeck);
+        Shuffle(drawPile);
 
         handManager = FindFirstObjectByType<HandManager>();
         maxHandSize = handManager.maxHandSize;
 
+        // Draw starting hand
         for (int i = 0; i < startingHandSize; i++)
         {
             DrawCard(handManager);
         }
     }
+
 
     void Update()
     {
@@ -33,19 +51,84 @@ public class DeckManager : MonoBehaviour
         {
             currentHandSize = handManager.cardsInHand.Count;
         }
+
+        if (currentHandSize != startingHandSize)
+        {
+            DrawCard(handManager);
+        }
+
+        Drawpiletext.text = drawPile.Count.ToString();
+        Discardpiletext.text = discardPile.Count.ToString();
     }
 
     public void DrawCard(HandManager handManager)
     {
-        if (allCards.Count == 0)
-            return;
-
-
-        if (currentHandSize < maxHandSize)
+        if (drawPile.Count == 0)
         {
-            SpellData nextCard = allCards[currentIndex];
+            if (discardPile.Count == 0)
+                return; // No cards left at all
+
+            // Reshuffle discard into draw pile
+            drawPile.AddRange(discardPile);
+            discardPile.Clear();
+            Shuffle(drawPile);
+            Debug.Log("Reshuffled discard pile back into deck.");
+        }
+
+        if (handManager.cardsInHand.Count < maxHandSize)
+        {
+            SpellData nextCard = drawPile[0];
+            drawPile.RemoveAt(0);
+
             handManager.AddCardsToHand(nextCard);
-            currentIndex = (currentIndex + 1) % allCards.Count;
         }
     }
+
+
+    public void AddCardToDeck(string cardName)
+    {
+        SpellData cardToAdd = allCards.Find(c => c.spellName == cardName);
+        if (cardToAdd != null)
+        {
+            PlayerDeck.Add(cardToAdd);
+            Debug.Log($"Added {cardName} to deck!");
+        }
+    }
+
+    public void LoadDeck()
+    {
+        string json = PlayerPrefs.GetString("PlayerDeck", "");
+        if (!string.IsNullOrEmpty(json))
+        {
+            DeckSaveData data = JsonUtility.FromJson<DeckSaveData>(json);
+            PlayerDeck.Clear();
+            foreach (string name in data.cardNames)
+                AddCardToDeck(name);
+        }
+    }
+
+    [System.Serializable]
+    public class DeckSaveData
+    {
+        public List<string> cardNames;
+        public DeckSaveData(List<string> names) { cardNames = names; }
+    }
+
+    private void Shuffle(List<SpellData> list)
+    {
+        for (int i = 0; i < list.Count; i++)
+        {
+            SpellData temp = list[i];
+            int randomIndex = UnityEngine.Random.Range(i, list.Count);
+            list[i] = list[randomIndex];
+            list[randomIndex] = temp;
+        }
+    }
+
+    public void DiscardCard(SpellData card)
+    {
+        discardPile.Add(card);
+        Debug.Log($"Discarded {card.spellName}");
+    }
+
 }

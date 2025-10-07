@@ -55,34 +55,40 @@ public class SpellTyper : MonoBehaviour
     {
         SpellData spell = spellBook.GetSpell(typedBuffer);
 
-        if (spell.spellCost <= player.currentAP)
+        if (spell == null)
         {
-            if (spellBook.HasSpell(typedBuffer))
-            {
-                
-                player.UseAP(spell.spellCost);
-                GameObject obj = Instantiate(spell.spellPrefab, castPoint.position, Quaternion.identity);
-
-                Attack atk = obj.GetComponent<Attack>();
-                if (atk != null)
-                {
-                    Vector2 dir = Vector2.right;
-                    atk.Initialize(spell.spellDamage, spell.spellSpeed, dir);
-                }
-                handManager.OnPlayerTyped(typedBuffer);
-            }
-            else
-            {
-                
-            }
+            Debug.Log("No such spell exists.");
+            return;
         }
-        else
+
+        if (player.currentAP < spell.spellCost)
         {
+            Debug.Log("Not enough AP.");
             if (player.currentAP <= 0)
             {
                 OnPlayerFinished?.Invoke();
             }
-            Debug.Log("Not Enough AP");
+            return;
         }
+
+        if (!handManager.HasCardInHand(typedBuffer))
+        {
+            Debug.Log("You don't have that spell card in your hand!");
+            return;
+        }
+
+        // Proceed to cast
+        player.UseAP(spell.spellCost);
+        GameObject obj = Instantiate(spell.spellPrefab, castPoint.position, Quaternion.identity);
+
+        Attack atk = obj.GetComponent<Attack>();
+        if (atk != null)
+        {
+            Vector2 dir = Vector2.right;
+            atk.Initialize(spell.spellDamage, spell.spellSpeed, dir);
+        }
+
+        handManager.OnPlayerTyped(typedBuffer);
     }
+
 }

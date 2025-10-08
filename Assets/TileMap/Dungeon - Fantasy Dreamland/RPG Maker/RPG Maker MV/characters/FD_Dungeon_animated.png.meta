@@ -1,0 +1,5117 @@
+fileFormatVersion: 2
+guid: 55212ad15b457b640b7a94b4b521fa8e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2742147816284367346
+    second: FD_Dungeon_animated_0
+  - first:
+      213: -333230233516755705
+    second: FD_Dungeon_animated_1
+  - first:
+      213: 3336578018895630993
+    second: FD_Dungeon_animated_2
+  - first:
+      213: -8457482272531498822
+    second: FD_Dungeon_animated_3
+  - first:
+      213: 8408102963930564112
+    second: FD_Dungeon_animated_4
+  - first:
+      213: -6501788272725659565
+    second: FD_Dungeon_animated_5
+  - first:
+      213: -8333428854683045438
+    second: FD_Dungeon_animated_6
+  - first:
+      213: -1271812800732883227
+    second: FD_Dungeon_animated_7
+  - first:
+      213: -4848658381192484277
+    second: FD_Dungeon_animated_8
+  - first:
+      213: 5474977719766359844
+    second: FD_Dungeon_animated_9
+  - first:
+      213: -8115711720284117886
+    second: FD_Dungeon_animated_10
+  - first:
+      213: 1815972915705089951
+    second: FD_Dungeon_animated_11
+  - first:
+      213: -5867400110842848509
+    second: FD_Dungeon_animated_12
+  - first:
+      213: -8598097773316349161
+    second: FD_Dungeon_animated_13
+  - first:
+      213: -3923104488636859413
+    second: FD_Dungeon_animated_14
+  - first:
+      213: -5831214162396887171
+    second: FD_Dungeon_animated_15
+  - first:
+      213: -3658753109706292850
+    second: FD_Dungeon_animated_16
+  - first:
+      213: -6783760516773768530
+    second: FD_Dungeon_animated_17
+  - first:
+      213: 1558814948319584290
+    second: FD_Dungeon_animated_18
+  - first:
+      213: 2631922239140134604
+    second: FD_Dungeon_animated_19
+  - first:
+      213: 4652221467436867829
+    second: FD_Dungeon_animated_20
+  - first:
+      213: -729232922203190853
+    second: FD_Dungeon_animated_21
+  - first:
+      213: 2106538497757011141
+    second: FD_Dungeon_animated_22
+  - first:
+      213: -364233666525462745
+    second: FD_Dungeon_animated_23
+  - first:
+      213: 3767884110017532294
+    second: FD_Dungeon_animated_24
+  - first:
+      213: 4595102495146412216
+    second: FD_Dungeon_animated_25
+  - first:
+      213: -5454061761235667244
+    second: FD_Dungeon_animated_26
+  - first:
+      213: -4816961407012056995
+    second: FD_Dungeon_animated_27
+  - first:
+      213: -2403154098480824139
+    second: FD_Dungeon_animated_28
+  - first:
+      213: 5213650977982182082
+    second: FD_Dungeon_animated_29
+  - first:
+      213: -5824872266535824024
+    second: FD_Dungeon_animated_30
+  - first:
+      213: -7180851629465240739
+    second: FD_Dungeon_animated_31
+  - first:
+      213: 1231658244882557189
+    second: FD_Dungeon_animated_32
+  - first:
+      213: 3632759413964768541
+    second: FD_Dungeon_animated_33
+  - first:
+      213: -400876818199275440
+    second: FD_Dungeon_animated_34
+  - first:
+      213: -4790793549539340410
+    second: FD_Dungeon_animated_35
+  - first:
+      213: 1713149702380960022
+    second: FD_Dungeon_animated_36
+  - first:
+      213: -4296661853923833256
+    second: FD_Dungeon_animated_37
+  - first:
+      213: 7608054767401092219
+    second: FD_Dungeon_animated_38
+  - first:
+      213: 4473292914963648376
+    second: FD_Dungeon_animated_39
+  - first:
+      213: 383174144021496919
+    second: FD_Dungeon_animated_40
+  - first:
+      213: 2441686434717335890
+    second: FD_Dungeon_animated_41
+  - first:
+      213: 1011509875786704570
+    second: FD_Dungeon_animated_42
+  - first:
+      213: -6598494143535930149
+    second: FD_Dungeon_animated_43
+  - first:
+      213: -1094878409511463336
+    second: FD_Dungeon_animated_44
+  - first:
+      213: 7752499437829986268
+    second: FD_Dungeon_animated_45
+  - first:
+      213: -1062741537771778031
+    second: FD_Dungeon_animated_46
+  - first:
+      213: 71275509630036063
+    second: FD_Dungeon_animated_47
+  - first:
+      213: 850755931343452874
+    second: FD_Dungeon_animated_48
+  - first:
+      213: 3222503598063938179
+    second: FD_Dungeon_animated_49
+  - first:
+      213: -8129183064793300185
+    second: FD_Dungeon_animated_50
+  - first:
+      213: -9051634790196936179
+    second: FD_Dungeon_animated_51
+  - first:
+      213: -2027211072531213406
+    second: FD_Dungeon_animated_52
+  - first:
+      213: 390837762283684718
+    second: FD_Dungeon_animated_53
+  - first:
+      213: 8588758191069888213
+    second: FD_Dungeon_animated_54
+  - first:
+      213: -6327960159802779242
+    second: FD_Dungeon_animated_55
+  - first:
+      213: -3669427002642823610
+    second: FD_Dungeon_animated_56
+  - first:
+      213: -8548704952535946274
+    second: FD_Dungeon_animated_57
+  - first:
+      213: 3746655823785525204
+    second: FD_Dungeon_animated_58
+  - first:
+      213: -6074946252441305252
+    second: FD_Dungeon_animated_59
+  - first:
+      213: 2687356907300313748
+    second: FD_Dungeon_animated_60
+  - first:
+      213: 3036263710270316848
+    second: FD_Dungeon_animated_61
+  - first:
+      213: -494510714331674595
+    second: FD_Dungeon_animated_62
+  - first:
+      213: 30935994694779178
+    second: FD_Dungeon_animated_63
+  - first:
+      213: -349781698886919730
+    second: FD_Dungeon_animated_64
+  - first:
+      213: 271078687476298286
+    second: FD_Dungeon_animated_65
+  - first:
+      213: 4035765338366589011
+    second: FD_Dungeon_animated_66
+  - first:
+      213: 545511151550432817
+    second: FD_Dungeon_animated_67
+  - first:
+      213: 400714132682552372
+    second: FD_Dungeon_animated_68
+  - first:
+      213: 3588403455107186374
+    second: FD_Dungeon_animated_69
+  - first:
+      213: 6455077592381163840
+    second: FD_Dungeon_animated_70
+  - first:
+      213: 1778743297306163647
+    second: FD_Dungeon_animated_71
+  - first:
+      213: -3656111577334079373
+    second: FD_Dungeon_animated_72
+  - first:
+      213: -2436632757290367125
+    second: FD_Dungeon_animated_73
+  - first:
+      213: 1250981269931308497
+    second: FD_Dungeon_animated_74
+  - first:
+      213: 5779865197729415317
+    second: FD_Dungeon_animated_75
+  - first:
+      213: -8865503311477278431
+    second: FD_Dungeon_animated_76
+  - first:
+      213: 8809186091527629830
+    second: FD_Dungeon_animated_77
+  - first:
+      213: -4287435114471897712
+    second: FD_Dungeon_animated_78
+  - first:
+      213: 3317191039012424744
+    second: FD_Dungeon_animated_79
+  - first:
+      213: -7350622419229864243
+    second: FD_Dungeon_animated_80
+  - first:
+      213: -8834766389480873733
+    second: FD_Dungeon_animated_81
+  - first:
+      213: -6930325602932603628
+    second: FD_Dungeon_animated_82
+  - first:
+      213: 4027173382633838908
+    second: FD_Dungeon_animated_83
+  - first:
+      213: 7118206677154766966
+    second: FD_Dungeon_animated_84
+  - first:
+      213: 7590380830559233652
+    second: FD_Dungeon_animated_85
+  - first:
+      213: -8892266807604427455
+    second: FD_Dungeon_animated_86
+  - first:
+      213: 2747703454752290260
+    second: FD_Dungeon_animated_87
+  - first:
+      213: 4794329519869194073
+    second: FD_Dungeon_animated_88
+  - first:
+      213: -4420182387971951560
+    second: FD_Dungeon_animated_89
+  - first:
+      213: 1419283998946302825
+    second: FD_Dungeon_animated_90
+  - first:
+      213: -5108615979074704440
+    second: FD_Dungeon_animated_91
+  - first:
+      213: 2395454588098093216
+    second: FD_Dungeon_animated_92
+  - first:
+      213: -1223775552366376771
+    second: FD_Dungeon_animated_93
+  - first:
+      213: 4311596115174726141
+    second: FD_Dungeon_animated_94
+  - first:
+      213: 2664077445681211215
+    second: FD_Dungeon_animated_95
+  - first:
+      213: 1838773208213378685
+    second: FD_Dungeon_animated_96
+  - first:
+      213: -4388876477186933152
+    second: FD_Dungeon_animated_97
+  - first:
+      213: 5288940349743649751
+    second: FD_Dungeon_animated_98
+  - first:
+      213: -8959841285634832535
+    second: FD_Dungeon_animated_99
+  - first:
+      213: -2971522415522671544
+    second: FD_Dungeon_animated_100
+  - first:
+      213: -2168487279626060851
+    second: FD_Dungeon_animated_101
+  - first:
+      213: 3401568382419867653
+    second: FD_Dungeon_animated_102
+  - first:
+      213: -462732594602632768
+    second: FD_Dungeon_animated_103
+  - first:
+      213: -7392661415670182199
+    second: FD_Dungeon_animated_104
+  - first:
+      213: -8433745317544166681
+    second: FD_Dungeon_animated_105
+  - first:
+      213: -8334897865037041543
+    second: FD_Dungeon_animated_106
+  - first:
+      213: 154902775357258638
+    second: FD_Dungeon_animated_107
+  - first:
+      213: -2541838072546696019
+    second: FD_Dungeon_animated_108
+  - first:
+      213: 2572752612316114253
+    second: FD_Dungeon_animated_109
+  - first:
+      213: 3770387172583020403
+    second: FD_Dungeon_animated_110
+  - first:
+      213: -6087663119277768848
+    second: FD_Dungeon_animated_111
+  - first:
+      213: -8978200494864112825
+    second: FD_Dungeon_animated_112
+  - first:
+      213: 2828405989342914932
+    second: FD_Dungeon_animated_113
+  - first:
+      213: -8543586175605919315
+    second: FD_Dungeon_animated_114
+  - first:
+      213: -5119461379451177696
+    second: FD_Dungeon_animated_115
+  - first:
+      213: -7947051255185247772
+    second: FD_Dungeon_animated_116
+  - first:
+      213: -6394080999847739140
+    second: FD_Dungeon_animated_117
+  - first:
+      213: -1092793147300610268
+    second: FD_Dungeon_animated_118
+  - first:
+      213: -8117828478939105193
+    second: FD_Dungeon_animated_119
+  - first:
+      213: -1848044339022411224
+    second: FD_Dungeon_animated_120
+  - first:
+      213: -8305663361370510197
+    second: FD_Dungeon_animated_121
+  - first:
+      213: 4545820149171992545
+    second: FD_Dungeon_animated_122
+  - first:
+      213: -3072564104146728438
+    second: FD_Dungeon_animated_123
+  - first:
+      213: 8764039510569385658
+    second: FD_Dungeon_animated_124
+  - first:
+      213: 6403489245517223887
+    second: FD_Dungeon_animated_125
+  - first:
+      213: -5697112689196741989
+    second: FD_Dungeon_animated_126
+  - first:
+      213: -6606779432916598836
+    second: FD_Dungeon_animated_127
+  - first:
+      213: 7140997581095128804
+    second: FD_Dungeon_animated_128
+  - first:
+      213: 807503213168614748
+    second: FD_Dungeon_animated_129
+  - first:
+      213: -9134301058376122776
+    second: FD_Dungeon_animated_130
+  - first:
+      213: -2192576979474282861
+    second: FD_Dungeon_animated_131
+  - first:
+      213: -307167456806356387
+    second: FD_Dungeon_animated_132
+  - first:
+      213: -3664979746864966509
+    second: FD_Dungeon_animated_133
+  - first:
+      213: 61660680376528402
+    second: FD_Dungeon_animated_134
+  - first:
+      213: 5429887585324454466
+    second: FD_Dungeon_animated_135
+  - first:
+      213: -137921686447093656
+    second: FD_Dungeon_animated_136
+  - first:
+      213: 7587718412877636452
+    second: FD_Dungeon_animated_137
+  - first:
+      213: -7680156431050737207
+    second: FD_Dungeon_animated_138
+  - first:
+      213: 8613760162643315567
+    second: FD_Dungeon_animated_139
+  - first:
+      213: -1856793847377387177
+    second: FD_Dungeon_animated_140
+  - first:
+      213: -325286694350043633
+    second: FD_Dungeon_animated_141
+  - first:
+      213: -7913770012379643868
+    second: FD_Dungeon_animated_142
+  - first:
+      213: 2611191920767849369
+    second: FD_Dungeon_animated_143
+  - first:
+      213: 2096541656185784282
+    second: FD_Dungeon_animated_144
+  - first:
+      213: 7122786065847190370
+    second: FD_Dungeon_animated_145
+  - first:
+      213: 1115524231193744484
+    second: FD_Dungeon_animated_146
+  - first:
+      213: 7353791922702409168
+    second: FD_Dungeon_animated_147
+  - first:
+      213: 2023564176047127809
+    second: FD_Dungeon_animated_148
+  - first:
+      213: 282291172174174347
+    second: FD_Dungeon_animated_149
+  - first:
+      213: -8023511789341026706
+    second: FD_Dungeon_animated_150
+  - first:
+      213: -4553497810994040518
+    second: FD_Dungeon_animated_151
+  - first:
+      213: 5648858101974837690
+    second: FD_Dungeon_animated_152
+  - first:
+      213: -5374830172741580859
+    second: FD_Dungeon_animated_153
+  - first:
+      213: 7087899080846222244
+    second: FD_Dungeon_animated_154
+  - first:
+      213: 8521461435580197470
+    second: FD_Dungeon_animated_155
+  - first:
+      213: 6422126226544482523
+    second: FD_Dungeon_animated_156
+  - first:
+      213: -4511408889920376680
+    second: FD_Dungeon_animated_157
+  - first:
+      213: -4505673379023825906
+    second: FD_Dungeon_animated_158
+  - first:
+      213: 1712149265037817535
+    second: FD_Dungeon_animated_159
+  - first:
+      213: 4112224801559410374
+    second: FD_Dungeon_animated_160
+  - first:
+      213: -6268988752151725684
+    second: FD_Dungeon_animated_161
+  - first:
+      213: -8139816631713976195
+    second: FD_Dungeon_animated_162
+  - first:
+      213: -7668953890578315739
+    second: FD_Dungeon_animated_163
+  - first:
+      213: 7373282969826103112
+    second: FD_Dungeon_animated_164
+  - first:
+      213: -1135497405001089402
+    second: FD_Dungeon_animated_165
+  - first:
+      213: 7035740473872786226
+    second: FD_Dungeon_animated_166
+  - first:
+      213: 8891156966095068737
+    second: FD_Dungeon_animated_167
+  - first:
+      213: 9126011325209810057
+    second: FD_Dungeon_animated_168
+  - first:
+      213: -620154917632621042
+    second: FD_Dungeon_animated_169
+  - first:
+      213: -8628648408288764703
+    second: FD_Dungeon_animated_170
+  - first:
+      213: -8515246624579272759
+    second: FD_Dungeon_animated_171
+  - first:
+      213: -8244566738484937686
+    second: FD_Dungeon_animated_172
+  - first:
+      213: 6568134222084597361
+    second: FD_Dungeon_animated_173
+  - first:
+      213: -354205958505040463
+    second: FD_Dungeon_animated_174
+  - first:
+      213: -1468946416061445377
+    second: FD_Dungeon_animated_175
+  - first:
+      213: 1622793484553190430
+    second: FD_Dungeon_animated_176
+  - first:
+      213: -2338406631850685791
+    second: FD_Dungeon_animated_177
+  - first:
+      213: -1959883097363689783
+    second: FD_Dungeon_animated_178
+  - first:
+      213: 8741495324944610153
+    second: FD_Dungeon_animated_179
+  - first:
+      213: 3043055582046692579
+    second: FD_Dungeon_animated_180
+  - first:
+      213: 1293945274261228977
+    second: FD_Dungeon_animated_181
+  - first:
+      213: 1407568280620586007
+    second: FD_Dungeon_animated_182
+  - first:
+      213: 50572786205199104
+    second: FD_Dungeon_animated_183
+  - first:
+      213: 1473033326302675221
+    second: FD_Dungeon_animated_184
+  - first:
+      213: -7164916766413105540
+    second: FD_Dungeon_animated_185
+  - first:
+      213: 7002437519692472435
+    second: FD_Dungeon_animated_186
+  - first:
+      213: -7680978537245526832
+    second: FD_Dungeon_animated_187
+  - first:
+      213: -1797262138044648863
+    second: FD_Dungeon_animated_188
+  - first:
+      213: 3386721751882964858
+    second: FD_Dungeon_animated_189
+  - first:
+      213: 4019835707787235828
+    second: FD_Dungeon_animated_190
+  - first:
+      213: 7643950693967014546
+    second: FD_Dungeon_animated_191
+  - first:
+      213: 4997795250689344426
+    second: FD_Dungeon_animated_192
+  - first:
+      213: 7124896081565526269
+    second: FD_Dungeon_animated_193
+  - first:
+      213: -6438146914435731500
+    second: FD_Dungeon_animated_194
+  - first:
+      213: 1715675987009753764
+    second: FD_Dungeon_animated_195
+  - first:
+      213: -7777870371376443103
+    second: FD_Dungeon_animated_196
+  - first:
+      213: -5982130339880332022
+    second: FD_Dungeon_animated_197
+  - first:
+      213: -5684033047034087993
+    second: FD_Dungeon_animated_198
+  - first:
+      213: -2505058132992907902
+    second: FD_Dungeon_animated_199
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f92e3f09e01e0620800000000000000
+      internalID: 2742147816284367346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 353
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70530de3ed0206bf0800000000000000
+      internalID: -333230233516755705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19296adb708ed4e20800000000000000
+      internalID: 3336578018895630993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_3
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8b89bceacf0aa80800000000000000
+      internalID: -8457482272531498822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_4
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 353
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0168dfff8159fa470800000000000000
+      internalID: 8408102963930564112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_5
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350f26f830205c5a0800000000000000
+      internalID: -6501788272725659565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c170abeb96b95c80800000000000000
+      internalID: -8333428854683045438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 353
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6958ffefc995ee0800000000000000
+      internalID: -1271812800732883227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a2dcf34ea16bcb0800000000000000
+      internalID: -4848658381192484277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_9
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f1adb7a370bfb40800000000000000
+      internalID: 5474977719766359844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_10
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 353
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284adf470333f5f80800000000000000
+      internalID: -8115711720284117886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_11
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f0552deb1a33910800000000000000
+      internalID: 1815972915705089951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_12
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30bdf1e9faec29ea0800000000000000
+      internalID: -5867400110842848509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 353
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713e66d31ab6da880800000000000000
+      internalID: -8598097773316349161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_14
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb3f0ac0455e89c0800000000000000
+      internalID: -3923104488636859413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_15
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d774b194d9d531fa0800000000000000
+      internalID: -5831214162396887171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_16
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 353
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81c91f7e6f793dc0800000000000000
+      internalID: -3658753109706292850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_17
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2116c70cd3bd1a0800000000000000
+      internalID: -6783760516773768530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_18
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2206821cfe502a510800000000000000
+      internalID: 1558814948319584290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_19
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 353
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccef56cf457768420800000000000000
+      internalID: 2631922239140134604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_20
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0650fa6c2009040800000000000000
+      internalID: 4652221467436867829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_21
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb90f89558e31e5f0800000000000000
+      internalID: -729232922203190853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_22
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 353
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccdd705a9deb3d10800000000000000
+      internalID: 2106538497757011141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_23
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ff28bf86bf1faf0800000000000000
+      internalID: -364233666525462745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_24
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6811f6c82a63a4430800000000000000
+      internalID: 3767884110017532294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_25
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 353
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b886b99f5515cf30800000000000000
+      internalID: 4595102495146412216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_26
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 365
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6b18a99b74f44b0800000000000000
+      internalID: -5454061761235667244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_27
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 338
+        width: 145
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50d7462f17b62db0800000000000000
+      internalID: -4816961407012056995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_28
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 338
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0c683741846aed0800000000000000
+      internalID: -2403154098480824139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2fe7df0fb9a5840800000000000000
+      internalID: 5213650977982182082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_30
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 338
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8659b1bf885e92fa0800000000000000
+      internalID: -5824872266535824024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5b70f02d7d785c90800000000000000
+      internalID: -7180851629465240739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_32
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 338
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509e7eae5aab71110800000000000000
+      internalID: 1231658244882557189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1583d790772a6230800000000000000
+      internalID: 3632759413964768541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_34
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 338
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0581b8468accf6af0800000000000000
+      internalID: -400876818199275440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_35
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68f897f36aea38db0800000000000000
+      internalID: -4790793549539340410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_36
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 338
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 619bb71e39456c710800000000000000
+      internalID: 1713149702380960022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_37
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a06ecfec03f54c0800000000000000
+      internalID: -4296661853923833256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_38
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 338
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74c8a2708d359960800000000000000
+      internalID: 7608054767401092219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_39
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f0ea4a434541e30800000000000000
+      internalID: 4473292914963648376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_40
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 338
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75404859ade415500800000000000000
+      internalID: 383174144021496919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251873230ec92e120800000000000000
+      internalID: 2441686434717335890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_42
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 338
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6e0117fda990e00800000000000000
+      internalID: 1011509875786704570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_43
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4ab0a69807d64a0800000000000000
+      internalID: -6598494143535930149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_44
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 338
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85613d033e53ec0f0800000000000000
+      internalID: -1094878409511463336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_45
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 341
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd795490a29669b60800000000000000
+      internalID: 7752499437829986268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_46
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1109f09b3326041f0800000000000000
+      internalID: -1062741537771778031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_47
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 305
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f58eea8c2b83df000800000000000000
+      internalID: 71275509630036063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_48
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca7846130e7ecb00800000000000000
+      internalID: 850755931343452874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_49
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ae40ae2f1a8bc20800000000000000
+      internalID: 3222503598063938179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_50
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 305
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 723cfd4a2175f2f80800000000000000
+      internalID: -8129183064793300185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_51
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d028ebdad12226280800000000000000
+      internalID: -9051634790196936179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_52
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3d9092546edd3e0800000000000000
+      internalID: -2027211072531213406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_53
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 305
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e634ab1cfd88c6500800000000000000
+      internalID: 390837762283684718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_54
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de7270d116613770800000000000000
+      internalID: 8588758191069888213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_55
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 699912af2c19e28a0800000000000000
+      internalID: -6327960159802779242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_56
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 305
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6468f322593931dc0800000000000000
+      internalID: -3669427002642823610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_57
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbe87e7326ec5980800000000000000
+      internalID: -8548704952535946274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_58
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df72600f9bcef330800000000000000
+      internalID: 3746655823785525204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_59
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 305
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f35a1e19471bba0800000000000000
+      internalID: -6074946252441305252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_60
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ad3547ed86b4520800000000000000
+      internalID: 2687356907300313748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_61
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0316217f1c9f22a20800000000000000
+      internalID: 3036263710270316848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_62
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 305
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d18c2a610252329f0800000000000000
+      internalID: -494510714331674595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_63
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a214e8e8f18ed6000800000000000000
+      internalID: 30935994694779178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_64
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec999e8e563552bf0800000000000000
+      internalID: -349781698886919730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_65
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 305
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22343941a013c300800000000000000
+      internalID: 271078687476298286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_66
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358bc2e513be10830800000000000000
+      internalID: 4035765338366589011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_67
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1368d29808b029700800000000000000
+      internalID: 545511151550432817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_68
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 305
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 434b50f616f9f8500800000000000000
+      internalID: 400714132682552372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_69
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ceb2742ee19cc130800000000000000
+      internalID: 3588403455107186374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_70
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049867baeda059950800000000000000
+      internalID: 6455077592381163840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_71
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 305
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb97a8eca9d5fa810800000000000000
+      internalID: 1778743297306163647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_72
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3702fcd24e1e24dc0800000000000000
+      internalID: -3656111577334079373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_73
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 290
+        width: 145
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6780a5ca675f2ed0800000000000000
+      internalID: -2436632757290367125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_74
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 290
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d53ce646d06c5110800000000000000
+      internalID: 1250981269931308497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 293
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5900e4836c4363050800000000000000
+      internalID: 5779865197729415317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_76
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 290
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129f85ca5b767f480800000000000000
+      internalID: -8865503311477278431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_77
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 293
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60ce0d1c314804a70800000000000000
+      internalID: 8809186091527629830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_78
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 290
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095cd5caa78ff74c0800000000000000
+      internalID: -4287435114471897712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_79
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 293
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cc17cbca7090e20800000000000000
+      internalID: 3317191039012424744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_80
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 290
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce08cfdad75df990800000000000000
+      internalID: -7350622419229864243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_81
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 293
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0ae6107ca946580800000000000000
+      internalID: -8834766389480873733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_82
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 290
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4154863259982df90800000000000000
+      internalID: -6930325602932603628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 293
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c395cc8cad463e730800000000000000
+      internalID: 4027173382633838908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_84
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 290
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670af9d4243f8c260800000000000000
+      internalID: 7118206677154766966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_85
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 293
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 476ea6b5623765960800000000000000
+      internalID: 7590380830559233652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_86
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 290
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145cdb4a372589480800000000000000
+      internalID: -8892266807604427455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_87
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 293
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d5bf90fbbdc12620800000000000000
+      internalID: 2747703454752290260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_88
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 290
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fe8fffb41e88240800000000000000
+      internalID: 4794329519869194073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_89
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 293
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8347e7a898b58a2c0800000000000000
+      internalID: -4420182387971951560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_90
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 290
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b1790074f42b310800000000000000
+      internalID: 1419283998946302825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_91
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 293
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb2e5965dc8a19b0800000000000000
+      internalID: -5108615979074704440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_92
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0aa27914d5e3120800000000000000
+      internalID: 2395454588098093216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_93
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db805647e96440fe0800000000000000
+      internalID: -1223775552366376771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_94
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df991fba2ddd5db30800000000000000
+      internalID: 4311596115174726141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_95
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4765fb6254b8f420800000000000000
+      internalID: 2664077445681211215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_96
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76501a9d72a48910800000000000000
+      internalID: 1838773208213378685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_97
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e7436e8149713c0800000000000000
+      internalID: -4388876477186933152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_98
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d353b0e937166940800000000000000
+      internalID: 5288940349743649751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_99
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9674bdd62df38a380800000000000000
+      internalID: -8959841285634832535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_100
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84419ac5b1803c6d0800000000000000
+      internalID: -2971522415522671544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_101
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb7fedee4cf7e1e0800000000000000
+      internalID: -2168487279626060851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_102
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5081659eb6cc43f20800000000000000
+      internalID: 3401568382419867653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_103
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c917b8282b0499f0800000000000000
+      internalID: -462732594602632768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_104
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce0e364c9df76990800000000000000
+      internalID: -7392661415670182199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_105
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ea7aad415155fa80800000000000000
+      internalID: -8433745317544166681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_106
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9703e4b4d8e745c80800000000000000
+      internalID: -8334897865037041543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_107
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b34e3e043562200800000000000000
+      internalID: 154902775357258638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_108
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da46a418db399bcd0800000000000000
+      internalID: -2541838072546696019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_109
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d6f00bed044b320800000000000000
+      internalID: 2572752612316114253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_110
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3771087382b135430800000000000000
+      internalID: 3770387172583020403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_111
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07fb33795a6448ba0800000000000000
+      internalID: -6087663119277768848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_112
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743636de736076380800000000000000
+      internalID: -8978200494864112825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_113
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4792f530344804720800000000000000
+      internalID: 2828405989342914932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_114
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1321f93a51f6980800000000000000
+      internalID: -8543586175605919315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_115
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0253b7cdff404f8b0800000000000000
+      internalID: -5119461379451177696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_116
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e17cda1df666b190800000000000000
+      internalID: -7947051255185247772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_117
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf0400b3539a347a0800000000000000
+      internalID: -6394080999847739140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_118
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 269
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42f7a222c6e95d0f0800000000000000
+      internalID: -1092793147300610268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_119
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 242
+        width: 145
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 758f84d220ea75f80800000000000000
+      internalID: -8117828478939105193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_120
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ac56b077d6a56e0800000000000000
+      internalID: -1848044339022411224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ca8899d2b5cbc80800000000000000
+      internalID: -8305663361370510197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_122
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7b534475ff51f30800000000000000
+      internalID: 4545820149171992545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_123
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ac7b6f93f0c55d0800000000000000
+      internalID: -3072564104146728438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_124
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abef9f0408f10a970800000000000000
+      internalID: 8764039510569385658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_125
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7961aaa83cdd850800000000000000
+      internalID: 6403489245517223887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_126
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ace0b913acfe0b0800000000000000
+      internalID: -5697112689196741989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_127
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf36a72c110054a0800000000000000
+      internalID: -6606779432916598836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_128
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee4913277be91360800000000000000
+      internalID: 7140997581095128804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_129
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dd6efd4e3d43b00800000000000000
+      internalID: 807503213168614748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_130
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e340045917c3180800000000000000
+      internalID: -9134301058376122776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_131
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3968cbb9ad66291e0800000000000000
+      internalID: -2192576979474282861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_132
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a3f7253d8bcbbf0800000000000000
+      internalID: -307167456806356387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_133
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394dc1f8650632dc0800000000000000
+      internalID: -3664979746864966509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_134
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ea376ef001bd000800000000000000
+      internalID: 61660680376528402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_135
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24251957df5da5b40800000000000000
+      internalID: 5429887585324454466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_136
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 242
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8688f78f4f0061ef0800000000000000
+      internalID: -137921686447093656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_137
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 245
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463234fe1bdfc4960800000000000000
+      internalID: 7587718412877636452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_138
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c9f9cbca6a9a6590800000000000000
+      internalID: -7680156431050737207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_139
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b04c2fa393a8770800000000000000
+      internalID: 8613760162643315567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_140
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751a0f165d75b36e0800000000000000
+      internalID: -1856793847377387177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_141
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06ca1599795c7bf0800000000000000
+      internalID: -325286694350043633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_142
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42009f94a14ac2290800000000000000
+      internalID: -7913770012379643868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_143
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993dcbd9731dc3420800000000000000
+      internalID: 2611191920767849369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_144
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad743c14789681d10800000000000000
+      internalID: 2096541656185784282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_145
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2638ce1503839d260800000000000000
+      internalID: 7122786065847190370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_146
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464d4a2c0632b7f00800000000000000
+      internalID: 1115524231193744484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_147
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd50d8aacaed0660800000000000000
+      internalID: 7353791922702409168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_148
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10dbe7595e4251c10800000000000000
+      internalID: 2023564176047127809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_149
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b889ba05356eae300800000000000000
+      internalID: 282291172174174347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_150
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e665b29b982c6a090800000000000000
+      internalID: -8023511789341026706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_151
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a317e2acdd9bec0c0800000000000000
+      internalID: -4553497810994040518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_152
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab92ccac386c46e40800000000000000
+      internalID: 5648858101974837690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_153
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7cfa95f64c865b0800000000000000
+      internalID: -5374830172741580859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_154
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a328a529a64d5260800000000000000
+      internalID: 7087899080846222244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_155
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5aa2fae600524670800000000000000
+      internalID: 8521461435580197470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_156
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd857e3f6c9ff1950800000000000000
+      internalID: 6422126226544482523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_157
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890b1cf54814461c0800000000000000
+      internalID: -4511408889920376680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_158
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04d9511fe1a871c0800000000000000
+      internalID: -4505673379023825906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_159
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb676096fa6c2c710800000000000000
+      internalID: 1712149265037817535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_160
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c6ff756bae811930800000000000000
+      internalID: 4112224801559410374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_161
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89b317c1f31009a0800000000000000
+      internalID: -6268988752151725684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_162
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d703fd966ef890f80800000000000000
+      internalID: -8139816631713976195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_163
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 209
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526ca318117629590800000000000000
+      internalID: -7668953890578315739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_164
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 221
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f0ce4bbc9235660800000000000000
+      internalID: 7373282969826103112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_165
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 194
+        width: 145
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e38835027ed30f0800000000000000
+      internalID: -1135497405001089402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_166
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 194
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233a60d1fa8f3a160800000000000000
+      internalID: 7035740473872786226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_167
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e165e372cb36b70800000000000000
+      internalID: 8891156966095068737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_168
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 194
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9849257d2fa16ae70800000000000000
+      internalID: 9126011325209810057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_169
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e06cbcc5364c467f0800000000000000
+      internalID: -620154917632621042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_170
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 194
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec553c3df1e04880800000000000000
+      internalID: -8628648408288764703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfbb178f44c3d980800000000000000
+      internalID: -8515246624579272759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_172
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 194
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2cba91ab3a659d80800000000000000
+      internalID: -8244566738484937686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_173
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17660788643b62b50800000000000000
+      internalID: 6568134222084597361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_174
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 194
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5faf1be8b951bf0800000000000000
+      internalID: -354205958505040463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_175
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa039474014d9be0800000000000000
+      internalID: -1468946416061445377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_176
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 194
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c7c968312558610800000000000000
+      internalID: 1622793484553190430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_177
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa4f18ce8f4c8fd0800000000000000
+      internalID: -2338406631850685791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_178
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 194
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce4854f4b81dc4e0800000000000000
+      internalID: -1959883097363689783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_179
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963bf010fa7005970800000000000000
+      internalID: 8741495324944610153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_180
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 194
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4a9a7ddea1b3a20800000000000000
+      internalID: 3043055582046692579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_181
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bdc22f0f5405f110800000000000000
+      internalID: 1293945274261228977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_182
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 194
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7145f73c4efa88310800000000000000
+      internalID: 1407568280620586007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_183
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b001d5eaba3b000800000000000000
+      internalID: 50572786205199104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_184
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 289
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511459c7104417410800000000000000
+      internalID: 1473033326302675221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_185
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 44
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76d4bc892a119c90800000000000000
+      internalID: -7164916766413105540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_186
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 0
+        width: 44
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370232bd2d7ad2160800000000000000
+      internalID: 7002437519692472435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_187
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 0
+        width: 44
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d4b41847bea76590800000000000000
+      internalID: -7680978537245526832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_188
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 143
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162f6959b97de07e0800000000000000
+      internalID: -1797262138044648863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_189
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 143
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f921e5d7d000f20800000000000000
+      internalID: 3386721751882964858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_190
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 143
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1d61a374359c730800000000000000
+      internalID: 4019835707787235828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_191
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 95
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a218228a4c41a60800000000000000
+      internalID: 7643950693967014546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_192
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 95
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa309711d4cbb5540800000000000000
+      internalID: 4997795250689344426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_193
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 95
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df82943ac37b0e260800000000000000
+      internalID: 7124896081565526269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_194
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 47
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfe749fd7b17a6a0800000000000000
+      internalID: -6438146914435731500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_195
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 47
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2526b583e4fc710800000000000000
+      internalID: 1715675987009753764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_196
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 47
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121521d2b147f0490800000000000000
+      internalID: -7777870371376443103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_197
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 0
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05985b86243bfca0800000000000000
+      internalID: -5982130339880332022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_198
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5b3fb1f024e11b0800000000000000
+      internalID: -5684033047034087993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FD_Dungeon_animated_199
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285214186ee3c3dd0800000000000000
+      internalID: -2505058132992907902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

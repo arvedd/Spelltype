@@ -25,8 +25,6 @@ public class Attack : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-
-
         // if (collision.CompareTag("Enemy"))
         // {
         //     Instantiate(Explosion, this.transform.position, this.transform.rotation);
@@ -39,7 +37,7 @@ public class Attack : MonoBehaviour
         {
             Instantiate(Explosion, this.transform.position, this.transform.rotation);
             // CameraShakerHandler.Shake(shake);
-            enemy.TakeDamage(spellData);
+            enemy.SpellDamage(spellData);
             Destroy(gameObject);
         }
 

@@ -15,7 +15,7 @@ public class HandManager : MonoBehaviour
 
     void Start()
     {
-     
+
     }
 
     public void AddCardsToHand(SpellData spellData)
@@ -35,11 +35,14 @@ public class HandManager : MonoBehaviour
     {
         for (int i = 0; i < cardsInHand.Count; i++)
         {
-            CardDispay card = cardsInHand[i].GetComponent<CardDispay>(); 
-            SpellData data = card.spellData;                  
+            CardDispay card = cardsInHand[i].GetComponent<CardDispay>();
+            SpellData data = card.spellData;
 
             if (card != null && data.spellName.Equals(inputText, System.StringComparison.OrdinalIgnoreCase))
             {
+                // Tell DeckManager to discard it
+                deckManager.DiscardCard(data);
+
                 GameObject cardToRemove = cardsInHand[i];
                 cardsInHand.RemoveAt(i);
                 Destroy(cardToRemove);
@@ -76,5 +79,17 @@ public class HandManager : MonoBehaviour
         }
     }
 
+    public bool HasCardInHand(string spellName)
+    {
+        foreach (GameObject card in cardsInHand)
+        {
+            CardDispay display = card.GetComponent<CardDispay>();
+            if (display != null && display.spellData.spellName.Equals(spellName, StringComparison.OrdinalIgnoreCase))
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 
 }

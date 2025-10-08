@@ -1,6 +1,6 @@
 # SpellType
 
-**SpellType** is a 2D Top-Down typing-based dungeon crawler game where you play as a young mage learning the forgotten Ancient Language.
+**SpellType** is a 2D typing-based dungeon crawler game where you play as a young mage learning the forgotten Ancient Language.
 To cast spells, you must type them correctly, as if reciting mantras from an ancient spellbook.
 
 Explore dungeons, recover lost pages of the "Book Name", and face powerful enemies, including the ultimate test against your own mentor.

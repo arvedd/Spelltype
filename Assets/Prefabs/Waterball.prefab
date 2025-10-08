@@ -121,12 +121,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6751884239596387401}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
+  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Explosion: {fileID: 5969496420542687151, guid: f5403c426df9b864ea7750dceed42b1a, type: 3}
-  spellData: {fileID: 11400000, guid: 6c85a4f9d12fe654697f08548b61b4ec, type: 2}
-  shake: {fileID: 11400000, guid: ef9cad08869464240993996619563a41, type: 2}
+  Explosion: {fileID: 5969496420542687151, guid: 79ffffecbc80b894ebb803315fd51177, type: 3}
+  spellData: {fileID: 11400000, guid: 8add0355095116840a34439fae4ff915, type: 2}
 --- !u!61 &4051956445009364251
 BoxCollider2D:
   m_ObjectHideFlags: 0

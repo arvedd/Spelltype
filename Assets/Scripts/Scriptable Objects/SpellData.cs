@@ -8,6 +8,7 @@ public class SpellData : ScriptableObject
     public string spellName;
     public int spellDamage;
     public float spellSpeed;
+    public int spellCost;
     public Sprite elementImage;
     public TypeOfSpell typeSpell;
     public GameObject spellPrefab;

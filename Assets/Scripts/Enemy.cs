@@ -1,10 +1,10 @@
 using System.Collections;
 using UnityEngine;
 
-public class Enemy : MonoBehaviour
+public class Enemy : Damageable
 {
     public EnemyData enemy;
-    private int currentHP;
+    private int currentHealth;
     private SpriteRenderer spriteRenderer;
 
     void Start()
@@ -13,7 +13,13 @@ public class Enemy : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    public void TakeDamage(SpellData spell)
+    public override void TakeDamage(int dmg)
+    {
+        StartCoroutine(FlashDamage());
+        base.TakeDamage(dmg);
+    }
+
+    public void SpellDamage(SpellData spell)
     {
         int damage = spell.spellDamage;
         StartCoroutine(FlashDamage());
@@ -28,13 +34,7 @@ public class Enemy : MonoBehaviour
             Debug.Log(enemy.enemyName + " is not weak to " + spell.typeSpell + "! Half damage");
         }
 
-        currentHP -= damage;
-        Debug.Log(enemy.enemyName + " HP: " + currentHP);
-
-        if (currentHP <= 0)
-        {
-            Die();
-        }
+        TakeDamage(damage);
 
     }
 
@@ -43,11 +43,5 @@ public class Enemy : MonoBehaviour
         spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(0.2f);
         spriteRenderer.color = Color.white;
-    }
-
-    private void Die()
-    {
-        Debug.Log(enemy.enemyName + " Destroyed!");
-        Destroy(gameObject);
     }
 }

@@ -15,6 +15,7 @@ MonoBehaviour:
   spellName: ventus
   spellDamage: 10
   spellSpeed: 7
+  spellCost: 1
   elementImage: {fileID: 1472380242859999779, guid: a12c3088532fa98418dcf746bf06deed, type: 3}
   typeSpell: 2
   spellPrefab: {fileID: 4590801902712024796, guid: 18e44fb216278784d9229d0b678a2ef5, type: 3}

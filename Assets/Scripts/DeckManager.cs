@@ -9,7 +9,7 @@ public class DeckManager : MonoBehaviour
     public List<SpellData> discardPile = new List<SpellData>();
     public List<SpellData> PlayerDeck = new List<SpellData>();
 
-    private int currentIndex = 0;
+    // private int currentIndex = 0;
     public int startingHandSize = 4;
     public int maxHandSize;
     public int currentHandSize;

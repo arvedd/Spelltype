@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4962392766560293873}
   - component: {fileID: 8583664006880427102}
   - component: {fileID: 770123248805906815}
-  - component: {fileID: 2392952895558226621}
   - component: {fileID: 215221166621424291}
+  - component: {fileID: 6031964032849121211}
+  - component: {fileID: 6324787571715429583}
   m_Layer: 0
   m_Name: Ventus
   m_TagString: Untagged
@@ -112,20 +113,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2392952895558226621
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4590801902712024796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Explosion: {fileID: 6866545694273677066, guid: 733bafeff9951ca4b884f079aca2d861, type: 3}
-  spellData: {fileID: 11400000, guid: 5ab60707fb2547041a4166f5cb91a993, type: 2}
 --- !u!61 &215221166621424291
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -172,3 +159,45 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5895799, y: 1.3647723}
   m_EdgeRadius: 0
+--- !u!114 &6031964032849121211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4590801902712024796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explosion: {fileID: 6866545694273677066, guid: 733bafeff9951ca4b884f079aca2d861, type: 3}
+  spellData: {fileID: 11400000, guid: 5ab60707fb2547041a4166f5cb91a993, type: 2}
+  caster: 0
+--- !u!50 &6324787571715429583
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4590801902712024796}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

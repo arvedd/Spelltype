@@ -1,0 +1,2129 @@
+fileFormatVersion: 2
+guid: 6fec5270f710e934d94d680629f5a733
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2788696534694354832
+    second: Elite Mage Sprite Sheet_0
+  - first:
+      213: 1521359148008568016
+    second: Elite Mage Sprite Sheet_1
+  - first:
+      213: -2622410255851954873
+    second: Elite Mage Sprite Sheet_2
+  - first:
+      213: 4979500752559412638
+    second: Elite Mage Sprite Sheet_3
+  - first:
+      213: -826923355809259482
+    second: Elite Mage Sprite Sheet_4
+  - first:
+      213: 2977844477678173465
+    second: Elite Mage Sprite Sheet_5
+  - first:
+      213: 7944661575459184668
+    second: Elite Mage Sprite Sheet_6
+  - first:
+      213: 7872254052837858631
+    second: Elite Mage Sprite Sheet_7
+  - first:
+      213: -6143771679174413181
+    second: Elite Mage Sprite Sheet_8
+  - first:
+      213: 6964529661658557369
+    second: Elite Mage Sprite Sheet_9
+  - first:
+      213: 2850773095457869913
+    second: Elite Mage Sprite Sheet_10
+  - first:
+      213: 695714754644005549
+    second: Elite Mage Sprite Sheet_11
+  - first:
+      213: 4188728296705657678
+    second: Elite Mage Sprite Sheet_12
+  - first:
+      213: 1879475661124090614
+    second: Elite Mage Sprite Sheet_13
+  - first:
+      213: -8568962291890848079
+    second: Elite Mage Sprite Sheet_14
+  - first:
+      213: 1433363009022809195
+    second: Elite Mage Sprite Sheet_15
+  - first:
+      213: -329401025511035455
+    second: Elite Mage Sprite Sheet_16
+  - first:
+      213: 8990093172433749448
+    second: Elite Mage Sprite Sheet_17
+  - first:
+      213: -3789190312299367143
+    second: Elite Mage Sprite Sheet_18
+  - first:
+      213: 6810086363715902508
+    second: Elite Mage Sprite Sheet_19
+  - first:
+      213: -7278283072752296762
+    second: Elite Mage Sprite Sheet_20
+  - first:
+      213: -4464437821563133414
+    second: Elite Mage Sprite Sheet_21
+  - first:
+      213: -7642225365492967236
+    second: Elite Mage Sprite Sheet_22
+  - first:
+      213: -6011672362357535407
+    second: Elite Mage Sprite Sheet_23
+  - first:
+      213: 8678193373078053089
+    second: Elite Mage Sprite Sheet_24
+  - first:
+      213: 5432967104753764000
+    second: Elite Mage Sprite Sheet_25
+  - first:
+      213: 1999405544537808429
+    second: Elite Mage Sprite Sheet_26
+  - first:
+      213: 5387549162318955139
+    second: Elite Mage Sprite Sheet_27
+  - first:
+      213: 402324961323223588
+    second: Elite Mage Sprite Sheet_28
+  - first:
+      213: -9030446483912148236
+    second: Elite Mage Sprite Sheet_29
+  - first:
+      213: 4854131327075666423
+    second: Elite Mage Sprite Sheet_30
+  - first:
+      213: 5026065338941353941
+    second: Elite Mage Sprite Sheet_31
+  - first:
+      213: -6592260701390800054
+    second: Elite Mage Sprite Sheet_32
+  - first:
+      213: -5587540157549257729
+    second: Elite Mage Sprite Sheet_33
+  - first:
+      213: -3770277666756886598
+    second: Elite Mage Sprite Sheet_34
+  - first:
+      213: 6943964653563899496
+    second: Elite Mage Sprite Sheet_35
+  - first:
+      213: -8385360920818961815
+    second: Elite Mage Sprite Sheet_36
+  - first:
+      213: -6029071293664192871
+    second: Elite Mage Sprite Sheet_37
+  - first:
+      213: 2564159634183440689
+    second: Elite Mage Sprite Sheet_38
+  - first:
+      213: 3326532456131544522
+    second: Elite Mage Sprite Sheet_39
+  - first:
+      213: 8940972668996044296
+    second: Elite Mage Sprite Sheet_40
+  - first:
+      213: -5739256849732046394
+    second: Elite Mage Sprite Sheet_41
+  - first:
+      213: -2479456019541485445
+    second: Elite Mage Sprite Sheet_42
+  - first:
+      213: 6727608254674569749
+    second: Elite Mage Sprite Sheet_43
+  - first:
+      213: -9205045193106246651
+    second: Elite Mage Sprite Sheet_44
+  - first:
+      213: -785581461676895200
+    second: Elite Mage Sprite Sheet_45
+  - first:
+      213: 609461297485919475
+    second: Elite Mage Sprite Sheet_46
+  - first:
+      213: -7548413068651554935
+    second: Elite Mage Sprite Sheet_47
+  - first:
+      213: 2344044767718897811
+    second: Elite Mage Sprite Sheet_48
+  - first:
+      213: -2673697124735268404
+    second: Elite Mage Sprite Sheet_49
+  - first:
+      213: -8507707575215973213
+    second: Elite Mage Sprite Sheet_50
+  - first:
+      213: -3565327214442180818
+    second: Elite Mage Sprite Sheet_51
+  - first:
+      213: 545402306299792809
+    second: Elite Mage Sprite Sheet_52
+  - first:
+      213: 8304595878380423066
+    second: Elite Mage Sprite Sheet_53
+  - first:
+      213: 313179040772729144
+    second: Elite Mage Sprite Sheet_54
+  - first:
+      213: -2836784586105506781
+    second: Elite Mage Sprite Sheet_55
+  - first:
+      213: -5733089536567735358
+    second: Elite Mage Sprite Sheet_56
+  - first:
+      213: -5980205737604553377
+    second: Elite Mage Sprite Sheet_57
+  - first:
+      213: 5299098827454653778
+    second: Elite Mage Sprite Sheet_58
+  - first:
+      213: -740689132187962538
+    second: Elite Mage Sprite Sheet_59
+  - first:
+      213: 3229736853956282911
+    second: Elite Mage Sprite Sheet_60
+  - first:
+      213: -8459765075642025053
+    second: Elite Mage Sprite Sheet_61
+  - first:
+      213: -8928783547813109938
+    second: Elite Mage Sprite Sheet_62
+  - first:
+      213: 4683045258430134092
+    second: Elite Mage Sprite Sheet_63
+  - first:
+      213: -7681928636802816844
+    second: Elite Mage Sprite Sheet_64
+  - first:
+      213: 6353839945879055901
+    second: Elite Mage Sprite Sheet_65
+  - first:
+      213: -8731155546341279377
+    second: Elite Mage Sprite Sheet_66
+  - first:
+      213: -8961180699706358952
+    second: Elite Mage Sprite Sheet_67
+  - first:
+      213: -8174425356141306283
+    second: Elite Mage Sprite Sheet_68
+  - first:
+      213: -3777943782060459548
+    second: Elite Mage Sprite Sheet_69
+  - first:
+      213: -456229354048604109
+    second: Elite Mage Sprite Sheet_70
+  - first:
+      213: -765680049746019641
+    second: Elite Mage Sprite Sheet_71
+  - first:
+      213: -1073491754031980005
+    second: Elite Mage Sprite Sheet_72
+  - first:
+      213: 1003350417997020653
+    second: Elite Mage Sprite Sheet_73
+  - first:
+      213: -8099911272456383922
+    second: Elite Mage Sprite Sheet_74
+  - first:
+      213: 1110860676247104592
+    second: Elite Mage Sprite Sheet_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0702e2fd64f8c49d0800000000000000
+      internalID: -2788696534694354832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d477d8a514fc1510800000000000000
+      internalID: 1521359148008568016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d5a9434c35b9bd0800000000000000
+      internalID: -2622410255851954873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e95181b4d8dba1540800000000000000
+      internalID: 4979500752559412638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620e380d69d2684f0800000000000000
+      internalID: -826923355809259482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dbd5076cd635920800000000000000
+      internalID: 2977844477678173465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10a0f93c9b114e60800000000000000
+      internalID: 7944661575459184668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d97012a5ddf3d60800000000000000
+      internalID: 7872254052837858631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38434b97530fcbaa0800000000000000
+      internalID: -6143771679174413181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb64ded3daf6a060800000000000000
+      internalID: 6964529661658557369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950d10ab60bff8720800000000000000
+      internalID: 2850773095457869913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2dd8f12eca7a900800000000000000
+      internalID: 695714754644005549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b84c9613a512a30800000000000000
+      internalID: 4188728296705657678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa3b49e72d351a10800000000000000
+      internalID: 1879475661124090614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bef022223ee41980800000000000000
+      internalID: -8568962291890848079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b645dfaff0454e310800000000000000
+      internalID: 1433363009022809195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cde3c5338bbd6bf0800000000000000
+      internalID: -329401025511035455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c50498db1a33cc70800000000000000
+      internalID: 8990093172433749448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9157b09ac771a6bc0800000000000000
+      internalID: -3789190312299367143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c94076779428e50800000000000000
+      internalID: 6810086363715902508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc5cd97b185efa90800000000000000
+      internalID: -7278283072752296762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1229e374712b02c0800000000000000
+      internalID: -4464437821563133414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8df44358c51f590800000000000000
+      internalID: -7642225365492967236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15d45af66df329ca0800000000000000
+      internalID: -6011672362357535407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0677ec4e22f6870800000000000000
+      internalID: 8678193373078053089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a60b33fbc6c56b40800000000000000
+      internalID: 5432967104753764000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e5f1cdfb05fbb10800000000000000
+      internalID: 1999405544537808429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38289fd2b6b64ca40800000000000000
+      internalID: 5387549162318955139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a81f3bb68559500800000000000000
+      internalID: 402324961323223588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fabd3ba4c86da280800000000000000
+      internalID: -9030446483912148236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9c07349b65d5340800000000000000
+      internalID: 4854131327075666423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfa089ebcb20c540800000000000000
+      internalID: 5026065338941353941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b75d2c1d59384a0800000000000000
+      internalID: -6592260701390800054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbdb0da4d11572b0800000000000000
+      internalID: -5587540157549257729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abffd5810784dabc0800000000000000
+      internalID: -3770277666756886598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e6b8ccf0bed5060800000000000000
+      internalID: 6943964653563899496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 962b4298ba631ab80800000000000000
+      internalID: -8385360920818961815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99614af0a9f645ca0800000000000000
+      internalID: -6029071293664192871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13946ee0a99b59320800000000000000
+      internalID: 2564159634183440689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac54785e4a73a2e20800000000000000
+      internalID: 3326532456131544522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8064cf96547b41c70800000000000000
+      internalID: 8940972668996044296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c17ef49d401a50b0800000000000000
+      internalID: -5739256849732046394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78960f03e3379dd0800000000000000
+      internalID: -2479456019541485445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a0ddf20144d5d50800000000000000
+      internalID: 6727608254674569749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5043c73da2c114080800000000000000
+      internalID: -9205045193106246651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024dd92a2dd0915f0800000000000000
+      internalID: -785581461676895200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f43ffc22dd357800800000000000000
+      internalID: 609461297485919475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9879b19ae46ae3790800000000000000
+      internalID: -7548413068651554935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3987f750c48b78020800000000000000
+      internalID: 2344044767718897811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc9cb2381ae15ead0800000000000000
+      internalID: -2673697124735268404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac1a5e390d8ee980800000000000000
+      internalID: -8507707575215973213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f0423d9c9658ec0800000000000000
+      internalID: -3565327214442180818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad8da60288a19700800000000000000
+      internalID: 545402306299792809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a97c906a3f9df3370800000000000000
+      internalID: 8304595878380423066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8392b54ada2a85400800000000000000
+      internalID: 313179040772729144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324b0e8e277b1a8d0800000000000000
+      internalID: -2836784586105506781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cb0f531179ff60b0800000000000000
+      internalID: -5733089536567735358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55e35ee09a020da0800000000000000
+      internalID: -5980205737604553377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255af18ce4e2a8940800000000000000
+      internalID: 5299098827454653778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653b1fa982b88b5f0800000000000000
+      internalID: -740689132187962538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a4d0a8e8452dc20800000000000000
+      internalID: 3229736853956282911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abf9174c70e89a80800000000000000
+      internalID: -8459765075642025053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f5f348ba6961480800000000000000
+      internalID: -8928783547813109938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c473ec7c9d48df040800000000000000
+      internalID: 4683045258430134092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4a77dfa9e446590800000000000000
+      internalID: -7681928636802816844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1eeec544cf5d2850800000000000000
+      internalID: 6353839945879055901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6975ad4a44b4d680800000000000000
+      internalID: -8731155546341279377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8538ae9c1ad73a380800000000000000
+      internalID: -8961180699706358952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e5044d27b9e8e80800000000000000
+      internalID: -8174425356141306283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e9f3e8852c029bc0800000000000000
+      internalID: -3777943782060459548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338b3d7d1d52ba9f0800000000000000
+      internalID: -456229354048604109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caf84f2d02cf55f0800000000000000
+      internalID: -765680049746019641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12ec93ffe03a11f0800000000000000
+      internalID: -1073491754031980005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dedb3f1a3ed9ced00800000000000000
+      internalID: 1003350417997020653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e421e05ec95579f80800000000000000
+      internalID: -8099911272456383922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ca8a246e19a6f00800000000000000
+      internalID: 1110860676247104592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite Mage Sprite Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39195412570f89f43ae76d02cab4cdaa
+      internalID: -616482615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 265e72eb9c7cfb0488db1d8fa65ce0b7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Elite Mage Sprite Sheet_0: -2788696534694354832
+      Elite Mage Sprite Sheet_1: 1521359148008568016
+      Elite Mage Sprite Sheet_10: 2850773095457869913
+      Elite Mage Sprite Sheet_11: 695714754644005549
+      Elite Mage Sprite Sheet_12: 4188728296705657678
+      Elite Mage Sprite Sheet_13: 1879475661124090614
+      Elite Mage Sprite Sheet_14: -8568962291890848079
+      Elite Mage Sprite Sheet_15: 1433363009022809195
+      Elite Mage Sprite Sheet_16: -329401025511035455
+      Elite Mage Sprite Sheet_17: 8990093172433749448
+      Elite Mage Sprite Sheet_18: -3789190312299367143
+      Elite Mage Sprite Sheet_19: 6810086363715902508
+      Elite Mage Sprite Sheet_2: -2622410255851954873
+      Elite Mage Sprite Sheet_20: -7278283072752296762
+      Elite Mage Sprite Sheet_21: -4464437821563133414
+      Elite Mage Sprite Sheet_22: -7642225365492967236
+      Elite Mage Sprite Sheet_23: -6011672362357535407
+      Elite Mage Sprite Sheet_24: 8678193373078053089
+      Elite Mage Sprite Sheet_25: 5432967104753764000
+      Elite Mage Sprite Sheet_26: 1999405544537808429
+      Elite Mage Sprite Sheet_27: 5387549162318955139
+      Elite Mage Sprite Sheet_28: 402324961323223588
+      Elite Mage Sprite Sheet_29: -9030446483912148236
+      Elite Mage Sprite Sheet_3: 4979500752559412638
+      Elite Mage Sprite Sheet_30: 4854131327075666423
+      Elite Mage Sprite Sheet_31: 5026065338941353941
+      Elite Mage Sprite Sheet_32: -6592260701390800054
+      Elite Mage Sprite Sheet_33: -5587540157549257729
+      Elite Mage Sprite Sheet_34: -3770277666756886598
+      Elite Mage Sprite Sheet_35: 6943964653563899496
+      Elite Mage Sprite Sheet_36: -8385360920818961815
+      Elite Mage Sprite Sheet_37: -6029071293664192871
+      Elite Mage Sprite Sheet_38: 2564159634183440689
+      Elite Mage Sprite Sheet_39: 3326532456131544522
+      Elite Mage Sprite Sheet_4: -826923355809259482
+      Elite Mage Sprite Sheet_40: 8940972668996044296
+      Elite Mage Sprite Sheet_41: -5739256849732046394
+      Elite Mage Sprite Sheet_42: -2479456019541485445
+      Elite Mage Sprite Sheet_43: 6727608254674569749
+      Elite Mage Sprite Sheet_44: -9205045193106246651
+      Elite Mage Sprite Sheet_45: -785581461676895200
+      Elite Mage Sprite Sheet_46: 609461297485919475
+      Elite Mage Sprite Sheet_47: -7548413068651554935
+      Elite Mage Sprite Sheet_48: 2344044767718897811
+      Elite Mage Sprite Sheet_49: -2673697124735268404
+      Elite Mage Sprite Sheet_5: 2977844477678173465
+      Elite Mage Sprite Sheet_50: -8507707575215973213
+      Elite Mage Sprite Sheet_51: -3565327214442180818
+      Elite Mage Sprite Sheet_52: 545402306299792809
+      Elite Mage Sprite Sheet_53: 8304595878380423066
+      Elite Mage Sprite Sheet_54: 313179040772729144
+      Elite Mage Sprite Sheet_55: -2836784586105506781
+      Elite Mage Sprite Sheet_56: -5733089536567735358
+      Elite Mage Sprite Sheet_57: -5980205737604553377
+      Elite Mage Sprite Sheet_58: 5299098827454653778
+      Elite Mage Sprite Sheet_59: -740689132187962538
+      Elite Mage Sprite Sheet_6: 7944661575459184668
+      Elite Mage Sprite Sheet_60: 3229736853956282911
+      Elite Mage Sprite Sheet_61: -8459765075642025053
+      Elite Mage Sprite Sheet_62: -8928783547813109938
+      Elite Mage Sprite Sheet_63: 4683045258430134092
+      Elite Mage Sprite Sheet_64: -7681928636802816844
+      Elite Mage Sprite Sheet_65: 6353839945879055901
+      Elite Mage Sprite Sheet_66: -8731155546341279377
+      Elite Mage Sprite Sheet_67: -8961180699706358952
+      Elite Mage Sprite Sheet_68: -8174425356141306283
+      Elite Mage Sprite Sheet_69: -3777943782060459548
+      Elite Mage Sprite Sheet_7: 7872254052837858631
+      Elite Mage Sprite Sheet_70: -456229354048604109
+      Elite Mage Sprite Sheet_71: -765680049746019641
+      Elite Mage Sprite Sheet_72: -1073491754031980005
+      Elite Mage Sprite Sheet_73: 1003350417997020653
+      Elite Mage Sprite Sheet_74: -8099911272456383922
+      Elite Mage Sprite Sheet_75: 1110860676247104592
+      Elite Mage Sprite Sheet_76: -616482615
+      Elite Mage Sprite Sheet_8: -6143771679174413181
+      Elite Mage Sprite Sheet_9: 6964529661658557369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

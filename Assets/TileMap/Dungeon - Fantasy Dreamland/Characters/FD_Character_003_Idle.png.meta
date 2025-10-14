@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -130,6 +130,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 4
     buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -509,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FD_Character_003_Idle_0: -1860142222673819973
+      FD_Character_003_Idle_1: 7682591687365822712
+      FD_Character_003_Idle_10: 8470144301631115364
+      FD_Character_003_Idle_11: 4565574946126661912
+      FD_Character_003_Idle_12: 8563604396761020110
+      FD_Character_003_Idle_13: -100363060012585326
+      FD_Character_003_Idle_14: 1888550407515751740
+      FD_Character_003_Idle_15: 5478850387770259787
+      FD_Character_003_Idle_2: -3477901538217850894
+      FD_Character_003_Idle_3: -3488032435948629682
+      FD_Character_003_Idle_4: -4758296888892039070
+      FD_Character_003_Idle_5: 114513455774399919
+      FD_Character_003_Idle_6: 7226057928755532044
+      FD_Character_003_Idle_7: 4995143154959288833
+      FD_Character_003_Idle_8: 6028165448269856027
+      FD_Character_003_Idle_9: 4289541104790875400
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 4073321326112124077}
   - component: {fileID: 3593023692519240132}
   - component: {fileID: 8966561458182877639}
-  - component: {fileID: -36996824946742813}
   - component: {fileID: -5339341881785911532}
+  - component: {fileID: 1506686707271586855}
+  - component: {fileID: 1559914648084086510}
   m_Layer: 0
   m_Name: Fireball
   m_TagString: Untagged
@@ -112,20 +113,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-36996824946742813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4252530064130196430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Explosion: {fileID: 3586691902595377889, guid: 9b3d517299d73f44eb0b85158a4ec77a, type: 3}
-  spellData: {fileID: 11400000, guid: 5a782dda65e70504b8f427555c852728, type: 2}
 --- !u!61 &-5339341881785911532
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -172,3 +159,44 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.31, y: 0.66}
   m_EdgeRadius: 0
+--- !u!114 &1506686707271586855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4252530064130196430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explosion: {fileID: 3586691902595377889, guid: 9b3d517299d73f44eb0b85158a4ec77a, type: 3}
+  spellData: {fileID: 11400000, guid: 44fa0e1580b13684c92ad8dac4763d30, type: 2}
+--- !u!50 &1559914648084086510
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4252530064130196430}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

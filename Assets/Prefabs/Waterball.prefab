@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 6770395598071282164}
   - component: {fileID: 2489799494374713950}
   - component: {fileID: 3428107449798147599}
-  - component: {fileID: 5184370572186170248}
   - component: {fileID: 4051956445009364251}
+  - component: {fileID: 5887401612687439337}
+  - component: {fileID: 60331422751921123}
   m_Layer: 0
   m_Name: Waterball
   m_TagString: Untagged
@@ -112,20 +113,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5184370572186170248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6751884239596387401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Explosion: {fileID: 5969496420542687151, guid: 79ffffecbc80b894ebb803315fd51177, type: 3}
-  spellData: {fileID: 11400000, guid: 8add0355095116840a34439fae4ff915, type: 2}
 --- !u!61 &4051956445009364251
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -172,3 +159,44 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.06, y: 1.19}
   m_EdgeRadius: 0
+--- !u!50 &5887401612687439337
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6751884239596387401}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &60331422751921123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6751884239596387401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explosion: {fileID: 5969496420542687151, guid: f5403c426df9b864ea7750dceed42b1a, type: 3}
+  spellData: {fileID: 11400000, guid: 6c85a4f9d12fe654697f08548b61b4ec, type: 2}

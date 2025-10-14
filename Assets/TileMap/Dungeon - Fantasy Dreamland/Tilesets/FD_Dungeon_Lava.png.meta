@@ -213,6 +213,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1109,7 +1122,47 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FD_Dungeon_Lava_0: -1012447914935047854
+      FD_Dungeon_Lava_1: 9079828704109593187
+      FD_Dungeon_Lava_10: -8890537535699774546
+      FD_Dungeon_Lava_11: -8733589384113752579
+      FD_Dungeon_Lava_12: 7968303663133837067
+      FD_Dungeon_Lava_13: -560749226461406572
+      FD_Dungeon_Lava_14: -6979463448840904955
+      FD_Dungeon_Lava_15: 472609555327662066
+      FD_Dungeon_Lava_16: -8050869828527460910
+      FD_Dungeon_Lava_17: 11925735190928820
+      FD_Dungeon_Lava_18: -4455898112852542639
+      FD_Dungeon_Lava_19: -4463494267044975151
+      FD_Dungeon_Lava_2: 1940981589474632294
+      FD_Dungeon_Lava_20: 1465376912608646661
+      FD_Dungeon_Lava_21: -6585348330054684846
+      FD_Dungeon_Lava_22: -7270403673714594849
+      FD_Dungeon_Lava_23: -8697799624924904300
+      FD_Dungeon_Lava_24: 7218010894814834478
+      FD_Dungeon_Lava_25: 22717475339131293
+      FD_Dungeon_Lava_26: 3828515352853146387
+      FD_Dungeon_Lava_27: 2355384070241253991
+      FD_Dungeon_Lava_28: 5194276347656033356
+      FD_Dungeon_Lava_29: -933056222961763803
+      FD_Dungeon_Lava_3: 1804677945083712458
+      FD_Dungeon_Lava_30: -4156211492038282415
+      FD_Dungeon_Lava_31: 843170578345490912
+      FD_Dungeon_Lava_32: 8751966738151455138
+      FD_Dungeon_Lava_33: 1281789736142414604
+      FD_Dungeon_Lava_34: 3139702865063175478
+      FD_Dungeon_Lava_35: -82458522834118047
+      FD_Dungeon_Lava_36: 7200262378006276164
+      FD_Dungeon_Lava_37: -2617828453825610559
+      FD_Dungeon_Lava_38: 1882065744244691789
+      FD_Dungeon_Lava_39: 2120021849158529485
+      FD_Dungeon_Lava_4: -2268585424850459763
+      FD_Dungeon_Lava_5: 8645883080108035476
+      FD_Dungeon_Lava_6: -94482781247658485
+      FD_Dungeon_Lava_7: 3485010175119521057
+      FD_Dungeon_Lava_8: 3646292861012198954
+      FD_Dungeon_Lava_9: -7795700683262943402
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -129,6 +129,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -409,7 +422,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      $FD_Dungeon_Doors06_0: -8464695704242421313
+      $FD_Dungeon_Doors06_1: -2322622395204337653
+      $FD_Dungeon_Doors06_10: -7359161929099063208
+      $FD_Dungeon_Doors06_11: -8933831377815978427
+      $FD_Dungeon_Doors06_2: 5762542558220384925
+      $FD_Dungeon_Doors06_3: -8383407285172932616
+      $FD_Dungeon_Doors06_4: 7581500361694865919
+      $FD_Dungeon_Doors06_5: -1722089072917604654
+      $FD_Dungeon_Doors06_6: -3860964128001478826
+      $FD_Dungeon_Doors06_7: 713081415809411108
+      $FD_Dungeon_Doors06_8: -3159955967427149700
+      $FD_Dungeon_Doors06_9: -3298380077143565341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

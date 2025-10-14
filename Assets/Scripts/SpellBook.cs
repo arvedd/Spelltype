@@ -22,7 +22,7 @@ public class SpellBook : MonoBehaviour
     {
         foreach (SpellData spell in unlockedSpell)
         {
-            if (spell.spellName.ToLower() == spellName.ToLower())
+            if (spell.spellName.ToLower() == spellName)
             {
                 return true;
             }

@@ -2,6 +2,8 @@ using System;
 using UnityEngine;
 using FirstGearGames.SmoothCameraShaker;
 
+public enum Caster { Player, Enemy }
+
 public class Attack : MonoBehaviour
 {
     private int damage;
@@ -9,13 +11,15 @@ public class Attack : MonoBehaviour
     private Vector2 direction;
     public GameObject Explosion;
     public SpellData spellData;
+    public Caster caster;
     // public ShakeData shake;
 
-    public void Initialize(int dmg, float spd, Vector2 dir)
+    public void Initialize(int dmg, float spd, Vector2 dir, Caster cstr)
     {
         damage = dmg;
         speed = spd;
         direction = dir.normalized;
+        caster = cstr;
     }
 
     void Update()
@@ -25,24 +29,31 @@ public class Attack : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // if (collision.CompareTag("Enemy"))
-        // {
-        //     Instantiate(Explosion, this.transform.position, this.transform.rotation);
-
-        //     Destroy(gameObject);
-        // }
-
-        Enemy enemy = collision.GetComponent<Enemy>();
-        if (enemy != null)
+        if (caster == Caster.Player)
         {
-            Instantiate(Explosion, this.transform.position, this.transform.rotation);
+            Enemy enemy = collision.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                Instantiate(Explosion, this.transform.position, this.transform.rotation);
+                enemy.SpellDamage(spellData);
+                Destroy(gameObject);
+            }
+           
             // CameraShakerHandler.Shake(shake);
-            enemy.SpellDamage(spellData);
-            Destroy(gameObject);
+        }
+        else if (caster == Caster.Enemy)
+        {
+            Player player = collision.GetComponent<Player>();
+            if (player != null)
+            {
+                Instantiate(Explosion, this.transform.position, this.transform.rotation);
+                player.TakeDamage(damage);
+                Destroy(gameObject);
+            }
         }
 
 
     }
 
-    
+
 }

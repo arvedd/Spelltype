@@ -54,6 +54,7 @@ public class SpellTyper : MonoBehaviour
     private void TryCastSpell()
     {
         SpellData spell = spellBook.GetSpell(typedBuffer);
+        
 
         if (spell == null)
         {
@@ -84,8 +85,9 @@ public class SpellTyper : MonoBehaviour
         Attack atk = obj.GetComponent<Attack>();
         if (atk != null)
         {
+            player.AttackAnim();
             Vector2 dir = Vector2.right;
-            atk.Initialize(spell.spellDamage, spell.spellSpeed, dir);
+            atk.Initialize(spell.spellDamage, spell.spellSpeed, dir, Caster.Player);
         }
 
         handManager.OnPlayerTyped(typedBuffer);

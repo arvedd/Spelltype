@@ -1,5 +1,3 @@
-using System.Security.Cryptography;
-using UnityEditor.UIElements;
 using UnityEngine;
 
 public class Lifespan : MonoBehaviour

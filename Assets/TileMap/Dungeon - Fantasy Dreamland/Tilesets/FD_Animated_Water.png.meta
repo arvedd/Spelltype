@@ -237,6 +237,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1309,7 +1322,55 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FD_Animated_Water_0: 8450009472231016257
+      FD_Animated_Water_1: -744345838535176745
+      FD_Animated_Water_10: -7678027804184975116
+      FD_Animated_Water_11: -2383527789468422924
+      FD_Animated_Water_12: 755420626367740743
+      FD_Animated_Water_13: 684567115437660632
+      FD_Animated_Water_14: -1388176342001267605
+      FD_Animated_Water_15: 4779548085497428773
+      FD_Animated_Water_16: -2302819926368522162
+      FD_Animated_Water_17: -1777658355894910825
+      FD_Animated_Water_18: -214545333307381168
+      FD_Animated_Water_19: 1963380578856866794
+      FD_Animated_Water_2: 7057987123346937355
+      FD_Animated_Water_20: 594269553410392585
+      FD_Animated_Water_21: 3646460556589768540
+      FD_Animated_Water_22: 4723934028906456718
+      FD_Animated_Water_23: 4812905269963801679
+      FD_Animated_Water_24: -7912931135932052592
+      FD_Animated_Water_25: -3335320536877512599
+      FD_Animated_Water_26: 6589365513467577838
+      FD_Animated_Water_27: 9158094571373770615
+      FD_Animated_Water_28: -1462623815966683806
+      FD_Animated_Water_29: -2531869752964271509
+      FD_Animated_Water_3: 3435514829652644551
+      FD_Animated_Water_30: 2302371662440042338
+      FD_Animated_Water_31: 8735514340117247549
+      FD_Animated_Water_32: -4187023350609823327
+      FD_Animated_Water_33: 6182260545496268425
+      FD_Animated_Water_34: 5098464886786320656
+      FD_Animated_Water_35: -6696920160316331746
+      FD_Animated_Water_36: 6321690703538413417
+      FD_Animated_Water_37: -6793885017688443330
+      FD_Animated_Water_38: 853290394209754711
+      FD_Animated_Water_39: -4657736549034213091
+      FD_Animated_Water_4: 1067161392583255148
+      FD_Animated_Water_40: 3341060143223093023
+      FD_Animated_Water_41: -6129210184234692566
+      FD_Animated_Water_42: -3764492882931333567
+      FD_Animated_Water_43: -4068796752961594365
+      FD_Animated_Water_44: 279215917344468723
+      FD_Animated_Water_45: 2683548307346576742
+      FD_Animated_Water_46: 2050232747787286531
+      FD_Animated_Water_47: 4796473519829763881
+      FD_Animated_Water_5: -3751985632380332022
+      FD_Animated_Water_6: 4100105155649046520
+      FD_Animated_Water_7: 6948603114294496915
+      FD_Animated_Water_8: -2856327144332729427
+      FD_Animated_Water_9: 3468011591468514947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

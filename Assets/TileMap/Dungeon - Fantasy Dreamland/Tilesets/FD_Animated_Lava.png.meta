@@ -237,6 +237,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -1309,7 +1322,55 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FD_Animated_Lava_0: -283809373291244113
+      FD_Animated_Lava_1: 417587013984361962
+      FD_Animated_Lava_10: -6496639651328033993
+      FD_Animated_Lava_11: -326862634322489840
+      FD_Animated_Lava_12: -1185942198004405870
+      FD_Animated_Lava_13: 371647061684851070
+      FD_Animated_Lava_14: 1138999860702278090
+      FD_Animated_Lava_15: 8051457094245377502
+      FD_Animated_Lava_16: -7442451403425927074
+      FD_Animated_Lava_17: -5046848531789826407
+      FD_Animated_Lava_18: -9094099090505314240
+      FD_Animated_Lava_19: -4945508354840816994
+      FD_Animated_Lava_2: 7583114710354138483
+      FD_Animated_Lava_20: -6568815612875561818
+      FD_Animated_Lava_21: 5985013389159483342
+      FD_Animated_Lava_22: 7382022056470702746
+      FD_Animated_Lava_23: 2273933821384075019
+      FD_Animated_Lava_24: 8123175423375351990
+      FD_Animated_Lava_25: -3087189345066907988
+      FD_Animated_Lava_26: -703243179028323878
+      FD_Animated_Lava_27: -1696712226309995906
+      FD_Animated_Lava_28: 4752986807611565314
+      FD_Animated_Lava_29: -3186121466642968054
+      FD_Animated_Lava_3: -3775014884775541012
+      FD_Animated_Lava_30: 4438583675816163960
+      FD_Animated_Lava_31: -3462706321322749210
+      FD_Animated_Lava_32: 925282050506646618
+      FD_Animated_Lava_33: -8911335947890562394
+      FD_Animated_Lava_34: 6298553287053947127
+      FD_Animated_Lava_35: -1259146583729671636
+      FD_Animated_Lava_36: 2843026152700821106
+      FD_Animated_Lava_37: 122938486303986417
+      FD_Animated_Lava_38: 8676790927360233770
+      FD_Animated_Lava_39: 4442718774939032020
+      FD_Animated_Lava_4: -3551724864484725397
+      FD_Animated_Lava_40: 8950134148974060268
+      FD_Animated_Lava_41: 4432886523092259692
+      FD_Animated_Lava_42: 5385847609986310514
+      FD_Animated_Lava_43: -5759972644314522550
+      FD_Animated_Lava_44: -995762885890206119
+      FD_Animated_Lava_45: 3785621184886430033
+      FD_Animated_Lava_46: 6229271976646304747
+      FD_Animated_Lava_47: -5134231700334928060
+      FD_Animated_Lava_5: -8996425168826150760
+      FD_Animated_Lava_6: -8813546804984911084
+      FD_Animated_Lava_7: 6462972818651037402
+      FD_Animated_Lava_8: -2720463133567655954
+      FD_Animated_Lava_9: -4785614687227394802
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

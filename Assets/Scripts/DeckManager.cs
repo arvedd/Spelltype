@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class DeckManager : MonoBehaviour
 {
-    public List<SpellData> allCards = new List<SpellData>();
+    
     public List<SpellData> drawPile = new List<SpellData>();
     public List<SpellData> discardPile = new List<SpellData>();
-    public List<SpellData> PlayerDeck = new List<SpellData>();
+    public PlayerDeckManager playerDeckManager;
 
     // private int currentIndex = 0;
     public int startingHandSize = 4;
@@ -16,22 +16,15 @@ public class DeckManager : MonoBehaviour
 
     private HandManager handManager;
 
-    [SerializeField] private TextMeshProUGUI Drawpiletext;
-    [SerializeField] private TextMeshProUGUI Discardpiletext;
+    
+    //[SerializeField] private TextMeshProUGUI Drawpiletext;
+    //[SerializeField] private TextMeshProUGUI Discardpiletext;
 
     void Start()
     {
-        SpellData[] cards = Resources.LoadAll<SpellData>("Cards");
-        allCards.AddRange(cards);
+        playerDeckManager = FindAnyObjectByType<PlayerDeckManager>();
 
-        // Give player some starting cards 
-        AddCardToDeck("fireball");
-        AddCardToDeck("terra");
-        AddCardToDeck("ventus");
-        AddCardToDeck("fireball");
-        AddCardToDeck("waterball");
-
-        drawPile = new List<SpellData>(PlayerDeck);
+        drawPile = new List<SpellData>(playerDeckManager.PlayerDeck);
         Shuffle(drawPile);
 
         handManager = FindFirstObjectByType<HandManager>();
@@ -57,8 +50,8 @@ public class DeckManager : MonoBehaviour
             DrawCard(handManager);
         }
 
-        Drawpiletext.text = drawPile.Count.ToString();
-        Discardpiletext.text = discardPile.Count.ToString();
+       // Drawpiletext.text = drawPile.Count.ToString();
+       // Discardpiletext.text = discardPile.Count.ToString();
     }
 
     public void DrawCard(HandManager handManager)
@@ -82,36 +75,6 @@ public class DeckManager : MonoBehaviour
 
             handManager.AddCardsToHand(nextCard);
         }
-    }
-
-
-    public void AddCardToDeck(string cardName)
-    {
-        SpellData cardToAdd = allCards.Find(c => c.spellName == cardName);
-        if (cardToAdd != null)
-        {
-            PlayerDeck.Add(cardToAdd);
-            Debug.Log($"Added {cardName} to deck!");
-        }
-    }
-
-    public void LoadDeck()
-    {
-        string json = PlayerPrefs.GetString("PlayerDeck", "");
-        if (!string.IsNullOrEmpty(json))
-        {
-            DeckSaveData data = JsonUtility.FromJson<DeckSaveData>(json);
-            PlayerDeck.Clear();
-            foreach (string name in data.cardNames)
-                AddCardToDeck(name);
-        }
-    }
-
-    [System.Serializable]
-    public class DeckSaveData
-    {
-        public List<string> cardNames;
-        public DeckSaveData(List<string> names) { cardNames = names; }
     }
 
     private void Shuffle(List<SpellData> list)

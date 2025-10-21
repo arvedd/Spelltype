@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8583664006880427102}
   - component: {fileID: 770123248805906815}
   - component: {fileID: 215221166621424291}
-  - component: {fileID: 6031964032849121211}
   - component: {fileID: 6324787571715429583}
+  - component: {fileID: 4988145031148813238}
   m_Layer: 0
   m_Name: Ventus
   m_TagString: Untagged
@@ -159,21 +159,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.5895799, y: 1.3647723}
   m_EdgeRadius: 0
---- !u!114 &6031964032849121211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4590801902712024796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Explosion: {fileID: 6866545694273677066, guid: 733bafeff9951ca4b884f079aca2d861, type: 3}
-  spellData: {fileID: 11400000, guid: 5ab60707fb2547041a4166f5cb91a993, type: 2}
-  caster: 0
 --- !u!50 &6324787571715429583
 Rigidbody2D:
   serializedVersion: 5
@@ -201,3 +186,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4988145031148813238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4590801902712024796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explosion: {fileID: 6866545694273677066, guid: 733bafeff9951ca4b884f079aca2d861, type: 3}
+  spellData: {fileID: 11400000, guid: 5ab60707fb2547041a4166f5cb91a993, type: 2}
+  caster: 0

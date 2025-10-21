@@ -287,26 +287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowDebugText: 0
-  ShowCameraFrustum: 1
-  IgnoreTimeScale: 0
-  WorldUpOverride: {fileID: 0}
-  ChannelMask: -1
-  UpdateMethod: 2
-  BlendUpdateMethod: 1
-  LensModeOverride:
-    Enabled: 0
-    DefaultMode: 2
-  DefaultBlend:
-    Style: 1
-    Time: 2
-    CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  CustomBlends: {fileID: 0}
 --- !u!1 &612777866
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,10 +1154,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1199062586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe2b8b1d9adc21c41ac9c2d1790ca375, type: 3}
+  m_Script: {fileID: 11500000, guid: 165cc07341fd165439ae8c1483232a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 11400000, guid: ddb5a9becea5ffa49a9d65c4282b5edb, type: 2}
+  currentHP: 0
+  enemy: {fileID: 11400000, guid: b2f3510c0a5dbbc46bdc019553b0a82a, type: 2}
+  spellData: {fileID: 11400000, guid: d38fb36c5e9b10841ae6f3702f4e1381, type: 2}
+  castPoint: {fileID: 1199062587}
 --- !u!95 &1199062590
 Animator:
   serializedVersion: 7
@@ -2790,7 +2773,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac32f92313d556e49aa8daedd669f3fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  allCards: []
+  drawPile: []
+  discardPile: []
+  playerDeckManager: {fileID: 0}
   startingHandSize: 4
   maxHandSize: 0
   currentHandSize: 0
@@ -3302,6 +3287,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1829288952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1829288954}
+  - component: {fileID: 1829288953}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1829288953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829288952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586c782bde0f1364da3cbc70d5f17cf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerDeck: []
+  allCards: []
+--- !u!4 &1829288954
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829288952}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 624.607, y: 277.2849, z: -3.898964}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1831353893
 GameObject:
   m_ObjectHideFlags: 0
@@ -3352,6 +3383,7 @@ GameObject:
   - component: {fileID: 1881060628}
   - component: {fileID: 1881060627}
   - component: {fileID: 1881060629}
+  - component: {fileID: 1881060630}
   m_Layer: 5
   m_Name: Player
   m_TagString: Player
@@ -3372,8 +3404,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unlockedSpell:
-  - {fileID: 11400000, guid: 44fa0e1580b13684c92ad8dac4763d30, type: 2}
-  - {fileID: 11400000, guid: 6c85a4f9d12fe654697f08548b61b4ec, type: 2}
+  - {fileID: 11400000, guid: 5a782dda65e70504b8f427555c852728, type: 2}
+  - {fileID: 11400000, guid: 8add0355095116840a34439fae4ff915, type: 2}
   - {fileID: 11400000, guid: 9c7b930c7a29f3d41a9ee72ac2c881d7, type: 2}
   - {fileID: 11400000, guid: 5ab60707fb2547041a4166f5cb91a993, type: 2}
 --- !u!50 &1881060624
@@ -3633,6 +3665,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1881060630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881060622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 875c4ffd573b9024fbcf0bb365ef9185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHP: 0
+  player: {fileID: 11400000, guid: 201f6238f2ba1a949b8293828ab069fb, type: 2}
+  currentAP: 0
 --- !u!1 &2070654404
 GameObject:
   m_ObjectHideFlags: 0
@@ -3721,6 +3768,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1697214256664857416, guid: d39d8c7d3c730044abd9c2e0f9b98090, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1881060630}
+    - target: {fileID: 1697214256664857416, guid: d39d8c7d3c730044abd9c2e0f9b98090, type: 3}
       propertyPath: castPoint
       value: 
       objectReference: {fileID: 1648505823}
@@ -3802,3 +3853,4 @@ SceneRoots:
   - {fileID: 1199062587}
   - {fileID: 653232221}
   - {fileID: 1645807166}
+  - {fileID: 1829288954}

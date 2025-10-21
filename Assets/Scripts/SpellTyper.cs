@@ -8,7 +8,7 @@ using System;
 public class SpellTyper : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI inputDisplay;
-    [SerializeField] private SpellBook spellBook;
+    [SerializeField] private PlayerDeckManager playerDeckManager;
     [SerializeField] private Transform castPoint;
     [SerializeField] private HandManager handManager;
     private string typedBuffer = "";
@@ -19,6 +19,11 @@ public class SpellTyper : MonoBehaviour
     {
         inputDisplay = GameObject.Find("Word").GetComponent<TextMeshProUGUI>();
         handManager = GameObject.Find("HandManager").GetComponent<HandManager>();
+    }
+
+    private void Start()
+    {
+        playerDeckManager = FindAnyObjectByType<PlayerDeckManager>();
     }
 
     void Update()
@@ -53,7 +58,7 @@ public class SpellTyper : MonoBehaviour
 
     private void TryCastSpell()
     {
-        SpellData spell = spellBook.GetSpell(typedBuffer);
+        SpellData spell = playerDeckManager.findspell(typedBuffer);
         
 
         if (spell == null)

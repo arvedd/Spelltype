@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -17,14 +18,20 @@ public class BattleSystem : MonoBehaviour
     public Transform playerBattleSpot;
     public Transform enemyBattleSpot;
     public SpellTyper playerTyper;
+    public HandManager handManager;
+    public DeckManager deckManager;
 
     [SerializeField] private Enemy enemyData;
     [SerializeField] private Player playerData;
 
+
     void Start()
     {
+        handManager = FindAnyObjectByType<HandManager>();
+        deckManager = FindAnyObjectByType<DeckManager>();
         state = BattleState.START;
         StartCoroutine(SetupBattle());
+        
     }
 
     IEnumerator SetupBattle()
@@ -69,6 +76,12 @@ public class BattleSystem : MonoBehaviour
 
     private void PlayerTurn()
     {
+        // Draw hand
+        for (int i = 0; i < deckManager.maxHandSize; i++)
+        {
+            deckManager.DrawCard(handManager);
+        }
+
         CheckIfDied();
         playerTyper.enabled = true;
         buttonEndTurn.gameObject.SetActive(true);
@@ -90,6 +103,19 @@ public class BattleSystem : MonoBehaviour
     private void EndPlayerTurn()
     {
         CheckIfDied();
+
+        if (handManager.cardsInHand.Count > 0) 
+        {
+            List<GameObject> cardsToDiscard = new List<GameObject>(handManager.cardsInHand);
+
+            foreach (GameObject cardObj in cardsToDiscard)
+            {
+                deckManager.DiscardCard(cardObj, handManager);
+            }
+
+            handManager.UpdateHandVisual();
+        }
+
         if (state != BattleState.WON && state != BattleState.LOST)
         {
             state = BattleState.ENEMYTURN;
@@ -97,6 +123,8 @@ public class BattleSystem : MonoBehaviour
             turnText.text = "";
             EnemyTurn();
         }
+
+  
     }
 
     public void OnEndTurnButtonPressed()

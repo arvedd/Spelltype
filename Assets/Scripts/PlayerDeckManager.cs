@@ -34,7 +34,7 @@ public class PlayerDeckManager : MonoBehaviour
         } 
         else
         {
-            Debug.Log($"{cardName} does not exist");
+               Debug.Log($"{cardName} does not exist");
         }
     }
 
@@ -55,5 +55,17 @@ public class PlayerDeckManager : MonoBehaviour
     {
         public List<string> cardNames;
         public DeckSaveData(List<string> names) { cardNames = names; }
+    }
+
+    public SpellData findspell(string spellName)
+    {
+       foreach (SpellData spell in allCards)
+        {
+            if (spell.spellName.ToLower() == spellName.ToLower())
+            {
+                return spell;
+            }
+        }
+        return null;
     }
 }

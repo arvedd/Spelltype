@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 3593023692519240132}
   - component: {fileID: 8966561458182877639}
   - component: {fileID: -5339341881785911532}
-  - component: {fileID: 1506686707271586855}
   - component: {fileID: 1559914648084086510}
+  - component: {fileID: 2054403242064657122}
   m_Layer: 0
   m_Name: Fireball_Enemy
   m_TagString: Untagged
@@ -159,21 +159,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.9934992, y: 0.66}
   m_EdgeRadius: 0
---- !u!114 &1506686707271586855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4252530064130196430}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Explosion: {fileID: 3586691902595377889, guid: d2db2e677b43322439a7045741f3634c, type: 3}
-  spellData: {fileID: 11400000, guid: d38fb36c5e9b10841ae6f3702f4e1381, type: 2}
-  caster: 0
 --- !u!50 &1559914648084086510
 Rigidbody2D:
   serializedVersion: 5
@@ -201,3 +186,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2054403242064657122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4252530064130196430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explosion: {fileID: 3586691902595377889, guid: d2db2e677b43322439a7045741f3634c, type: 3}
+  spellData: {fileID: 11400000, guid: d38fb36c5e9b10841ae6f3702f4e1381, type: 2}
+  caster: 1

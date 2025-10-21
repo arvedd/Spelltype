@@ -29,7 +29,6 @@ public class SpellBook : MonoBehaviour
         }
         return false;
     }
-    
     public SpellData GetSpell(string spellName)
     {
         foreach (SpellData spell in unlockedSpell)

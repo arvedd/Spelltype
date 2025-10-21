@@ -40,12 +40,7 @@ public class HandManager : MonoBehaviour
 
             if (card != null && data.spellName.Equals(inputText, System.StringComparison.OrdinalIgnoreCase))
             {
-                // Tell DeckManager to discard it
-                deckManager.DiscardCard(data);
-
-                GameObject cardToRemove = cardsInHand[i];
-                cardsInHand.RemoveAt(i);
-                Destroy(cardToRemove);
+                deckManager.DiscardCard(cardsInHand[i], this);
                 break;
             }
         }
@@ -53,7 +48,7 @@ public class HandManager : MonoBehaviour
         UpdateHandVisual();
     }
 
-    private void UpdateHandVisual()
+    public void UpdateHandVisual()
     {
         int cardCount = cardsInHand.Count;
 

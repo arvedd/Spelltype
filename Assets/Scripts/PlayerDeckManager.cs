@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerDeckManager : MonoBehaviour
@@ -20,6 +21,7 @@ public class PlayerDeckManager : MonoBehaviour
         AddCardToDeck("terra");
         AddCardToDeck("ventus");
         AddCardToDeck("fireball");
+        AddCardToDeck("curial");
         AddCardToDeck("waterball");
     }
 

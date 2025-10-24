@@ -18,4 +18,4 @@ MonoBehaviour:
   spellCost: 1
   elementImage: {fileID: -2350200725867972502, guid: 36fff5f8053ff844aa034ce0003eddf3, type: 3}
   typeSpell: 0
-  spellPrefab: {fileID: 4252530064130196430, guid: 5a9910be2fb6d384f972ea3252adbfee, type: 3}
+  spellPrefab: {fileID: 4252530064130196430, guid: 22c6fd3ddc5549f4aaf574c215ad6c09, type: 3}

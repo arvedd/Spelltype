@@ -6,22 +6,25 @@ public class Enemy : Damageable
     [SerializeField] private EnemyData enemy;
     [SerializeField] private SpellData spellData;
     [SerializeField] private Transform castPoint;
-    private int currentHealth;
-    private SpriteRenderer spriteRenderer;
+    [SerializeField] private Healthbar healthbar;
+    public int enemyMaxHp;
     private Animator animator;
-    
+
 
     void Start()
     {
-        currentHP = enemy.enemyHp;
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        healthbar = GetComponentInChildren<Healthbar>();
         animator = GetComponent<Animator>();
+
+        currentHP = enemy.enemyHealth;
+        enemyMaxHp = enemy.enemyMaxHealth;
     }
 
     public override void TakeDamage(int dmg)
     {
-        animator.SetTrigger("Hurt");
         base.TakeDamage(dmg);
+        animator.SetTrigger("Hurt");
+        healthbar.UpdateHealthBar(currentHP, enemyMaxHp);
     }
 
     public void SpellDamage(SpellData spell)
@@ -55,12 +58,5 @@ public class Enemy : Damageable
             atk.Initialize(spellData.spellDamage, spellData.spellSpeed, dir, Caster.Enemy);
         }
         
-    }
-
-    private IEnumerator FlashDamage()
-    {
-        spriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(0.2f);
-        spriteRenderer.color = Color.white;
     }
 }

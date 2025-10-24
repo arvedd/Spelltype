@@ -14,7 +14,6 @@ public class BattleSystem : MonoBehaviour
     public GameObject objectPlayer;
     public GameObject objectEnemy;
     public TextMeshProUGUI turnText;
-    public Button buttonEndTurn;
     public Transform playerBattleSpot;
     public Transform enemyBattleSpot;
     public SpellTyper playerTyper;
@@ -40,13 +39,12 @@ public class BattleSystem : MonoBehaviour
         GameObject enemyInstance = Instantiate(objectEnemy, enemyBattleSpot);
 
         playerTyper = playerInstance.GetComponentInChildren<SpellTyper>();
-        // playerTyper.OnPlayerFinished += EndPlayerTurn;
+        playerTyper.OnPlayerFinished += EndPlayerTurn;
 
         playerData = playerInstance.GetComponentInChildren<Player>();
         enemyData = enemyInstance.GetComponentInChildren<Enemy>();
 
         playerTyper.enabled = false;
-        buttonEndTurn.gameObject.SetActive(false);
 
         yield return new WaitForSeconds(2f);
         state = BattleState.PLAYERTURN;
@@ -55,7 +53,6 @@ public class BattleSystem : MonoBehaviour
 
     private void EnemyTurn()
     {
-        buttonEndTurn.gameObject.SetActive(false);
         StartCoroutine(EnemyTurnRoutine());
     }
 
@@ -76,7 +73,6 @@ public class BattleSystem : MonoBehaviour
 
     private void PlayerTurn()
     {
-        // Draw hand
         for (int i = 0; i < deckManager.maxHandSize; i++)
         {
             deckManager.DrawCard(handManager);
@@ -84,7 +80,6 @@ public class BattleSystem : MonoBehaviour
 
         CheckIfDied();
         playerTyper.enabled = true;
-        buttonEndTurn.gameObject.SetActive(true);
         playerData.currentAP = playerData.player.attackPoin;
         turnText.text = "Player Turn";
     }
@@ -125,17 +120,6 @@ public class BattleSystem : MonoBehaviour
         }
 
   
-    }
-
-    public void OnEndTurnButtonPressed()
-    {
-        if (state != BattleState.PLAYERTURN) return;
-
-        Debug.Log("Player manually ended their turn");
-        buttonEndTurn.gameObject.SetActive(false);
-        playerTyper.enabled = false;
-
-        EndPlayerTurn();
     }
 
     public void CheckIfDied()

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a90a598f3941a948ae960a81d94bf61, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
+  playerMaxHealth: 100
   playerHealth: 100
   attackPoin: 3

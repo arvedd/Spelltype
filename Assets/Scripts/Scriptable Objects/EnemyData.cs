@@ -7,5 +7,6 @@ public class EnemyData : ScriptableObject
 {
     public EnemyName enemyName;
     public TypeOfSpell enemyWeakness;
-    public int enemyHp;
+    public int enemyMaxHealth;
+    public int enemyHealth;
 }

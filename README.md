@@ -1,5 +1,16 @@
 # SpellType
 
+<table>
+  <tr>
+    <td align="left" width="50%">
+      <img width="100%" alt="gif1" src="https://media.giphy.com/media/Vxcamtr1OBzeSyHkR7/giphy.gif">
+    </td>
+    <!-- <td align="right" width="50%">
+      <img width="100%" alt="gif2" src="https://github.com/user-attachments/assets/f96b78ce-3f23-4b2e-a17f-c7c1581d5cf5">
+    </td> -->
+  </tr>
+</table>
+
 **SpellType** is a 2D typing-based dungeon crawler game where you play as a young mage learning the forgotten Ancient Language.
 To cast spells, you must type them correctly, as if reciting mantras from an ancient spellbook.
 

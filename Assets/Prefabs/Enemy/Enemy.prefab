@@ -485,7 +485,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4374445119929636498}
   - component: {fileID: 2793529002176560467}
-  - component: {fileID: 1902078167710563732}
+  - component: {fileID: 1637530201360880965}
   m_Layer: 5
   m_Name: Healthbar
   m_TagString: Untagged
@@ -565,7 +565,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1902078167710563732
+--- !u!114 &1637530201360880965
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5039727646510450768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66c522e72a5165849920aea0831e99e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ff413826f083eb4aa531a8d881c3641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 2793529002176560467}

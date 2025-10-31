@@ -33,12 +33,25 @@ public class PlayerDeckManager : MonoBehaviour
         {
             PlayerDeck.Add(cardToAdd);
             Debug.Log($"Added {cardName} to deck!");
-        } 
+        }
         else
         {
-               Debug.Log($"{cardName} does not exist");
+            Debug.Log($"{cardName} does not exist");
         }
     }
+        public void AddCard(SpellData cardToAdd)
+    {
+    if (cardToAdd != null)
+    {
+        PlayerDeck.Add(cardToAdd);
+        Debug.Log($"✅ Added {cardToAdd.spellName} to player's deck (from Reward)!");
+    }
+    else
+    {
+        Debug.LogWarning("⚠️ Tried to add a null card to deck!");
+    }
+    }
+
 
     public void LoadDeck()
     {

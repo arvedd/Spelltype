@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemy_11_A_Dead_5_0: -7987088180928412750
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

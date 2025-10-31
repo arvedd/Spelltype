@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Enemy_08_D_Idle_5_0: 239799115439203910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

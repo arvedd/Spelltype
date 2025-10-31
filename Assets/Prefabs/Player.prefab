@@ -344,7 +344,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2781575230056620985}
   - component: {fileID: 2627430580706060273}
-  - component: {fileID: 3319274647468014665}
+  - component: {fileID: 3463477553538270362}
   m_Layer: 5
   m_Name: Healthbar
   m_TagString: Untagged
@@ -424,7 +424,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &3319274647468014665
+--- !u!114 &3463477553538270362
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6402558927946119700}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66c522e72a5165849920aea0831e99e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ff413826f083eb4aa531a8d881c3641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 2627430580706060273}
@@ -847,11 +847,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 875c4ffd573b9024fbcf0bb365ef9185, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHP: 0
+  currentHP: 100
   player: {fileID: 11400000, guid: 201f6238f2ba1a949b8293828ab069fb, type: 2}
   currentAP: 0
-  playerMaxHp: 0
-  healthbar: {fileID: 3319274647468014665}
+  playerMaxHp: 100
+  healthbar: {fileID: 0}
 --- !u!95 &8569214722525931888
 Animator:
   serializedVersion: 7

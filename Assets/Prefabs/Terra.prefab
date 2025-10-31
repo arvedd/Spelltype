@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8483536002419387708}
   - component: {fileID: 5768648217067509009}
   - component: {fileID: -1388627278702017780}
-  - component: {fileID: 86487247528709087}
   - component: {fileID: 6114697187986774526}
+  - component: {fileID: 5645950322611400613}
   m_Layer: 0
   m_Name: Terra
   m_TagString: Untagged
@@ -159,21 +159,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.3419484, y: 0.63264555}
   m_EdgeRadius: 0
---- !u!114 &86487247528709087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3453524605822138424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Explosion: {fileID: 9142671769178947627, guid: 92907318578c680409a30d490e33b208, type: 3}
-  spellData: {fileID: 11400000, guid: 9c7b930c7a29f3d41a9ee72ac2c881d7, type: 2}
-  caster: 0
 --- !u!50 &6114697187986774526
 Rigidbody2D:
   serializedVersion: 5
@@ -201,3 +186,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &5645950322611400613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3453524605822138424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explosion: {fileID: 9142671769178947627, guid: 92907318578c680409a30d490e33b208, type: 3}
+  spellData: {fileID: 11400000, guid: 9c7b930c7a29f3d41a9ee72ac2c881d7, type: 2}
+  caster: 0

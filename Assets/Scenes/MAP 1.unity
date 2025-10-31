@@ -544,26 +544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72ece51f2901e7445ab60da3685d6b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowDebugText: 0
-  ShowCameraFrustum: 1
-  IgnoreTimeScale: 0
-  WorldUpOverride: {fileID: 0}
-  ChannelMask: -1
-  UpdateMethod: 2
-  BlendUpdateMethod: 1
-  LensModeOverride:
-    Enabled: 0
-    DefaultMode: 2
-  DefaultBlend:
-    Style: 1
-    Time: 2
-    CustomCurve:
-      serializedVersion: 2
-      m_Curve: []
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-  CustomBlends: {fileID: 0}
 --- !u!1 &527403889
 GameObject:
   m_ObjectHideFlags: 0
@@ -3164,7 +3144,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1299333905}
-  - component: {fileID: 1299333904}
+  - component: {fileID: 1299333906}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3172,20 +3152,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1299333904
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1299333903}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b26ee1d0f2ffb0544ab1dc6ebecaf605, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerDeck: []
-  allCards: []
 --- !u!4 &1299333905
 Transform:
   m_ObjectHideFlags: 0
@@ -3201,6 +3167,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1299333906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299333903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c90a73cd3554b0f4fbb519e8bb542967, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackPoin: {fileID: 1801473991}
+  player: {fileID: 0}
 --- !u!1 &1435228336
 GameObject:
   m_ObjectHideFlags: 0
@@ -3970,11 +3950,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1992616682}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e004604910183f44b3c0d3176b1caa8, type: 3}
+  m_Script: {fileID: 11500000, guid: 586c782bde0f1364da3cbc70d5f17cf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackPoin: {fileID: 1801473991}
-  player: {fileID: 0}
+  PlayerDeck: []
+  allCards: []
 --- !u!1 &2070654404
 GameObject:
   m_ObjectHideFlags: 0

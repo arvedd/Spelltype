@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -9,6 +10,7 @@ public class Enemy : Damageable
     [SerializeField] private Healthbar healthbar;
     public int enemyMaxHp;
     private Animator animator;
+    public event Action<Enemy> OnEnemyDeath;
 
 
     void Start()
@@ -43,6 +45,17 @@ public class Enemy : Damageable
 
         TakeDamage(damage);
 
+    }
+
+    public override void Die()
+    {
+        
+        animator.SetTrigger("Death");
+        
+        Debug.Log($"{gameObject.name} died!");
+        
+        OnEnemyDeath?.Invoke(this);
+        Destroy(gameObject);
     }
 
     public void CastSpell()

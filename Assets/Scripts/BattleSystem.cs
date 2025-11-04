@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,18 +10,25 @@ public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
 public class BattleSystem : MonoBehaviour
 {
     public BattleState state;
+    
+    [Header("Player")]
     public GameObject objectPlayer;
-    public GameObject objectEnemy;
-    public TextMeshProUGUI turnText;
     public Transform playerBattleSpot;
-    public Transform enemyBattleSpot;
     public SpellTyper playerTyper;
+    private Player playerData;
+    
+    [Header("Enemy Spawner")]
+    public EnemySpawner enemySpawner;
+    private List<Enemy> enemies = new List<Enemy>();
+    private Enemy currentTargetEnemy;
+    private int currentEnemyIndex = 0;
+    
+    [Header("UI")]
+    public TextMeshProUGUI turnText;
+    
+    [Header("Managers")]
     public HandManager handManager;
     public DeckManager deckManager;
-
-    [SerializeField] private Enemy enemyData;
-    [SerializeField] private Player playerData;
-
 
     void Start()
     {
@@ -30,25 +36,85 @@ public class BattleSystem : MonoBehaviour
         deckManager = FindAnyObjectByType<DeckManager>();
         state = BattleState.START;
         StartCoroutine(SetupBattle());
-        
     }
 
     IEnumerator SetupBattle()
     {
+        // Spawn player
         GameObject playerInstance = Instantiate(objectPlayer, playerBattleSpot);
-        GameObject enemyInstance = Instantiate(objectEnemy, enemyBattleSpot);
-
         playerTyper = playerInstance.GetComponentInChildren<SpellTyper>();
         playerTyper.OnPlayerFinished += EndPlayerTurn;
-
         playerData = playerInstance.GetComponentInChildren<Player>();
-        enemyData = enemyInstance.GetComponentInChildren<Enemy>();
-
         playerTyper.enabled = false;
+        
+        yield return new WaitForSeconds(1f);
+        
+    
+        yield return new WaitForSeconds(0.5f);
+        
+        if (enemySpawner != null)
+        {
+            // yield return new WaitUntil(() => enemySpawner.GetAliveEnemyCount() > 0);
 
-        yield return new WaitForSeconds(2f);
+            enemies = enemySpawner.GetAliveEnemies();
+
+            Debug.Log(enemies.Count);
+            
+            if (enemies.Count > 0)
+            {
+                currentTargetEnemy = enemies[0];
+                
+                foreach (Enemy enemy in enemies)
+                {
+                    enemy.OnEnemyDeath += HandleEnemyDeath;
+                }
+            }
+            else
+            {
+                Debug.LogError("No enemies spawned!");
+            }
+        }
+        
+        yield return new WaitForSeconds(1f);
+        
         state = BattleState.PLAYERTURN;
         PlayerTurn();
+    }
+
+    private void HandleEnemyDeath(Enemy deadEnemy)
+    {
+        enemies.Remove(deadEnemy);
+        
+        Debug.Log($"Enemy died! Remaining: {enemies.Count}");
+        
+        if (enemies.Count > 0)
+        {
+            currentTargetEnemy = enemies[0];
+            currentEnemyIndex = 0;
+        }
+        else
+        {
+            currentTargetEnemy = null;
+        }
+        
+        CheckIfDied();
+    }
+
+    private void PlayerTurn()
+    {
+        for (int i = 0; i < deckManager.maxHandSize; i++)
+        {
+            deckManager.DrawCard(handManager);
+        }
+
+        CheckIfDied();
+        
+        if (state != BattleState.WON && state != BattleState.LOST)
+        {
+            playerTyper.enabled = true;
+            playerData.currentAP = playerData.player.attackPoin;
+            turnText.text = "Player Turn";
+        }
     }
 
     private void EnemyTurn()
@@ -63,30 +129,25 @@ public class BattleSystem : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
-        enemyData.CastSpell();
+        foreach (Enemy enemy in enemies)
+        {
+            if (enemy != null)
+            {
+                enemy.CastSpell();
+                yield return new WaitForSeconds(1f);
+            }
+        }
 
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
 
         turnText.text = "";
         EndEnemyTurn();
     }
 
-    private void PlayerTurn()
-    {
-        for (int i = 0; i < deckManager.maxHandSize; i++)
-        {
-            deckManager.DrawCard(handManager);
-        }
-
-        CheckIfDied();
-        playerTyper.enabled = true;
-        playerData.currentAP = playerData.player.attackPoin;
-        turnText.text = "Player Turn";
-    }
-
     private void EndEnemyTurn()
     {
         CheckIfDied();
+        
         if (state != BattleState.WON && state != BattleState.LOST)
         {
             state = BattleState.PLAYERTURN;
@@ -118,20 +179,18 @@ public class BattleSystem : MonoBehaviour
             turnText.text = "";
             EnemyTurn();
         }
-
-  
     }
 
     public void CheckIfDied()
     {
-        if (enemyData.currentHP <= 0)
+        if (enemies.Count == 0 || enemies.TrueForAll(e => e == null || e.currentHP <= 0))
         {
             state = BattleState.WON;
             turnText.text = "YOU WIN!";
             return;
         }
-        
-        if(playerData.currentHP <= 0)
+
+        if (playerData.currentHP <= 0)
         {
             state = BattleState.LOST;
             turnText.text = "YOU LOST!";
@@ -139,4 +198,40 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
+    public Enemy GetCurrentTarget()
+    {
+        return currentTargetEnemy;
+    }
+
+    public List<Enemy> GetAliveEnemies()
+    {
+        return new List<Enemy>(enemies);
+    }
+
+    public void SwitchTarget()
+    {
+        if (enemies.Count <= 1) return;
+        
+        currentEnemyIndex = (currentEnemyIndex + 1) % enemies.Count;
+        currentTargetEnemy = enemies[currentEnemyIndex];
+        
+        Debug.Log($"Target switched to: {currentTargetEnemy.gameObject.name}");
+        
+    }
+
+    void OnDestroy()
+    {
+        if (playerTyper != null)
+        {
+            playerTyper.OnPlayerFinished -= EndPlayerTurn;
+        }
+        
+        foreach (Enemy enemy in enemies)
+        {
+            if (enemy != null)
+            {
+                enemy.OnEnemyDeath -= HandleEnemyDeath;
+            }
+        }
+    }
 }

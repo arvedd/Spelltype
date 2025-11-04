@@ -3,72 +3,63 @@ using UnityEngine;
 
 public class Typer : MonoBehaviour
 {
-    public TextMeshProUGUI wordOuput = null;
-    private string remainWord = string.Empty;
-    private string currentWord = "muffins";
+    public TextMeshProUGUI inputDisplay;
+    public TextMeshProUGUI infoText;
+    private string typedBuffer = "";
 
-    private void Start()
+    void Awake()
     {
-        SetCurrentWord();
+        if (infoText == null)
+        {
+            infoText = GameObject.Find("InfoText")?.GetComponent<TextMeshProUGUI>();
+        }
+            
+        if (inputDisplay == null)
+        {
+            inputDisplay = GameObject.Find("InputDisplay")?.GetComponent<TextMeshProUGUI>();
+        }
+    
     }
 
-    private void SetCurrentWord()
+    void Update()
     {
-        SetRemainingWord(currentWord);
+        InputString();     
     }
 
-    private void SetRemainingWord(string newString)
-    {
-        remainWord = newString;
-        wordOuput.text = remainWord;
-    }
-
-    private void Update()
-    {
-        CheckInput();
-    }
-
-    private void CheckInput()
+    void InputString()
     {
         if (Input.anyKeyDown)
         {
-            string keysPressed = Input.inputString;
-            string wordPressed = keysPressed.ToLower();
+            string keysPressed = Input.inputString.ToLower();
 
-            if (wordPressed.Length == 1)
-            {
+            if (keysPressed == "\b" && typedBuffer.Length > 0)
+                typedBuffer = typedBuffer.Substring(0, typedBuffer.Length - 1);
 
-                EnterLetter(wordPressed);
-            }
+            else if (keysPressed == "\n" || keysPressed == "\r")
+                CheckMapInput();
+
+            else if (keysPressed.Length == 1 && char.IsLetter(keysPressed[0]))
+                typedBuffer += keysPressed;
+
+            if (inputDisplay != null)
+                inputDisplay.text = typedBuffer;
         }
     }
-
-    private void EnterLetter(string typedLetter)
+    
+    void CheckMapInput()
     {
-        if (IsCorrectLetter(typedLetter))
+        foreach (var map in MapManager.Instance.mapChoices)
         {
-            RemoveLetter();
-
-            if (IsWordComplete())
+            string mapName = map.mapName.Trim().ToLower();
+            if (typedBuffer == mapName)
             {
-                SetCurrentWord();
+                // StartCoroutine(ShowFeedback($"Entering {map.mapName}...", correctColor));
+                // Invoke(nameof(GoToNextMap), 1.5f);
+                Debug.Log($"Entering {map.mapName}");
+                typedBuffer = "";
+                return;
             }
         }
-    }
-
-    private bool IsCorrectLetter(string letter)
-    {
-        return remainWord.IndexOf(letter) == 0;
-    }
-
-    private void RemoveLetter()
-    {
-        string newString = remainWord.Remove(0, 1);
-        SetRemainingWord(newString);
-    }
-
-    private bool IsWordComplete()
-    {
-        return remainWord.Length == 0;
+        typedBuffer = "";
     }
 }

@@ -331,6 +331,8 @@ GameObject:
   m_Component:
   - component: {fileID: 495098001}
   - component: {fileID: 495098000}
+  - component: {fileID: 495098002}
+  - component: {fileID: 495098003}
   m_Layer: 0
   m_Name: Battle System
   m_TagString: Untagged
@@ -352,15 +354,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state: 0
   objectPlayer: {fileID: 6158286435452607656, guid: 2fa8b0f54261ce74e830c6fa9ba4ea84, type: 3}
-  objectEnemy: {fileID: 3557295288415227418, guid: 3991b22eeafbcec41aecf553457dbe16, type: 3}
-  turnText: {fileID: 1475116664}
   playerBattleSpot: {fileID: 527403890}
-  enemyBattleSpot: {fileID: 105620998}
   playerTyper: {fileID: 0}
+  enemySpawner: {fileID: 495098002}
+  turnText: {fileID: 1475116664}
   handManager: {fileID: 0}
   deckManager: {fileID: 0}
-  enemyData: {fileID: 0}
-  playerData: {fileID: 0}
+  counterInputManager: {fileID: 0}
 --- !u!4 &495098001
 Transform:
   m_ObjectHideFlags: 0
@@ -376,6 +376,40 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &495098002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495097999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6afecdf758966464fb4f7fafc07349b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minEnemies: 1
+  maxEnemies: 3
+  enemyPool:
+  - enemyPrefab: {fileID: 3557295288415227418, guid: a953da318a396ea45950f436ed914e36, type: 3}
+    spawnWeight: 0.5
+  - enemyPrefab: {fileID: 5510261400782452176, guid: c256ad9801e7d0d42a03cedb8181be59, type: 3}
+    spawnWeight: 0
+  spawnPoints:
+  - {fileID: 105620998}
+  enemyContainer: {fileID: 105620998}
+--- !u!114 &495098003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495097999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2534ad94e4c1a34449d8418628c7f3e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -3145,6 +3179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1299333905}
   - component: {fileID: 1299333906}
+  - component: {fileID: 1299333907}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -3181,6 +3216,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackPoin: {fileID: 1801473991}
   player: {fileID: 0}
+--- !u!114 &1299333907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299333903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 586c782bde0f1364da3cbc70d5f17cf2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerDeck: []
+  allCards: []
 --- !u!1 &1435228336
 GameObject:
   m_ObjectHideFlags: 0

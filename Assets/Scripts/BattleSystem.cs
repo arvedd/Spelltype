@@ -29,11 +29,16 @@ public class BattleSystem : MonoBehaviour
     [Header("Managers")]
     public HandManager handManager;
     public DeckManager deckManager;
+    public CounterInputManager counterInputManager;
+
+    private List<Attack> activeEnemyAttacks = new List<Attack>();
+
 
     void Start()
     {
         handManager = FindAnyObjectByType<HandManager>();
         deckManager = FindAnyObjectByType<DeckManager>();
+        counterInputManager = FindAnyObjectByType<CounterInputManager>();
         state = BattleState.START;
         StartCoroutine(SetupBattle());
     }
@@ -111,6 +116,7 @@ public class BattleSystem : MonoBehaviour
         
         if (state != BattleState.WON && state != BattleState.LOST)
         {
+            counterInputManager.enabled = false;
             playerTyper.enabled = true;
             playerData.currentAP = playerData.player.attackPoin;
             turnText.text = "Player Turn";
@@ -133,15 +139,22 @@ public class BattleSystem : MonoBehaviour
         {
             if (enemy != null)
             {
-                enemy.CastSpell();
-                yield return new WaitForSeconds(1f);
+                Attack attack = enemy.CastSpell();
+
+                if (attack != null)
+                {
+                    activeEnemyAttacks.Add(attack);
+                    Attack.OnAttackDestroyed += HandleEnemyAttackDestroyed;
+                }
+
+                float RandomDelay = UnityEngine.Random.Range(0.5f, 1.5f);
+                yield return new WaitForSeconds(RandomDelay);
             }
         }
 
         yield return new WaitForSeconds(1f);
 
         turnText.text = "";
-        EndEnemyTurn();
     }
 
     private void EndEnemyTurn()
@@ -176,6 +189,7 @@ public class BattleSystem : MonoBehaviour
         {
             state = BattleState.ENEMYTURN;
             playerTyper.enabled = false;
+            counterInputManager.enabled = true;
             turnText.text = "";
             EnemyTurn();
         }
@@ -234,4 +248,21 @@ public class BattleSystem : MonoBehaviour
             }
         }
     }
+
+    private void HandleEnemyAttackDestroyed(Attack destroyedAttack)
+    {
+        if (activeEnemyAttacks.Contains(destroyedAttack))
+        {
+            activeEnemyAttacks.Remove(destroyedAttack);
+            Debug.Log($"Attack destroyed. Remaining active enemy attacks: {activeEnemyAttacks.Count}");
+
+            // if all enemy attacks are gone, end the enemy turn
+            if (activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
+            {
+                Debug.Log("All enemy attacks resolved — ending enemy turn.");
+                EndEnemyTurn();
+            }
+        }
+    }
+
 }

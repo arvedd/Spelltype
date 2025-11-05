@@ -52,6 +52,7 @@ public class SpellTyper : MonoBehaviour
 
     private void TryCastSpell()
     {
+        
         if (typedBuffer == "end")
         {
             OnPlayerFinished?.Invoke();
@@ -135,4 +136,7 @@ public class SpellTyper : MonoBehaviour
         if (inputDisplay) inputDisplay.text = "";
         
     }
+
+ 
+
 }

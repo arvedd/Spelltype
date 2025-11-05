@@ -15,4 +15,8 @@ public class SpellData : ScriptableObject
     public TypeOfSpell typeSpell;
     public SpellCategory spellCategory;
     public GameObject spellPrefab;
+
+    [Header("Counter Spell Info")]
+    [Tooltip("Words the player can type to counter this spell")]
+    public string[] counterWords;
 }

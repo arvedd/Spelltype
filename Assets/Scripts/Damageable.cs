@@ -15,7 +15,7 @@ public class Damageable : MonoBehaviour
         }
     }
 
-    private void Die()
+    public virtual void Die()
     {
         Destroy(gameObject);
         FindAnyObjectByType<BattleSystem>().CheckIfDied();

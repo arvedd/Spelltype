@@ -466,14 +466,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 5039474397511237690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe2b8b1d9adc21c41ac9c2d1790ca375, type: 3}
+  m_Script: {fileID: 11500000, guid: 165cc07341fd165439ae8c1483232a5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   currentHP: 0
   enemy: {fileID: 11400000, guid: b2f3510c0a5dbbc46bdc019553b0a82a, type: 2}
-  spellData: {fileID: 11400000, guid: d38fb36c5e9b10841ae6f3702f4e1381, type: 2}
+  spellData: {fileID: 11400000, guid: 1f34989b79bdc1441be83cefbaabe8d0, type: 2}
   castPoint: {fileID: 2120072700409593549}
-  healthbar: {fileID: 0}
+  healthbar: {fileID: 1902078167710563732}
   enemyMaxHp: 0
 --- !u!1 &5039727646510450768
 GameObject:
@@ -574,7 +574,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5039727646510450768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 66c522e72a5165849920aea0831e99e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ff413826f083eb4aa531a8d881c3641, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 2793529002176560467}

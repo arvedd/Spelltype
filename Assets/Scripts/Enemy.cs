@@ -58,7 +58,7 @@ public class Enemy : Damageable
         Destroy(gameObject);
     }
 
-    public void CastSpell()
+    public Attack CastSpell()
     {
         animator.SetTrigger("Attack");
         GameObject obj = Instantiate(spellData.spellPrefab, castPoint.position, Quaternion.identity);
@@ -66,10 +66,12 @@ public class Enemy : Damageable
         Attack atk = obj.GetComponent<Attack>();
         if (atk != null)
         {
-
             Vector2 dir = Vector2.left;
             atk.Initialize(spellData.spellDamage, spellData.spellSpeed, dir, Caster.Enemy);
+            return atk;
         }
-        
+
+        return null;
     }
+
 }

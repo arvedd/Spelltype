@@ -35,8 +35,8 @@ public class Typer : MonoBehaviour
             if (keysPressed == "\b" && typedBuffer.Length > 0)
                 typedBuffer = typedBuffer.Substring(0, typedBuffer.Length - 1);
 
-            else if (keysPressed == "\n" || keysPressed == "\r")
-                CheckMapInput();
+           // else if (keysPressed == "\n" || keysPressed == "\r")
+                //CheckMapInput();
 
             else if (keysPressed.Length == 1 && char.IsLetter(keysPressed[0]))
                 typedBuffer += keysPressed;
@@ -46,7 +46,7 @@ public class Typer : MonoBehaviour
         }
     }
     
-    void CheckMapInput()
+   /* void CheckMapInput()
     {
         foreach (var map in MapManager.Instance.mapChoices)
         {
@@ -61,5 +61,5 @@ public class Typer : MonoBehaviour
             }
         }
         typedBuffer = "";
-    }
+    }*/
 }

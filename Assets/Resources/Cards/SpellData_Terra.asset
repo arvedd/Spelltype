@@ -16,6 +16,8 @@ MonoBehaviour:
   spellDamage: 15
   spellSpeed: 5
   spellCost: 1
+  spellHeal: 0
   elementImage: {fileID: -9182391099804656440, guid: ebada34f31b32be4b9fe39df24772bd4, type: 3}
   typeSpell: 3
-  spellPrefab: {fileID: 3453524605822138424, guid: b1f9b4c59cfe578498865ef195a96fa8, type: 3}
+  spellCategory: 0
+  spellPrefab: {fileID: 3453524605822138424, guid: eb46d7a5938c8ed4f833f53a896eb9e1, type: 3}

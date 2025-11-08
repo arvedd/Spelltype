@@ -468,6 +468,7 @@ GameObject:
   - component: {fileID: 4137708765653200278}
   - component: {fileID: 5973404916162631069}
   - component: {fileID: 3892858029439079755}
+  - component: {fileID: 5896093110734466964}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -638,6 +639,7 @@ MonoBehaviour:
   castPoint: {fileID: 2398538054085795017}
   healthbar: {fileID: 4654606371161362280}
   enemyMaxHp: 0
+  animator: {fileID: 3892858029439079755}
 --- !u!95 &3892858029439079755
 Animator:
   serializedVersion: 7
@@ -660,3 +662,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5896093110734466964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7720758640297679890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa505f2918f2a334db716829e8053acc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalFireballData: {fileID: 11400000, guid: 062eda66dee00f143bfd29cd5cc9ac7f, type: 2}
+  multiFireballData: {fileID: 11400000, guid: 062eda66dee00f143bfd29cd5cc9ac7f, type: 2}

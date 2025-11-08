@@ -6,10 +6,10 @@ public class Enemy : Damageable
 {
     [SerializeField] private EnemyData enemy;
     [SerializeField] private SpellData spellData;
-    [SerializeField] private Transform castPoint;
+    [SerializeField] public Transform castPoint;
     [SerializeField] private Healthbar healthbar;
     public int enemyMaxHp;
-    private Animator animator;
+    public Animator animator;
     public event Action<Enemy> OnEnemyDeath;
 
 
@@ -73,5 +73,27 @@ public class Enemy : Damageable
 
         return null;
     }
+
+    public IEnumerator DoTurn(BattleSystem battle)
+    {
+        EnemyBehavior behavior = GetComponent<EnemyBehavior>();
+
+        if (behavior != null)
+        {
+            behavior.Initialize(this, battle); 
+            yield return behavior.DoAttack();
+        }
+        else
+        {
+            // fallback basic attack
+            Attack atk = CastSpell();
+            if (atk != null)
+            {
+                battle.RegisterEnemyAttack(atk); 
+            }
+            yield return new WaitForSeconds(0.5f);
+        }
+    }
+
 
 }

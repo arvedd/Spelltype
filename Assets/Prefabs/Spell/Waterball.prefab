@@ -201,3 +201,4 @@ MonoBehaviour:
   Explosion: {fileID: 5969496420542687151, guid: f5403c426df9b864ea7750dceed42b1a, type: 3}
   spellData: {fileID: 11400000, guid: 8add0355095116840a34439fae4ff915, type: 2}
   caster: 0
+  counterTextInstance: {fileID: 0}

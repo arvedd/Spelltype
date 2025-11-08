@@ -32,6 +32,7 @@ public class BattleSystem : MonoBehaviour
     public CounterInputManager counterInputManager;
 
     private List<Attack> activeEnemyAttacks = new List<Attack>();
+    private bool allEnemiesHaveCast = false;
 
 
     void Start()
@@ -135,27 +136,35 @@ public class BattleSystem : MonoBehaviour
 
         yield return new WaitForSeconds(0.5f);
 
+        allEnemiesHaveCast = false;
+        activeEnemyAttacks.Clear();
+
+        int enemiesThatAttacked = 0;
+
         foreach (Enemy enemy in enemies)
         {
             if (enemy != null)
             {
-                Attack attack = enemy.CastSpell();
 
-                if (attack != null)
+                yield return enemy.DoTurn(this);
+
+                enemiesThatAttacked++;
+
+
+                if (enemiesThatAttacked < enemies.Count)
                 {
-                    activeEnemyAttacks.Add(attack);
-                    Attack.OnAttackDestroyed += HandleEnemyAttackDestroyed;
+                    float randomDelay = UnityEngine.Random.Range(0.5f, 0.7f);
+                    Debug.Log($"Delay between enemies: {randomDelay}");
+                    yield return new WaitForSeconds(randomDelay);
                 }
-
-                float RandomDelay = UnityEngine.Random.Range(0.5f, 1.5f);
-                yield return new WaitForSeconds(RandomDelay);
             }
         }
 
-        yield return new WaitForSeconds(1f);
-
-        turnText.text = "";
+        allEnemiesHaveCast = true;
+        Debug.Log(allEnemiesHaveCast);
     }
+
+
 
     private void EndEnemyTurn()
     {
@@ -257,12 +266,22 @@ public class BattleSystem : MonoBehaviour
             Debug.Log($"Attack destroyed. Remaining active enemy attacks: {activeEnemyAttacks.Count}");
 
             // if all enemy attacks are gone, end the enemy turn
-            if (activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
+            if (allEnemiesHaveCast && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
             {
-                Debug.Log("All enemy attacks resolved — ending enemy turn.");
-                EndEnemyTurn();
+                Debug.Log("All enemy attacks resolved, ending enemy turn.");
+                StartCoroutine(DelayedEndEnemyTurn());
             }
         }
     }
+    private IEnumerator DelayedEndEnemyTurn()
+    {
+        yield return new WaitForSeconds(0.5f);
+        EndEnemyTurn();
+    }
 
+    public void RegisterEnemyAttack(Attack attack)
+    {
+        activeEnemyAttacks.Add(attack);
+        Attack.OnAttackDestroyed += HandleEnemyAttackDestroyed;
+    }
 }

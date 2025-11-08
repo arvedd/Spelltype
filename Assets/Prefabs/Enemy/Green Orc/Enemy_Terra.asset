@@ -14,10 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellName: terra
   spellDamage: 10
-  spellSpeed: 5
+  spellSpeed: 3
   spellCost: 0
   spellHeal: 0
   elementImage: {fileID: -9182391099804656440, guid: ebada34f31b32be4b9fe39df24772bd4, type: 3}
   typeSpell: 3
   spellCategory: 0
   spellPrefab: {fileID: 3453524605822138424, guid: d17ca8030daa4874fa87e640c91ed083, type: 3}
+  counterWords:
+  - Mud
+  - Earth
+  - Bang
+  - Tell

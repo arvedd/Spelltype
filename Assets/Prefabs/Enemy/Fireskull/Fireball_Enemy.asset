@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellName: fireball
   spellDamage: 10
-  spellSpeed: 1
+  spellSpeed: 3
   spellCost: 1
   spellHeal: 0
   elementImage: {fileID: -2350200725867972502, guid: 36fff5f8053ff844aa034ce0003eddf3, type: 3}
@@ -22,7 +22,7 @@ MonoBehaviour:
   spellCategory: 0
   spellPrefab: {fileID: 4252530064130196430, guid: 221f72d3404115543bb7a9102f496907, type: 3}
   counterWords:
-  - boom
-  - out
-  - spent
-  - pop
+  - Boom
+  - Out
+  - Spent
+  - Pop

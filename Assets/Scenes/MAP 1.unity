@@ -286,6 +286,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198737212}
   m_CullTransparentMesh: 1
+--- !u!1 &370935819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 370935820}
+  m_Layer: 0
+  m_Name: Enemy Battle Spot (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &370935820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370935819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5, y: -1.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &486467303
 GameObject:
   m_ObjectHideFlags: 0
@@ -388,16 +419,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6afecdf758966464fb4f7fafc07349b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minEnemies: 1
-  maxEnemies: 3
+  minEnemies: 2
+  maxEnemies: 2
   enemyPool:
   - enemyPrefab: {fileID: 3557295288415227418, guid: a953da318a396ea45950f436ed914e36, type: 3}
     spawnWeight: 0.5
   - enemyPrefab: {fileID: 5510261400782452176, guid: c256ad9801e7d0d42a03cedb8181be59, type: 3}
-    spawnWeight: 0
+    spawnWeight: 0.5
   spawnPoints:
   - {fileID: 105620998}
-  enemyContainer: {fileID: 105620998}
+  - {fileID: 370935820}
+  - {fileID: 1645916340}
+  enemyContainer: {fileID: 495098001}
 --- !u!114 &495098003
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3762,6 +3795,37 @@ Transform:
   - {fileID: 705587145}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1645916339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1645916340}
+  m_Layer: 0
+  m_Name: Enemy Battle Spot (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1645916340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645916339}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.5, y: -1.39, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1692314246
 GameObject:
   m_ObjectHideFlags: 0
@@ -4097,4 +4161,6 @@ SceneRoots:
   - {fileID: 559000655}
   - {fileID: 527403890}
   - {fileID: 105620998}
+  - {fileID: 370935820}
+  - {fileID: 1645916340}
   - {fileID: 1299333905}

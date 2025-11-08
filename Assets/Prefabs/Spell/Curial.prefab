@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9059110336988852026}
   - component: {fileID: 4673853251404841344}
   - component: {fileID: 6929412753341413615}
+  - component: {fileID: 5766889351579803518}
   m_Layer: 0
   m_Name: Curial
   m_TagString: Untagged
@@ -110,3 +111,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5766889351579803518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356032996522757570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9e1e71bd10e9649a5fe05807eaf260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lifespan: 0.5

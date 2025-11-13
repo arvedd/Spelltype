@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3806971701a5a1d489e706f2e92124c9, type: 3}
+  m_Name: Lazer
+  m_EditorClassIdentifier: 
+  spellName: Lazer
+  spellDamage: 30
+  spellSpeed: 0
+  spellCost: 0
+  spellHeal: 0
+  elementImage: {fileID: 0}
+  typeSpell: 0
+  spellCategory: 0
+  spellPrefab: {fileID: 3456693856958319898, guid: f86183f890a4d5e4787b72e6bc867f38, type: 3}
+  counterWords: []

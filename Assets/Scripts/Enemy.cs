@@ -55,6 +55,31 @@ public class Enemy : Damageable
         Debug.Log($"{gameObject.name} died!");
         
         OnEnemyDeath?.Invoke(this);
+
+        if (AnimatorHasParameter(animator, "Death", AnimatorControllerParameterType.Trigger)        )
+        {
+            animator.SetTrigger("Death");
+        }
+        else
+        {
+            // No death animation — just destroy immediately
+            Debug.Log("Did not play");
+            Destroy(gameObject);
+        }
+    }
+
+    private bool AnimatorHasParameter(Animator anim, string paramName, AnimatorControllerParameterType type)
+    {
+        foreach (var param in anim.parameters)
+        {
+            if (param.type == type && param.name == paramName)
+                return true;
+        }
+        return false;
+    }
+
+    private void OnDeathEnd()
+    {
         Destroy(gameObject);
     }
 

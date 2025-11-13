@@ -32,6 +32,8 @@ public class BattleSystem : MonoBehaviour
     public CounterInputManager counterInputManager;
 
     private List<Attack> activeEnemyAttacks = new List<Attack>();
+    private int enemiesToAct = 0;
+    private int enemiesFinishedCasting = 0;
     private bool allEnemiesHaveCast = false;
 
 
@@ -126,6 +128,7 @@ public class BattleSystem : MonoBehaviour
 
     private void EnemyTurn()
     {
+        state = BattleState.ENEMYTURN; 
         StartCoroutine(EnemyTurnRoutine());
     }
 
@@ -139,32 +142,84 @@ public class BattleSystem : MonoBehaviour
         allEnemiesHaveCast = false;
         activeEnemyAttacks.Clear();
 
-        int enemiesThatAttacked = 0;
+        // how many enemies will act this turn
+        enemiesToAct = enemies.Count;
+        enemiesFinishedCasting = 0;
 
         foreach (Enemy enemy in enemies)
         {
             if (enemy != null)
             {
-
+                // run the enemy's behavior
                 yield return enemy.DoTurn(this);
 
-                enemiesThatAttacked++;
+                // mark this enemy as finished acting
+                enemiesFinishedCasting++;
 
-
-                if (enemiesThatAttacked < enemies.Count)
+                // short delay between enemy starts 
+                if (enemiesFinishedCasting < enemiesToAct)
                 {
                     float randomDelay = UnityEngine.Random.Range(0.5f, 0.7f);
-                    Debug.Log($"Delay between enemies: {randomDelay}");
                     yield return new WaitForSeconds(randomDelay);
                 }
             }
+            else
+            {
+                enemiesFinishedCasting++;
+            }
         }
 
+        // All enemy DoTurn coroutines have returned
         allEnemiesHaveCast = true;
-        Debug.Log(allEnemiesHaveCast);
+
+        activeEnemyAttacks.RemoveAll(atk => atk == null);
+
+        if (activeEnemyAttacks.Count == 0)
+        {
+            Debug.Log("No active enemy attacks after all enemies acted. Ending enemy turn.");
+            EndEnemyTurn();
+        }
+        else
+        {
+            string activeList = "";
+            foreach (var atk in activeEnemyAttacks)
+            {
+                if (atk != null)
+                    activeList += $"{atk.gameObject.name} (caster: {atk.caster})\n";
+                else
+                    activeList += "[Null Attack Reference]\n";
+            }
+
+            Debug.Log($"Enemies have cast; waiting for {activeEnemyAttacks.Count} active attacks to resolve:\n{activeList}");
+        }
+
+        if (allEnemiesHaveCast && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
+        {
+            Debug.Log("All enemies finished acting with no active attacks — ending enemy turn (safety fallback).");
+            StartCoroutine(DelayedEndEnemyTurn());
+        }
     }
 
+    private void HandleEnemyAttackDestroyed(Attack destroyedAttack)
+    {
+        if (destroyedAttack == null) return;
 
+        if (activeEnemyAttacks.Contains(destroyedAttack))
+        {
+            activeEnemyAttacks.Remove(destroyedAttack);
+            Debug.Log($"Attack destroyed. Remaining active enemy attacks: {activeEnemyAttacks.Count}");
+        }
+        else
+        {
+            Debug.Log("Destroyed attack not found in active list. Re-checking.");
+        }
+
+        if (allEnemiesHaveCast && enemiesFinishedCasting >= enemiesToAct && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
+        {
+            Debug.Log("All enemies have acted AND all attacks resolved — ending enemy turn.");
+            StartCoroutine(DelayedEndEnemyTurn());
+        }
+    }
 
     private void EndEnemyTurn()
     {
@@ -258,30 +313,30 @@ public class BattleSystem : MonoBehaviour
         }
     }
 
-    private void HandleEnemyAttackDestroyed(Attack destroyedAttack)
+    public void RegisterEnemyAttack(Attack attack)
     {
-        if (activeEnemyAttacks.Contains(destroyedAttack))
+        if (attack == null) return;
+        if (!activeEnemyAttacks.Contains(attack))
         {
-            activeEnemyAttacks.Remove(destroyedAttack);
-            Debug.Log($"Attack destroyed. Remaining active enemy attacks: {activeEnemyAttacks.Count}");
-
-            // if all enemy attacks are gone, end the enemy turn
-            if (allEnemiesHaveCast && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
-            {
-                Debug.Log("All enemy attacks resolved, ending enemy turn.");
-                StartCoroutine(DelayedEndEnemyTurn());
-            }
+            activeEnemyAttacks.Add(attack);
+            Attack.OnAttackDestroyed -= HandleEnemyAttackDestroyed; 
+            Attack.OnAttackDestroyed += HandleEnemyAttackDestroyed;
         }
     }
+
     private IEnumerator DelayedEndEnemyTurn()
     {
         yield return new WaitForSeconds(0.5f);
         EndEnemyTurn();
     }
 
-    public void RegisterEnemyAttack(Attack attack)
+    public void CheckIfEnemyTurnShouldEnd()
     {
-        activeEnemyAttacks.Add(attack);
-        Attack.OnAttackDestroyed += HandleEnemyAttackDestroyed;
+        if (allEnemiesHaveCast && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
+        {
+            Debug.Log("Enemy turn ended via manual check.");
+            StartCoroutine(DelayedEndEnemyTurn());
+        }
     }
+
 }

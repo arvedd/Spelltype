@@ -78,8 +78,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1141291207
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 3752433217845318590, guid: 25846fceeea37f64eadbdd1242d65414, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -176,6 +176,7 @@ MonoBehaviour:
   spellData: {fileID: 11400000, guid: 062eda66dee00f143bfd29cd5cc9ac7f, type: 2}
   caster: 1
   counterTextInstance: {fileID: 3135754680848676296}
+  TextOffest: 0.6
 --- !u!50 &6114697187986774526
 Rigidbody2D:
   serializedVersion: 5
@@ -281,8 +282,8 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -45093889
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &3135754680848676296

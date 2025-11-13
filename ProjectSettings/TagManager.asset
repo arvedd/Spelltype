@@ -42,5 +42,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Characters
+    uniqueID: 1088270387
+    locked: 0
+  - name: Spells
+    uniqueID: 1141291207
+    locked: 0
+  - name: Effects
+    uniqueID: 4130205021
+    locked: 0
+  - name: Text
+    uniqueID: 4249873407
+    locked: 0
   m_RenderingLayers:
   - Default

@@ -18,6 +18,7 @@ public class Attack : MonoBehaviour
     [SerializeField] private TextMeshPro counterTextInstance;
     private string activeCounterWord;
     private int counterProgress = 0;
+    public float TextOffest = 0.6f;
 
     public static event Action<Attack> OnAttackDestroyed;
 
@@ -50,7 +51,7 @@ public class Attack : MonoBehaviour
 
         // Keep text slightly above spell
         if (counterTextInstance != null)
-            counterTextInstance.transform.localPosition = new Vector3(0f, 0.6f, 0f);
+            counterTextInstance.transform.localPosition = new Vector3(0f, TextOffest, 0f);
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -60,7 +61,10 @@ public class Attack : MonoBehaviour
             Enemy enemy = collision.GetComponent<Enemy>();
             if (enemy != null)
             {
-                Instantiate(Explosion, transform.position, transform.rotation);
+                if (Explosion != null)
+                {
+                    Instantiate(Explosion, transform.position, transform.rotation);
+                }
                 enemy.SpellDamage(spellData);
                 Destroy(gameObject);
             }
@@ -70,7 +74,10 @@ public class Attack : MonoBehaviour
             Player player = collision.GetComponent<Player>();
             if (player != null)
             {
-                Instantiate(Explosion, transform.position, transform.rotation);
+                if (Explosion != null)
+                {
+                    Instantiate(Explosion, transform.position, transform.rotation);
+                }
                 player.TakeDamage(damage);
                 OnAttackDestroyed?.Invoke(this);
                 Destroy(gameObject);

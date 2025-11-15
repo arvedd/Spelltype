@@ -168,12 +168,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4252530064130196430}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Explosion: {fileID: 3586691902595377889, guid: f6cb0a8c197be024e9cb33805b500cf5, type: 3}
-  spellData: {fileID: 11400000, guid: 5a782dda65e70504b8f427555c852728, type: 2}
-  caster: 0
+  Explosion: {fileID: 3586691902595377889, guid: 9b3d517299d73f44eb0b85158a4ec77a, type: 3}
+  spellData: {fileID: 11400000, guid: 44fa0e1580b13684c92ad8dac4763d30, type: 2}
 --- !u!50 &1559914648084086510
 Rigidbody2D:
   serializedVersion: 5

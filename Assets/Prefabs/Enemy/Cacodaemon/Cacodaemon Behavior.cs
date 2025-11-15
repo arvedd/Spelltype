@@ -16,7 +16,7 @@ public class CacodaemonBehavior : EnemyBehavior
 
 
     [Header("Misc")]
-    public float chargeTime = 3f;
+    public float chargeTime = 7f;
     private Animator animator;
     private bool chargeInterrupted = false;
     private int attackPhase = 0;
@@ -63,6 +63,7 @@ public class CacodaemonBehavior : EnemyBehavior
         Attack chargeAtk = chargeObj.GetComponent<Attack>();
         if (chargeAtk != null)
         {
+            AudioManager.Instance.PlaySpellSFX(ChargeSpellData, false);
             chargeAtk.Initialize(ChargeSpellData.spellDamage, ChargeSpellData.spellSpeed, Vector2.left, Caster.Enemy);
             battle.RegisterEnemyAttack(chargeAtk);
             Attack.OnAttackDestroyed += OnChargeDestroyed;
@@ -97,6 +98,8 @@ public class CacodaemonBehavior : EnemyBehavior
         yield return new WaitForSeconds(0.5f);
 
         GameObject laserObj = Instantiate(LaserSpellData.spellPrefab, castPoint.position, Quaternion.identity);
+        AudioManager.Instance.PlaySpellSFX(LaserSpellData, false);
+        
         float laserDuration = 1.0f;
 
         if (battle != null)
@@ -113,7 +116,6 @@ public class CacodaemonBehavior : EnemyBehavior
             Destroy(laserObj);
 
         animator.SetTrigger("ChargeEnd");
-        // End enemy turn
         NotifyBattleSystemTurnEndCheck();
 
     }
@@ -123,7 +125,7 @@ public class CacodaemonBehavior : EnemyBehavior
         
         yield return new WaitForSeconds(0.3f);
 
-        int shotCount = 3;
+        int shotCount = 2;
         for (int i = 0; i < shotCount; i++)
         {
             animator.Play("Cacodaemon Attack");
@@ -132,6 +134,7 @@ public class CacodaemonBehavior : EnemyBehavior
 
             if (atk != null)
             {
+                AudioManager.Instance.PlaySpellSFX(MultiFireballData, false);
                 atk.Initialize(MultiFireballData.spellDamage, MultiFireballData.spellSpeed, Vector2.left, Caster.Enemy);
                 battle.RegisterEnemyAttack(atk);
             }

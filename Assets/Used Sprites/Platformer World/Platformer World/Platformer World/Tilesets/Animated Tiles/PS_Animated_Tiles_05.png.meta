@@ -1,0 +1,3042 @@
+fileFormatVersion: 2
+guid: ff88ecff05ac43348b10f4cc27f8b4b5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2263661514011373984
+    second: PS_Animated_Tiles_05_0
+  - first:
+      213: 6956065312347651537
+    second: PS_Animated_Tiles_05_1
+  - first:
+      213: 323613954450530085
+    second: PS_Animated_Tiles_05_2
+  - first:
+      213: -3705172252167529498
+    second: PS_Animated_Tiles_05_3
+  - first:
+      213: -8797374821846858176
+    second: PS_Animated_Tiles_05_4
+  - first:
+      213: 3698753623982632399
+    second: PS_Animated_Tiles_05_5
+  - first:
+      213: 3791170334171060059
+    second: PS_Animated_Tiles_05_6
+  - first:
+      213: -4242671329817965230
+    second: PS_Animated_Tiles_05_7
+  - first:
+      213: -4387222786363379189
+    second: PS_Animated_Tiles_05_8
+  - first:
+      213: -6515342763725781475
+    second: PS_Animated_Tiles_05_9
+  - first:
+      213: 8506533136364080441
+    second: PS_Animated_Tiles_05_10
+  - first:
+      213: -5407584860916453524
+    second: PS_Animated_Tiles_05_11
+  - first:
+      213: 2542644875345882899
+    second: PS_Animated_Tiles_05_12
+  - first:
+      213: -1556569089498984602
+    second: PS_Animated_Tiles_05_13
+  - first:
+      213: 502947727158911545
+    second: PS_Animated_Tiles_05_14
+  - first:
+      213: 2494759321654714707
+    second: PS_Animated_Tiles_05_15
+  - first:
+      213: -3499811806384824498
+    second: PS_Animated_Tiles_05_16
+  - first:
+      213: 1541780019280774227
+    second: PS_Animated_Tiles_05_17
+  - first:
+      213: -985479413761694112
+    second: PS_Animated_Tiles_05_18
+  - first:
+      213: 5333071459105664869
+    second: PS_Animated_Tiles_05_19
+  - first:
+      213: 3639271746889232464
+    second: PS_Animated_Tiles_05_20
+  - first:
+      213: -8784278295895750511
+    second: PS_Animated_Tiles_05_21
+  - first:
+      213: 6470469667892359256
+    second: PS_Animated_Tiles_05_22
+  - first:
+      213: -2493496335057421265
+    second: PS_Animated_Tiles_05_23
+  - first:
+      213: 4831155825832433825
+    second: PS_Animated_Tiles_05_24
+  - first:
+      213: -7924143319410936925
+    second: PS_Animated_Tiles_05_25
+  - first:
+      213: 7435984826546799132
+    second: PS_Animated_Tiles_05_26
+  - first:
+      213: -4853985269603440861
+    second: PS_Animated_Tiles_05_27
+  - first:
+      213: -2929435844254570783
+    second: PS_Animated_Tiles_05_28
+  - first:
+      213: 5234758583618396786
+    second: PS_Animated_Tiles_05_29
+  - first:
+      213: 4248631434732603142
+    second: PS_Animated_Tiles_05_30
+  - first:
+      213: -2605390652712622894
+    second: PS_Animated_Tiles_05_31
+  - first:
+      213: -4670891350749860890
+    second: PS_Animated_Tiles_05_32
+  - first:
+      213: -1299246231516895806
+    second: PS_Animated_Tiles_05_33
+  - first:
+      213: 7178039860441730394
+    second: PS_Animated_Tiles_05_34
+  - first:
+      213: 2430804666475264521
+    second: PS_Animated_Tiles_05_35
+  - first:
+      213: 5278532052097415323
+    second: PS_Animated_Tiles_05_36
+  - first:
+      213: -5421681410682703655
+    second: PS_Animated_Tiles_05_37
+  - first:
+      213: -8010628003972219016
+    second: PS_Animated_Tiles_05_38
+  - first:
+      213: 2991088285529546031
+    second: PS_Animated_Tiles_05_39
+  - first:
+      213: -7042084901479924766
+    second: PS_Animated_Tiles_05_40
+  - first:
+      213: 5515356660865576581
+    second: PS_Animated_Tiles_05_41
+  - first:
+      213: -2775707836653287815
+    second: PS_Animated_Tiles_05_42
+  - first:
+      213: 7335496546890814177
+    second: PS_Animated_Tiles_05_43
+  - first:
+      213: 8328265485616401660
+    second: PS_Animated_Tiles_05_44
+  - first:
+      213: -1327836068113414663
+    second: PS_Animated_Tiles_05_45
+  - first:
+      213: -8563154687256542301
+    second: PS_Animated_Tiles_05_46
+  - first:
+      213: -512026798523624793
+    second: PS_Animated_Tiles_05_47
+  - first:
+      213: 2897890333771727193
+    second: PS_Animated_Tiles_05_48
+  - first:
+      213: 6067941515159659245
+    second: PS_Animated_Tiles_05_49
+  - first:
+      213: -7434209057656096869
+    second: PS_Animated_Tiles_05_50
+  - first:
+      213: -5720127876426577411
+    second: PS_Animated_Tiles_05_51
+  - first:
+      213: -5391279140229502760
+    second: PS_Animated_Tiles_05_52
+  - first:
+      213: 1406705192550991778
+    second: PS_Animated_Tiles_05_53
+  - first:
+      213: -6719986394549362455
+    second: PS_Animated_Tiles_05_54
+  - first:
+      213: -7586775261079125395
+    second: PS_Animated_Tiles_05_55
+  - first:
+      213: 6251768233638898385
+    second: PS_Animated_Tiles_05_56
+  - first:
+      213: 8446298093603976348
+    second: PS_Animated_Tiles_05_57
+  - first:
+      213: -3532406161606178522
+    second: PS_Animated_Tiles_05_58
+  - first:
+      213: 4110979162680346291
+    second: PS_Animated_Tiles_05_59
+  - first:
+      213: -5459370373703945818
+    second: PS_Animated_Tiles_05_60
+  - first:
+      213: -7394478625997711582
+    second: PS_Animated_Tiles_05_61
+  - first:
+      213: -3936046640516085828
+    second: PS_Animated_Tiles_05_62
+  - first:
+      213: -20566379569995503
+    second: PS_Animated_Tiles_05_63
+  - first:
+      213: 9113189485414560660
+    second: PS_Animated_Tiles_05_64
+  - first:
+      213: 2174904714237111797
+    second: PS_Animated_Tiles_05_65
+  - first:
+      213: -183763142828738246
+    second: PS_Animated_Tiles_05_66
+  - first:
+      213: -8259138993921170660
+    second: PS_Animated_Tiles_05_67
+  - first:
+      213: 2779011613264986711
+    second: PS_Animated_Tiles_05_68
+  - first:
+      213: -4729350106102453549
+    second: PS_Animated_Tiles_05_69
+  - first:
+      213: -1401951802911236140
+    second: PS_Animated_Tiles_05_70
+  - first:
+      213: 8746771144276719850
+    second: PS_Animated_Tiles_05_71
+  - first:
+      213: 2547721554200905586
+    second: PS_Animated_Tiles_05_72
+  - first:
+      213: 9037611331841648910
+    second: PS_Animated_Tiles_05_73
+  - first:
+      213: 1297101116766087119
+    second: PS_Animated_Tiles_05_74
+  - first:
+      213: -1888347377277684624
+    second: PS_Animated_Tiles_05_75
+  - first:
+      213: -1781766069094211628
+    second: PS_Animated_Tiles_05_76
+  - first:
+      213: 1306424288271148070
+    second: PS_Animated_Tiles_05_77
+  - first:
+      213: 2968857806379699969
+    second: PS_Animated_Tiles_05_78
+  - first:
+      213: -687882762914201569
+    second: PS_Animated_Tiles_05_79
+  - first:
+      213: 5982607345059330395
+    second: PS_Animated_Tiles_05_80
+  - first:
+      213: 282844613745390807
+    second: PS_Animated_Tiles_05_81
+  - first:
+      213: 9069143836294358876
+    second: PS_Animated_Tiles_05_82
+  - first:
+      213: -63060646200181271
+    second: PS_Animated_Tiles_05_83
+  - first:
+      213: 8207819586638496333
+    second: PS_Animated_Tiles_05_84
+  - first:
+      213: -1013956624300745337
+    second: PS_Animated_Tiles_05_85
+  - first:
+      213: -816337416239644374
+    second: PS_Animated_Tiles_05_86
+  - first:
+      213: 11824277475968061
+    second: PS_Animated_Tiles_05_87
+  - first:
+      213: -6950253285689653406
+    second: PS_Animated_Tiles_05_88
+  - first:
+      213: 5301447681064063877
+    second: PS_Animated_Tiles_05_89
+  - first:
+      213: -2308936973224562593
+    second: PS_Animated_Tiles_05_90
+  - first:
+      213: 8604649624712647135
+    second: PS_Animated_Tiles_05_91
+  - first:
+      213: 4595314755066247243
+    second: PS_Animated_Tiles_05_92
+  - first:
+      213: 3999923615765376078
+    second: PS_Animated_Tiles_05_93
+  - first:
+      213: -5319022322353304613
+    second: PS_Animated_Tiles_05_94
+  - first:
+      213: 9186796540225747709
+    second: PS_Animated_Tiles_05_95
+  - first:
+      213: -6824659105577193993
+    second: PS_Animated_Tiles_05_96
+  - first:
+      213: 1734729911395174582
+    second: PS_Animated_Tiles_05_97
+  - first:
+      213: -8434661053871251891
+    second: PS_Animated_Tiles_05_98
+  - first:
+      213: 1925446921444173836
+    second: PS_Animated_Tiles_05_99
+  - first:
+      213: -9148269033768811123
+    second: PS_Animated_Tiles_05_100
+  - first:
+      213: 897084412664537014
+    second: PS_Animated_Tiles_05_101
+  - first:
+      213: -2372794113899062105
+    second: PS_Animated_Tiles_05_102
+  - first:
+      213: 2228200227182766863
+    second: PS_Animated_Tiles_05_103
+  - first:
+      213: -1639146404860726745
+    second: PS_Animated_Tiles_05_104
+  - first:
+      213: -2332822314038737646
+    second: PS_Animated_Tiles_05_105
+  - first:
+      213: -4665643013943050402
+    second: PS_Animated_Tiles_05_106
+  - first:
+      213: -769026244325358254
+    second: PS_Animated_Tiles_05_107
+  - first:
+      213: -4185202311521798635
+    second: PS_Animated_Tiles_05_108
+  - first:
+      213: -8724579439527411132
+    second: PS_Animated_Tiles_05_109
+  - first:
+      213: 7275922042610321978
+    second: PS_Animated_Tiles_05_110
+  - first:
+      213: 663621927386443956
+    second: PS_Animated_Tiles_05_111
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_0
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 143
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e01ada8dbd590e0800000000000000
+      internalID: -2263661514011373984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 143
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ddf5e8fb88e88060800000000000000
+      internalID: 6956065312347651537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_2
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 143
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f126f4d25bd7400800000000000000
+      internalID: 323613954450530085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 143
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb9beda775949cc0800000000000000
+      internalID: -3705172252167529498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_4
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 143
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0464ad3c53279e580800000000000000
+      internalID: -8797374821846858176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_5
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 143
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcd6c2df2dc945330800000000000000
+      internalID: 3698753623982632399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_6
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 143
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57d34b1551fc9430800000000000000
+      internalID: 3791170334171060059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_7
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 63
+        width: 39
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25d477777e00f15c0800000000000000
+      internalID: -4242671329817965230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_8
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 131
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02bf4cce147d13c0800000000000000
+      internalID: -4387222786363379189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_9
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 144
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d168632b64ad495a0800000000000000
+      internalID: -6515342763725781475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_10
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 131
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93d021761d64d0670800000000000000
+      internalID: 8506533136364080441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_11
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 144
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f6b48383664f4b0800000000000000
+      internalID: -5407584860916453524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_12
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 132
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f65f8ea0a494320800000000000000
+      internalID: 2542644875345882899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_13
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 132
+        width: 11
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f4f0009a4f56ae0800000000000000
+      internalID: -1556569089498984602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_14
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 132
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932a5e90b44daf600800000000000000
+      internalID: 502947727158911545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_15
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 132
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351e25f926a2f9220800000000000000
+      internalID: 2494759321654714707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_16
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 132
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fd6b374bb2e6fc0800000000000000
+      internalID: -3499811806384824498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 63
+        width: 17
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 354860342c0856510800000000000000
+      internalID: 1541780019280774227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0662649c1bfd252f0800000000000000
+      internalID: -985479413761694112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f64c97c30e20a40800000000000000
+      internalID: 5333071459105664869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_20
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 127
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050b2724f5a418230800000000000000
+      internalID: 3639271746889232464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 111
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198c5f45e69f71680800000000000000
+      internalID: -8784278295895750511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_22
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 127
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850f9a481e9bbc950800000000000000
+      internalID: 6470469667892359256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_23
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2cf92c5b42556dd0800000000000000
+      internalID: -2493496335057421265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 111
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a81d4580a6bb0340800000000000000
+      internalID: 4831155825832433825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_25
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 111
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3f93982a9c70290800000000000000
+      internalID: -7924143319410936925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 111
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12448d5dcce13760800000000000000
+      internalID: 7435984826546799132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_27
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 111
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327ee446d1e23acb0800000000000000
+      internalID: -4853985269603440861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_28
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6e8e6de9d8857d0800000000000000
+      internalID: -2929435844254570783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_29
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2726085623995a840800000000000000
+      internalID: 5234758583618396786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 100
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6078bc897cb26fa30800000000000000
+      internalID: 4248631434732603142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_31
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 100
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4e0fb510bc7dbd0800000000000000
+      internalID: -2605390652712622894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_32
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 100
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb2c1e5019ad2fb0800000000000000
+      internalID: -4670891350749860890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_33
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 100
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5aba6af6628fde0800000000000000
+      internalID: -1299246231516895806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 100
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d4931e8358d9360800000000000000
+      internalID: 7178039860441730394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 95
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90abe9717f3fbb120800000000000000
+      internalID: 2430804666475264521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 95
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98b7cc3fec114940800000000000000
+      internalID: 5278532052097415323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_37
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 95
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d03be67b7152c4b0800000000000000
+      internalID: -5421681410682703655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 95
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f7073c54884d090800000000000000
+      internalID: -8010628003972219016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 95
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d12deb2fa728920800000000000000
+      internalID: 2991088285529546031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 95
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebb529b71d754e90800000000000000
+      internalID: -7042084901479924766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 95
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e2a7459ab7a8c40800000000000000
+      internalID: 5515356660865576581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 95
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 976430ccd64ba79d0800000000000000
+      internalID: -2775707836653287815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 99
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e218888e3becc560800000000000000
+      internalID: 7335496546890814177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_44
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 99
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfccf498551f39370800000000000000
+      internalID: 8328265485616401660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f506289124929de0800000000000000
+      internalID: -1327836068113414663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_46
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 79
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a34a557e20992980800000000000000
+      internalID: -8563154687256542301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_47
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 79
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2d48ee65ae4e8f0800000000000000
+      internalID: -512026798523624793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_48
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 79
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9518086a7ef573820800000000000000
+      internalID: 2897890333771727193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 79
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2efe0a8a8a53450800000000000000
+      internalID: 6067941515159659245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_50
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 79
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97ba6c004264d890800000000000000
+      internalID: -7434209057656096869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_51
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 79
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9c8cfb0060e90b0800000000000000
+      internalID: -5720127876426577411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_52
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 79
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8a5a9af245e25b0800000000000000
+      internalID: -5391279140229502760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_53
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 80
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a703b96bee958310800000000000000
+      internalID: 1406705192550991778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_54
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 90
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e06d696affcdb2a0800000000000000
+      internalID: -6719986394549362455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_55
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6248a4b81c56b690800000000000000
+      internalID: -7586775261079125395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_56
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 90
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da2e10d51eb2c650800000000000000
+      internalID: 6251768233638898385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_57
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 81
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94f250ad57473570800000000000000
+      internalID: 8446298093603976348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_58
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 90
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629001fbf4f5afec0800000000000000
+      internalID: -3532406161606178522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_59
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 81
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6489e74c12d0930800000000000000
+      internalID: 4110979162680346291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_60
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1b512f19b6c34b0800000000000000
+      internalID: -5459370373703945818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_61
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 81
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22710360ed8816990800000000000000
+      internalID: -7394478625997711582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_62
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb74bac3f6a5069c0800000000000000
+      internalID: -3936046640516085828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_63
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1112a6b9cfee6bff0800000000000000
+      internalID: -20566379569995503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_64
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 81
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493b5f0ad8d887e70800000000000000
+      internalID: 9113189485414560660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_65
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 90
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fdec608050de2e10800000000000000
+      internalID: 2174904714237111797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_66
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 91
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3932ec2564237df0800000000000000
+      internalID: -183763142828738246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_67
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 81
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1360c408d4a16d80800000000000000
+      internalID: -8259138993921170660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_68
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 90
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7524853a658019620800000000000000
+      internalID: 2779011613264986711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_69
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3daae4bb229fd5eb0800000000000000
+      internalID: -4729350106102453549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_70
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfd14b53444b8ce0800000000000000
+      internalID: -1401951802911236140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_71
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8304a6306c26970800000000000000
+      internalID: 8746771144276719850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_72
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27740c051435b5320800000000000000
+      internalID: 2547721554200905586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_73
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09677c7f9b0c6d70800000000000000
+      internalID: 9037611331841648910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_74
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7ea96e79a300210800000000000000
+      internalID: 1297101116766087119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074b2d4b01e3bc5e0800000000000000
+      internalID: -1888347377277684624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_76
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df9bca4335e547e0800000000000000
+      internalID: -1781766069094211628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_77
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624285ce7f9512210800000000000000
+      internalID: 1306424288271148070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_78
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 79
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f48e9f170833920800000000000000
+      internalID: 2968857806379699969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_79
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f10826d85462476f0800000000000000
+      internalID: -687882762914201569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_80
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 70
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5977e0eead760350800000000000000
+      internalID: 5982607345059330395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_81
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 71
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d43de87daddce300800000000000000
+      internalID: 282844613745390807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_82
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c57af3bc4421cdd70800000000000000
+      internalID: 9069143836294358876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_83
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed7ee72da6ff1ff0800000000000000
+      internalID: -63060646200181271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_84
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42c41a5d6808e170800000000000000
+      internalID: 8207819586638496333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_85
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d56e682d3bde1f0800000000000000
+      internalID: -1013956624300745337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_86
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 63
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a210d20f179cba4f0800000000000000
+      internalID: -816337416239644374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_87
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d344ea22e120a2000800000000000000
+      internalID: 11824277475968061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_88
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 63
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2670a7fe57dbb8f90800000000000000
+      internalID: -6950253285689653406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_89
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 63
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5835421e396829940800000000000000
+      internalID: 5301447681064063877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_90
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 63
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f503f2e5e0205ffd0800000000000000
+      internalID: -2308936973224562593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_91
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 63
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd112b98e3bd96770800000000000000
+      internalID: 8604649624712647135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_92
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 63
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48b5d63c66d5cf30800000000000000
+      internalID: 4595314755066247243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_93
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 63
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4c24660655928730800000000000000
+      internalID: 3999923615765376078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_94
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb02c311690f26b0800000000000000
+      internalID: -5319022322353304613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_95
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfa71f397ce0e7f70800000000000000
+      internalID: 9186796540225747709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_96
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdafeab3b0f941a0800000000000000
+      internalID: -6824659105577193993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_97
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b844f5d9aff21810800000000000000
+      internalID: 1734729911395174582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_98
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e9e23d57012fa80800000000000000
+      internalID: -8434661053871251891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_99
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08ac8a06cf88ba10800000000000000
+      internalID: 1925446921444173836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_100
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85018c88c1da0180800000000000000
+      internalID: -9148269033768811123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_101
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bfd8663585137c00800000000000000
+      internalID: 897084412664537014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_102
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 18
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac98e33354221fd0800000000000000
+      internalID: -2372794113899062105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_103
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0b6ca51d482cee10800000000000000
+      internalID: 2228200227182766863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_104
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722fa6387059049e0800000000000000
+      internalID: -1639146404860726745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_105
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215cd97177620afd0800000000000000
+      internalID: -2332822314038737646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_106
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f3421066e404fb0800000000000000
+      internalID: -4665643013943050402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_107
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255c80c84bed355f0800000000000000
+      internalID: -769026244325358254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_108
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516799cfbac2be5c0800000000000000
+      internalID: -4185202311521798635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_109
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442ca4c79311ce680800000000000000
+      internalID: -8724579439527411132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_110
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 13
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a093b5c8449f460800000000000000
+      internalID: 7275922042610321978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PS_Animated_Tiles_05_111
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 17
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0770f70a8a53900800000000000000
+      internalID: 663621927386443956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PS_Animated_Tiles_05_0: -2263661514011373984
+      PS_Animated_Tiles_05_1: 6956065312347651537
+      PS_Animated_Tiles_05_10: 8506533136364080441
+      PS_Animated_Tiles_05_100: -9148269033768811123
+      PS_Animated_Tiles_05_101: 897084412664537014
+      PS_Animated_Tiles_05_102: -2372794113899062105
+      PS_Animated_Tiles_05_103: 2228200227182766863
+      PS_Animated_Tiles_05_104: -1639146404860726745
+      PS_Animated_Tiles_05_105: -2332822314038737646
+      PS_Animated_Tiles_05_106: -4665643013943050402
+      PS_Animated_Tiles_05_107: -769026244325358254
+      PS_Animated_Tiles_05_108: -4185202311521798635
+      PS_Animated_Tiles_05_109: -8724579439527411132
+      PS_Animated_Tiles_05_11: -5407584860916453524
+      PS_Animated_Tiles_05_110: 7275922042610321978
+      PS_Animated_Tiles_05_111: 663621927386443956
+      PS_Animated_Tiles_05_12: 2542644875345882899
+      PS_Animated_Tiles_05_13: -1556569089498984602
+      PS_Animated_Tiles_05_14: 502947727158911545
+      PS_Animated_Tiles_05_15: 2494759321654714707
+      PS_Animated_Tiles_05_16: -3499811806384824498
+      PS_Animated_Tiles_05_17: 1541780019280774227
+      PS_Animated_Tiles_05_18: -985479413761694112
+      PS_Animated_Tiles_05_19: 5333071459105664869
+      PS_Animated_Tiles_05_2: 323613954450530085
+      PS_Animated_Tiles_05_20: 3639271746889232464
+      PS_Animated_Tiles_05_21: -8784278295895750511
+      PS_Animated_Tiles_05_22: 6470469667892359256
+      PS_Animated_Tiles_05_23: -2493496335057421265
+      PS_Animated_Tiles_05_24: 4831155825832433825
+      PS_Animated_Tiles_05_25: -7924143319410936925
+      PS_Animated_Tiles_05_26: 7435984826546799132
+      PS_Animated_Tiles_05_27: -4853985269603440861
+      PS_Animated_Tiles_05_28: -2929435844254570783
+      PS_Animated_Tiles_05_29: 5234758583618396786
+      PS_Animated_Tiles_05_3: -3705172252167529498
+      PS_Animated_Tiles_05_30: 4248631434732603142
+      PS_Animated_Tiles_05_31: -2605390652712622894
+      PS_Animated_Tiles_05_32: -4670891350749860890
+      PS_Animated_Tiles_05_33: -1299246231516895806
+      PS_Animated_Tiles_05_34: 7178039860441730394
+      PS_Animated_Tiles_05_35: 2430804666475264521
+      PS_Animated_Tiles_05_36: 5278532052097415323
+      PS_Animated_Tiles_05_37: -5421681410682703655
+      PS_Animated_Tiles_05_38: -8010628003972219016
+      PS_Animated_Tiles_05_39: 2991088285529546031
+      PS_Animated_Tiles_05_4: -8797374821846858176
+      PS_Animated_Tiles_05_40: -7042084901479924766
+      PS_Animated_Tiles_05_41: 5515356660865576581
+      PS_Animated_Tiles_05_42: -2775707836653287815
+      PS_Animated_Tiles_05_43: 7335496546890814177
+      PS_Animated_Tiles_05_44: 8328265485616401660
+      PS_Animated_Tiles_05_45: -1327836068113414663
+      PS_Animated_Tiles_05_46: -8563154687256542301
+      PS_Animated_Tiles_05_47: -512026798523624793
+      PS_Animated_Tiles_05_48: 2897890333771727193
+      PS_Animated_Tiles_05_49: 6067941515159659245
+      PS_Animated_Tiles_05_5: 3698753623982632399
+      PS_Animated_Tiles_05_50: -7434209057656096869
+      PS_Animated_Tiles_05_51: -5720127876426577411
+      PS_Animated_Tiles_05_52: -5391279140229502760
+      PS_Animated_Tiles_05_53: 1406705192550991778
+      PS_Animated_Tiles_05_54: -6719986394549362455
+      PS_Animated_Tiles_05_55: -7586775261079125395
+      PS_Animated_Tiles_05_56: 6251768233638898385
+      PS_Animated_Tiles_05_57: 8446298093603976348
+      PS_Animated_Tiles_05_58: -3532406161606178522
+      PS_Animated_Tiles_05_59: 4110979162680346291
+      PS_Animated_Tiles_05_6: 3791170334171060059
+      PS_Animated_Tiles_05_60: -5459370373703945818
+      PS_Animated_Tiles_05_61: -7394478625997711582
+      PS_Animated_Tiles_05_62: -3936046640516085828
+      PS_Animated_Tiles_05_63: -20566379569995503
+      PS_Animated_Tiles_05_64: 9113189485414560660
+      PS_Animated_Tiles_05_65: 2174904714237111797
+      PS_Animated_Tiles_05_66: -183763142828738246
+      PS_Animated_Tiles_05_67: -8259138993921170660
+      PS_Animated_Tiles_05_68: 2779011613264986711
+      PS_Animated_Tiles_05_69: -4729350106102453549
+      PS_Animated_Tiles_05_7: -4242671329817965230
+      PS_Animated_Tiles_05_70: -1401951802911236140
+      PS_Animated_Tiles_05_71: 8746771144276719850
+      PS_Animated_Tiles_05_72: 2547721554200905586
+      PS_Animated_Tiles_05_73: 9037611331841648910
+      PS_Animated_Tiles_05_74: 1297101116766087119
+      PS_Animated_Tiles_05_75: -1888347377277684624
+      PS_Animated_Tiles_05_76: -1781766069094211628
+      PS_Animated_Tiles_05_77: 1306424288271148070
+      PS_Animated_Tiles_05_78: 2968857806379699969
+      PS_Animated_Tiles_05_79: -687882762914201569
+      PS_Animated_Tiles_05_8: -4387222786363379189
+      PS_Animated_Tiles_05_80: 5982607345059330395
+      PS_Animated_Tiles_05_81: 282844613745390807
+      PS_Animated_Tiles_05_82: 9069143836294358876
+      PS_Animated_Tiles_05_83: -63060646200181271
+      PS_Animated_Tiles_05_84: 8207819586638496333
+      PS_Animated_Tiles_05_85: -1013956624300745337
+      PS_Animated_Tiles_05_86: -816337416239644374
+      PS_Animated_Tiles_05_87: 11824277475968061
+      PS_Animated_Tiles_05_88: -6950253285689653406
+      PS_Animated_Tiles_05_89: 5301447681064063877
+      PS_Animated_Tiles_05_9: -6515342763725781475
+      PS_Animated_Tiles_05_90: -2308936973224562593
+      PS_Animated_Tiles_05_91: 8604649624712647135
+      PS_Animated_Tiles_05_92: 4595314755066247243
+      PS_Animated_Tiles_05_93: 3999923615765376078
+      PS_Animated_Tiles_05_94: -5319022322353304613
+      PS_Animated_Tiles_05_95: 9186796540225747709
+      PS_Animated_Tiles_05_96: -6824659105577193993
+      PS_Animated_Tiles_05_97: 1734729911395174582
+      PS_Animated_Tiles_05_98: -8434661053871251891
+      PS_Animated_Tiles_05_99: 1925446921444173836
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

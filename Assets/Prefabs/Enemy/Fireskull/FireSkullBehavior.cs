@@ -11,25 +11,35 @@ public class FireSkullBehavior : EnemyBehavior
 
     private void Start()
     {
-
         animator = enemy.GetComponent<Animator>();
         castPoint = enemy.castPoint;
     }
 
     public override IEnumerator DoAttack()
     {
-
         if (animator == null)
             animator = enemy.GetComponent<Animator>();
 
         if (castPoint == null)
             castPoint = enemy.castPoint;
 
-        int attackPhase = Random.Range(1, 2); // 0 = normal, 1 = multi
-        if (attackPhase == 0)
+        // Cek max attack berdasarkan enemy type
+        int maxAttacks = enemy.GetMaxAttacksPerTurn();
+
+        // Jika enemy biasa (maxAttacks = 1), selalu gunakan normal attack
+        if (maxAttacks == 1)
+        {
             yield return NormalFireballAttack();
+        }
         else
-            yield return MultiAttack();
+        {
+            // Elite/Boss bisa pakai multi attack
+            int attackPhase = Random.Range(0, 2); // 0 = normal, 1 = multi
+            if (attackPhase == 0)
+                yield return NormalFireballAttack();
+            else
+                yield return MultiAttack();
+        }
     }
 
     private IEnumerator NormalFireballAttack()
@@ -42,9 +52,8 @@ public class FireSkullBehavior : EnemyBehavior
 
         if (atk != null)
         {
+            AudioManager.Instance.PlaySpellSFX(normalFireballData, false);
             atk.Initialize(normalFireballData.spellDamage, normalFireballData.spellSpeed, Vector2.left, Caster.Enemy);
-
-
             battle.RegisterEnemyAttack(atk);
         }
     }
@@ -54,7 +63,10 @@ public class FireSkullBehavior : EnemyBehavior
         animator.SetTrigger("Attack");
         yield return new WaitForSeconds(0.3f);
 
-        int shotCount = 3;
+        // Jumlah shot dibatasi oleh max attacks enemy
+        int maxAttacks = enemy.GetMaxAttacksPerTurn();
+        int shotCount = Mathf.Min(3, maxAttacks); // Max 3 shot, tapi dibatasi enemy type
+        
         for (int i = 0; i < shotCount; i++)
         {
             GameObject obj = GameObject.Instantiate(multiFireballData.spellPrefab, castPoint.position, Quaternion.identity);
@@ -62,8 +74,8 @@ public class FireSkullBehavior : EnemyBehavior
 
             if (atk != null)
             {
+                AudioManager.Instance.PlaySpellSFX(multiFireballData, false);
                 atk.Initialize(multiFireballData.spellDamage, multiFireballData.spellSpeed, Vector2.left, Caster.Enemy);
-
                 battle.RegisterEnemyAttack(atk);
             }
 

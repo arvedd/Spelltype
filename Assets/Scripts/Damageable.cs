@@ -9,15 +9,17 @@ public class Damageable : MonoBehaviour
     {
         currentHP -= dmg;
 
+        if (currentHP < 0)
+            currentHP = 0;
+
         if (currentHP <= 0)
-        {
             Die();
-        }
     }
+
 
     public virtual void Die()
     {
-        Destroy(gameObject);
+        
         FindAnyObjectByType<BattleSystem>().CheckIfDied();
     }
 }

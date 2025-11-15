@@ -7,18 +7,67 @@ public class Player : Damageable
     public int currentAP;
     public int playerMaxHp;
     private Animator animator;
-    [SerializeField] private Healthbar healthbar;
-
 
     void Start()
     {
-        healthbar = GetComponentInChildren<Healthbar>();
-        currentHP = player.playerHealth;
+        animator = GetComponent<Animator>();
+
+        if (PlayerPrefs.HasKey("PlayerHP"))
+        {
+            currentHP = PlayerPrefs.GetInt("PlayerHP");
+            Debug.Log($"Player punya pref ");
+        }
+        else
+        {
+            currentHP = player.playerHealth;
+            Debug.Log("Player ga punya pref");
+        }
+
         playerMaxHp = player.playerMaxHealth;
-        healthbar.UpdateHealthBar(currentHP, playerMaxHp);
 
         currentAP = player.attackPoin;
-        animator = GetComponent<Animator>();
+    }
+
+    void OnDisable()
+    {
+        if (currentHP == 0 )
+        {
+            PlayerPrefs.SetInt("PlayerHP", 100);
+            PlayerPrefs.Save();
+        }
+        else
+        {
+            PlayerPrefs.SetInt("PlayerHP", currentHP);
+            PlayerPrefs.Save();
+        }
+    }
+
+    public void UseItem(ShopData item)
+    {
+        if (item == null)
+        {
+            Debug.LogWarning("Item is null!");
+            return;
+        }
+
+        if (item.restoreHealth > 0)
+        {
+            int healAmount = Mathf.RoundToInt(item.restoreHealth * currentHP);
+            Heal(healAmount);
+            HealAnim();
+            Debug.Log($"Player healed by {healAmount} HP using {item.itemName}");
+        }
+
+        if (item.restoreHealth > 0 && item.restoreAP > 0)
+        {
+            int healAmount = Mathf.RoundToInt(item.restoreHealth * currentHP);
+            int apAmount = Mathf.RoundToInt(item.restoreAP);
+            Heal(healAmount);
+            RestoreAP(apAmount);
+            HealAnim();
+        }
+        
+
     }
 
     public void UseAP(int cost)
@@ -29,15 +78,27 @@ public class Player : Damageable
     public void Heal(int amount)
     {
         currentHP = Mathf.Min(currentHP + amount, playerMaxHp);
-        healthbar.UpdateHealthBar(currentHP, playerMaxHp);
+    }
+
+    public void RestoreAP(int amount)
+    {
+        if (currentAP < 5)
+        {
+            currentAP += amount;
+        }
     }
 
     public override void TakeDamage(int dmg)
     {
         base.TakeDamage(dmg);
         animator.SetTrigger("Hurt");
-        healthbar.UpdateHealthBar(currentHP, playerMaxHp);
-        
+
+    }
+
+    public override void Die()
+    {
+        DeadAnim();
+        base.Die();
     }
 
     public void AttackAnim()
@@ -48,6 +109,16 @@ public class Player : Damageable
     public void HealAnim()
     {
         animator.SetTrigger("Heal");
+    }
+
+    public void DeadAnim()
+    {
+        animator.SetTrigger("Dead");
+    }
+
+    public void WinAnim()
+    {
+        animator.SetTrigger("Win");
     }
 
     

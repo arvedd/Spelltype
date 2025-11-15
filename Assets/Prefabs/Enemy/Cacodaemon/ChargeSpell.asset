@@ -17,10 +17,15 @@ MonoBehaviour:
   spellSpeed: 0
   spellCost: 0
   spellHeal: 0
+  cardImage: {fileID: 0}
   elementImage: {fileID: 0}
+  cardBadge: {fileID: 0}
+  cardAP: {fileID: 0}
   typeSpell: 0
   spellCategory: 0
   spellPrefab: {fileID: 8909912608629640619, guid: 190c696dfc402724db5d43e05f64c4ea, type: 3}
+  castSFX: {fileID: 8300000, guid: 80e835d8255f4354a8a4e4c55ee8eccb, type: 3}
+  impactSFX: {fileID: 0}
   counterWords:
   - Disintegration
   - Overloadsequence

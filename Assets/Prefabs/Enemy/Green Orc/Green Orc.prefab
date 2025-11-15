@@ -223,7 +223,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9096398593155088727}
   - component: {fileID: 1672220807105810633}
-  - component: {fileID: 4654606371161362280}
+  - component: {fileID: 6612056518119245836}
   m_Layer: 5
   m_Name: Healthbar
   m_TagString: Untagged
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &4654606371161362280
+--- !u!114 &6612056518119245836
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 3623351031470175429}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ff413826f083eb4aa531a8d881c3641, type: 3}
+  m_Script: {fileID: 11500000, guid: 66c522e72a5165849920aea0831e99e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   healthbar: {fileID: 1672220807105810633}
@@ -466,9 +466,9 @@ GameObject:
   - component: {fileID: 294788191930341584}
   - component: {fileID: 2809001988596384167}
   - component: {fileID: 4137708765653200278}
-  - component: {fileID: 5973404916162631069}
   - component: {fileID: 3892858029439079755}
   - component: {fileID: 5896093110734466964}
+  - component: {fileID: 9136923736110376865}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -621,25 +621,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &5973404916162631069
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7720758640297679890}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 165cc07341fd165439ae8c1483232a5b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentHP: 0
-  enemy: {fileID: 11400000, guid: 1ce21c0e89cfb6a4093e8214e3b0361c, type: 2}
-  spellData: {fileID: 11400000, guid: 062eda66dee00f143bfd29cd5cc9ac7f, type: 2}
-  castPoint: {fileID: 2398538054085795017}
-  healthbar: {fileID: 4654606371161362280}
-  enemyMaxHp: 0
-  animator: {fileID: 3892858029439079755}
 --- !u!95 &3892858029439079755
 Animator:
   serializedVersion: 7
@@ -676,3 +657,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   normalFireballData: {fileID: 11400000, guid: 062eda66dee00f143bfd29cd5cc9ac7f, type: 2}
   multiFireballData: {fileID: 11400000, guid: 062eda66dee00f143bfd29cd5cc9ac7f, type: 2}
+--- !u!114 &9136923736110376865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7720758640297679890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe2b8b1d9adc21c41ac9c2d1790ca375, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHP: 0
+  enemy: {fileID: 11400000, guid: ddb5a9becea5ffa49a9d65c4282b5edb, type: 2}
+  spellData: {fileID: 11400000, guid: 062eda66dee00f143bfd29cd5cc9ac7f, type: 2}
+  castPoint: {fileID: 2398538054085795017}
+  healthbar: {fileID: 6612056518119245836}
+  enemyMaxHp: 0
+  animator: {fileID: 3892858029439079755}

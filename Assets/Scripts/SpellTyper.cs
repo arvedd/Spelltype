@@ -2,6 +2,8 @@ using UnityEngine;
 using TMPro;
 using System;
 using System.Collections;
+using NUnit.Framework;
+using UnityEngine.SceneManagement;
 
 public class SpellTyper : MonoBehaviour
 {
@@ -13,6 +15,8 @@ public class SpellTyper : MonoBehaviour
     private string typedBuffer = "";
     public Player player;
     public event Action OnPlayerFinished;
+    private static bool isAttack = false;
+
 
     void Awake()
     {
@@ -52,13 +56,22 @@ public class SpellTyper : MonoBehaviour
 
     private void TryCastSpell()
     {
-        
+        if (typedBuffer == "menu")
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+
+
         if (typedBuffer == "end")
         {
-            OnPlayerFinished?.Invoke();
-            typedBuffer = "";
-            if (inputDisplay) inputDisplay.text = "";
-            return;
+            if (isAttack == false)
+            {
+                Debug.Log("Cannot end turn yet, spell still active!");
+                OnPlayerFinished?.Invoke();
+                typedBuffer = "";
+                if (inputDisplay) inputDisplay.text = "";
+                return;
+            }
         }
 
         SpellData spell = playerDeckManager.findspell(typedBuffer);
@@ -74,11 +87,15 @@ public class SpellTyper : MonoBehaviour
         if (player.currentAP < spell.spellCost)
         {
             Debug.Log("Not enough AP.");
+            inputDisplay.color = Color.red;
+            StartCoroutine(ResetInputColor());
             return;
         }
 
         if (!handManager.HasCardInHand(typedBuffer))
         {
+            inputDisplay.color = Color.red;
+            StartCoroutine(ResetInputColor());
             Debug.Log("You don't have that spell card in your hand!");
             return;
         }
@@ -89,10 +106,15 @@ public class SpellTyper : MonoBehaviour
         {
             case SpellCategory.Attack:
                 CastAttackSpell(spell);
+                isAttack = true;
                 break;
             case SpellCategory.Heal:
                 CastHealSpell(spell);
+                isAttack = true;
                 break;
+            // case SpellCategory.Strike:
+            //     CastStrikeSpell(spell);
+            //     break;
         }
 
 
@@ -109,16 +131,36 @@ public class SpellTyper : MonoBehaviour
         Attack atk = obj.GetComponent<Attack>();
         if (atk != null)
         {
+            AudioManager.Instance.PlaySpellSFX(spell, false);
+
+
             player.AttackAnim();
             Vector2 dir = Vector2.right;
             atk.Initialize(spell.spellDamage, spell.spellSpeed, dir, Caster.Player);
         }
     }
+
+    // private void CastStrikeSpell(SpellData spell)
+    // {
+    //     Transform strikePoint = handManager.currentTargetEnemy.strikePoint;  
+
+    //     GameObject obj = Instantiate(spell.spellPrefab, strikePoint.position, Quaternion.identity);
+
+    //     Attack atk = obj.GetComponent<Attack>();
+    //     if (atk != null)
+    //     {
+    //         player.AttackAnim();
+    //         Vector2 dir = Vector2.down;
+    //         atk.Initialize(spell.spellDamage, spell.spellSpeed, dir, Caster.Player);
+    //     }
+    // }
     
     private void CastHealSpell(SpellData spell)
     {
         GameObject healEffect = Instantiate(spell.spellPrefab, castHealPoint.position, Quaternion.identity);
         Animator anim = healEffect.GetComponent<Animator>();
+
+        AudioManager.Instance.PlaySpellSFX(spell, false);
 
         player.HealAnim();
         anim.Play("CurialHeal");
@@ -137,6 +179,15 @@ public class SpellTyper : MonoBehaviour
         
     }
 
- 
+    public void SetAttackFlag(bool value)
+    {
+        isAttack = value;
+        Debug.Log("isAttack = " + isAttack);
+    }
 
+    public void ClearBuffer()
+    {
+        typedBuffer = "";
+        if (inputDisplay != null) inputDisplay.text = "";
+    }
 }

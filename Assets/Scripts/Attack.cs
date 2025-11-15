@@ -19,6 +19,7 @@ public class Attack : MonoBehaviour
     private string activeCounterWord;
     private int counterProgress = 0;
     public float TextOffest = 0.6f;
+    private SpellTyper spellTyper;
 
     public static event Action<Attack> OnAttackDestroyed;
 
@@ -36,7 +37,7 @@ public class Attack : MonoBehaviour
         {
             activeCounterWord = spellData.counterWords[UnityEngine.Random.Range(0, spellData.counterWords.Length)];
             counterTextInstance.text = activeCounterWord;
-            counterTextInstance.alignment = TextAlignmentOptions.Center;
+            // counterTextInstance.alignment = TextAlignmentOptions.Center;
             counterTextInstance.gameObject.SetActive(true);
         }
         else if (counterTextInstance != null)
@@ -58,15 +59,20 @@ public class Attack : MonoBehaviour
     {
         if (caster == Caster.Player)
         {
+            SpellTyper st = FindAnyObjectByType<SpellTyper>();
             Enemy enemy = collision.GetComponent<Enemy>();
             if (enemy != null)
             {
                 if (Explosion != null)
                 {
+                    AudioManager.Instance.PlaySpellSFX(spellData, true);
                     Instantiate(Explosion, transform.position, transform.rotation);
                 }
                 enemy.SpellDamage(spellData);
                 Destroy(gameObject);
+
+                if (st != null)
+                    st.SetAttackFlag(false);
             }
         }
         else if (caster == Caster.Enemy)
@@ -76,6 +82,7 @@ public class Attack : MonoBehaviour
             {
                 if (Explosion != null)
                 {
+                    AudioManager.Instance.PlaySpellSFX(spellData, true);
                     Instantiate(Explosion, transform.position, transform.rotation);
                 }
                 player.TakeDamage(damage);

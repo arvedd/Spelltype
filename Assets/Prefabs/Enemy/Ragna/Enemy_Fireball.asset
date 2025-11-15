@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3806971701a5a1d489e706f2e92124c9, type: 3}
+  m_Name: Enemy_Fireball
+  m_EditorClassIdentifier: 
+  spellName: fireball
+  spellDamage: 15
+  spellSpeed: 3
+  spellCost: 0
+  spellHeal: 0
+  cardImage: {fileID: 0}
+  elementImage: {fileID: -2350200725867972502, guid: abc75158839de5244a430caea4001cc5, type: 3}
+  cardBadge: {fileID: 0}
+  typeSpell: 0
+  spellCategory: 0
+  spellPrefab: {fileID: 4252530064130196430, guid: b311889f542bd4441a79300b72015cf1, type: 3}
+  castSFX: {fileID: 8300000, guid: c68332fc41e201b46be000e2073a9b28, type: 3}
+  impactSFX: {fileID: 8300000, guid: d80b01cb8f7d2e44384906a823b6af02, type: 3}
+  counterWords:
+  - ashstorm
+  - heatbound
+  - wildfire
+  - firestorm

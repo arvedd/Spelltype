@@ -17,7 +17,13 @@ MonoBehaviour:
   spellSpeed: 7
   spellCost: 1
   spellHeal: 0
+  cardImage: {fileID: 2990834879400260838, guid: f555429eb3c84a443b8604e2aaaca88b, type: 3}
   elementImage: {fileID: 1472380242859999779, guid: a12c3088532fa98418dcf746bf06deed, type: 3}
+  cardBadge: {fileID: 1967501279727306244, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
+  cardAP: {fileID: 1967501279727306244, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
   typeSpell: 2
   spellCategory: 0
-  spellPrefab: {fileID: 4590801902712024796, guid: ddae81e0d4580824e8d3c19f2a76a60a, type: 3}
+  spellPrefab: {fileID: 4590801902712024796, guid: 18e44fb216278784d9229d0b678a2ef5, type: 3}
+  castSFX: {fileID: 8300000, guid: 84227b507086cc14a9e280351d109854, type: 3}
+  impactSFX: {fileID: 8300000, guid: 24a67651715a364469517bfaaabb3d0e, type: 3}
+  counterWords: []

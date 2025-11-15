@@ -4,6 +4,8 @@ public class CounterInputManager : MonoBehaviour
 {
     void Update()
     {
+        if (PauseManager.IsPaused) return;
+
         if (Input.anyKeyDown)
         {
             string input = Input.inputString.ToLower();

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3806971701a5a1d489e706f2e92124c9, type: 3}
+  m_Name: SpellData_Waterblast
+  m_EditorClassIdentifier: 
+  spellName: waterblast
+  spellDamage: 30
+  spellSpeed: 7
+  spellCost: 3
+  spellHeal: 0
+  cardImage: {fileID: -6737870746598048797, guid: be7fabb328fd9614c81df8652a86a6a6, type: 3}
+  elementImage: {fileID: 3243752937280222235, guid: 23affd32992beaa448f4a56f851514f9, type: 3}
+  cardBadge: {fileID: 7915956377670714453, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
+  cardAP: {fileID: 7915956377670714453, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
+  typeSpell: 1
+  spellCategory: 0
+  spellPrefab: {fileID: 659909454226650055, guid: caf35027b98859d48b2be1d486d8de20, type: 3}
+  castSFX: {fileID: 8300000, guid: 43bf502fdc97893499462fb7e7fbdb8f, type: 3}
+  impactSFX: {fileID: 8300000, guid: e44c8a9be9091694fa56af946ee114b9, type: 3}
+  counterWords: []

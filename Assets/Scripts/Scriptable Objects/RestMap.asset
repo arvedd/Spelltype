@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: RestMap
   m_EditorClassIdentifier: 
   mapName: Rest
-  mapSprite: {fileID: 3922947334420469022, guid: 05b084fbbca2fd74892b8d80436d1e90, type: 3}
+  mapSprite: {fileID: 21300000, guid: 39eab96ec27c8d542b5c846a58f15cdc, type: 3}
   mapType: 4

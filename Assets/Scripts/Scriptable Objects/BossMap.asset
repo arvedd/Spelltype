@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: BossMap
   m_EditorClassIdentifier: 
   mapName: Boss
-  mapSprite: {fileID: 8039099757177047440, guid: 0d7adc153cb0a5a418110035bbe9327f, type: 3}
-  mapType: 0
+  mapSprite: {fileID: 21300000, guid: 5aaf193720a8c4e408d61ef63a71cc39, type: 3}
+  mapType: 3

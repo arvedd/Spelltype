@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public enum BattleState { START, PLAYERTURN, ENEMYTURN, WON, LOST }
@@ -15,10 +16,12 @@ public class BattleSystem : MonoBehaviour
     public GameObject objectPlayer;
     public Transform playerBattleSpot;
     public SpellTyper playerTyper;
+    public PlayerLevel playerLevel;
     private Player playerData;
     
     [Header("Enemy Spawner")]
     public EnemySpawner enemySpawner;
+    public EnemyType enemyType;
     private List<Enemy> enemies = new List<Enemy>();
     private Enemy currentTargetEnemy;
     private int currentEnemyIndex = 0;
@@ -35,6 +38,7 @@ public class BattleSystem : MonoBehaviour
     private int enemiesToAct = 0;
     private int enemiesFinishedCasting = 0;
     private bool allEnemiesHaveCast = false;
+    private bool battleEnded = false;
 
 
     void Start()
@@ -53,6 +57,7 @@ public class BattleSystem : MonoBehaviour
         playerTyper = playerInstance.GetComponentInChildren<SpellTyper>();
         playerTyper.OnPlayerFinished += EndPlayerTurn;
         playerData = playerInstance.GetComponentInChildren<Player>();
+        playerLevel = playerInstance.GetComponentInChildren<PlayerLevel>();
         playerTyper.enabled = false;
         
         yield return new WaitForSeconds(1f);
@@ -122,6 +127,7 @@ public class BattleSystem : MonoBehaviour
             counterInputManager.enabled = false;
             playerTyper.enabled = true;
             playerData.currentAP = playerData.player.attackPoin;
+            Debug.Log($"{playerData.currentHP}");
             turnText.text = "Player Turn";
         }
     }
@@ -195,7 +201,7 @@ public class BattleSystem : MonoBehaviour
 
         if (allEnemiesHaveCast && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
         {
-            Debug.Log("All enemies finished acting with no active attacks — ending enemy turn (safety fallback).");
+            Debug.Log("All enemies finished acting with no active attacks, ending enemy turn (safety fallback).");
             StartCoroutine(DelayedEndEnemyTurn());
         }
     }
@@ -216,7 +222,7 @@ public class BattleSystem : MonoBehaviour
 
         if (allEnemiesHaveCast && enemiesFinishedCasting >= enemiesToAct && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
         {
-            Debug.Log("All enemies have acted AND all attacks resolved — ending enemy turn.");
+            Debug.Log("All enemies have acted AND all attacks resolved, ending enemy turn.");
             StartCoroutine(DelayedEndEnemyTurn());
         }
     }
@@ -261,17 +267,58 @@ public class BattleSystem : MonoBehaviour
 
     public void CheckIfDied()
     {
+       if (battleEnded) return;
+
         if (enemies.Count == 0 || enemies.TrueForAll(e => e == null || e.currentHP <= 0))
         {
+            battleEnded = true;
+            playerLevel.LevelUp();
             state = BattleState.WON;
             turnText.text = "YOU WIN!";
+            playerData.WinAnim();
+
+ 
+            int goldReward = 0;
+
+            switch (enemyType)
+            {
+                case EnemyType.Normal:
+                goldReward = UnityEngine.Random.Range(70, 91);
+                break;
+
+                case EnemyType.Elite:
+                goldReward = UnityEngine.Random.Range(91, 121);
+                break;
+
+                case EnemyType.Boss:
+                goldReward = 150;
+                break;
+            }
+
+            GoldManager.AddGold(goldReward);
+
+            Debug.Log("Gold Reward: " + goldReward);
+            Debug.Log("Total Gold: " + GoldManager.GetGold());
+
+            if (playerLevel.currentLevel > 5)
+            {
+                StartCoroutine(ChangeSceneAfterBattle("Ending"));
+            }
+             else
+            {
+                StartCoroutine(ChangeSceneAfterBattle("MapSelection"));
+            
+            }
+
             return;
         }
 
         if (playerData.currentHP <= 0)
         {
+            battleEnded = true;
             state = BattleState.LOST;
             turnText.text = "YOU LOST!";
+            StartCoroutine(ChangeSceneAfterBattle("MapSelection"));
             return;
         }
     }
@@ -328,6 +375,13 @@ public class BattleSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         EndEnemyTurn();
+    }
+
+    public IEnumerator ChangeSceneAfterBattle(string sceneName)
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(sceneName);
+        
     }
 
     public void CheckIfEnemyTurnShouldEnd()

@@ -17,8 +17,12 @@ MonoBehaviour:
   spellSpeed: 0
   spellCost: 0
   spellHeal: 0
+  cardImage: {fileID: 0}
   elementImage: {fileID: 0}
+  cardBadge: {fileID: 0}
   typeSpell: 0
   spellCategory: 0
   spellPrefab: {fileID: 3456693856958319898, guid: f86183f890a4d5e4787b72e6bc867f38, type: 3}
+  castSFX: {fileID: 8300000, guid: 0bb89434535c58c43819f6324fbcfe7f, type: 3}
+  impactSFX: {fileID: 0}
   counterWords: []

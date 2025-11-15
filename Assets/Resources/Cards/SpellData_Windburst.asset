@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3806971701a5a1d489e706f2e92124c9, type: 3}
+  m_Name: SpellData_Windburst
+  m_EditorClassIdentifier: 
+  spellName: windburst
+  spellDamage: 20
+  spellSpeed: 7
+  spellCost: 1
+  spellHeal: 0
+  cardImage: {fileID: 2990834879400260838, guid: f555429eb3c84a443b8604e2aaaca88b, type: 3}
+  elementImage: {fileID: 1535542170204786419, guid: 1b99eeacd1a2ec74e91abdbd700314a9, type: 3}
+  cardBadge: {fileID: 1967501279727306244, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
+  typeSpell: 2
+  spellCategory: 0
+  spellPrefab: {fileID: 4347228054938455510, guid: 8e2a75a06e66c534aabd0d2d32643f38, type: 3}
+  counterWords: []

@@ -3,41 +3,41 @@ using UnityEngine;
 
 public class SpellBook : MonoBehaviour
 {
-    public List<SpellData> unlockedSpell = new List<SpellData>();
+    public static SpellBook Instance;
 
-    public void UnlockSpell(SpellData spell)
+    [Header("Unlocked Spells")]
+    public List<SpellData> unlockedSpells = new List<SpellData>();
+
+    private void Awake()
     {
-        if (!unlockedSpell.Contains(spell))
+        if (Instance == null)
         {
-            unlockedSpell.Add(spell);
-            Debug.Log($"Unlocked: {spell.spellName}");
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Debug.Log($"{spell.spellName} sudah kamu punya!");
+            Destroy(gameObject);
+            return;
+        }
+    }
+
+    public void UnlockSpell(SpellData spell)
+    {
+        if (!unlockedSpells.Contains(spell))
+        {
+            unlockedSpells.Add(spell);
+            Debug.Log($"✨ Added to SpellBook: {spell.spellName}");
         }
     }
 
     public bool HasSpell(string spellName)
     {
-        foreach (SpellData spell in unlockedSpell)
-        {
-            if (spell.spellName.ToLower() == spellName)
-            {
-                return true;
-            }
-        }
-        return false;
+        return unlockedSpells.Exists(s => s.spellName.Equals(spellName, System.StringComparison.OrdinalIgnoreCase));
     }
+
     public SpellData GetSpell(string spellName)
     {
-        foreach (SpellData spell in unlockedSpell)
-        {
-            if (spell.spellName.ToLower() == spellName.ToLower())
-            {
-                return spell;
-            }
-        }   
-        return null;
+        return unlockedSpells.Find(s => s.spellName.Equals(spellName, System.StringComparison.OrdinalIgnoreCase));
     }
 }

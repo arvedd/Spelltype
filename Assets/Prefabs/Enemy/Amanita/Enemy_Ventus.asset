@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3806971701a5a1d489e706f2e92124c9, type: 3}
+  m_Name: Enemy_Ventus
+  m_EditorClassIdentifier: 
+  spellName: ventus
+  spellDamage: 15
+  spellSpeed: 3
+  spellCost: 0
+  spellHeal: 0
+  cardImage: {fileID: 0}
+  elementImage: {fileID: -7663805648475577251, guid: 3c9e667696243d240924cad48b81427d, type: 3}
+  cardBadge: {fileID: 0}
+  typeSpell: 2
+  spellCategory: 0
+  spellPrefab: {fileID: 4590801902712024796, guid: 862b239b2212eec438e72363735dc699, type: 3}
+  castSFX: {fileID: 8300000, guid: 84227b507086cc14a9e280351d109854, type: 3}
+  impactSFX: {fileID: 8300000, guid: 24a67651715a364469517bfaaabb3d0e, type: 3}
+  counterWords:
+  - mushroom
+  - woodland
+  - verdant
+  - wildflower

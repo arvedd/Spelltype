@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5e03a769954a9408ec63401c3f410f, type: 3}
   m_Name: MobMap
   m_EditorClassIdentifier: 
-  mapName: Battle(Mob)
-  mapSprite: {fileID: 7533774863159523364, guid: 51ff112cff27ca04fb769d17099d8b91, type: 3}
+  mapName: Mob
+  mapSprite: {fileID: 21300000, guid: 5621578a6ad1c0a459986d074efc4e0f, type: 3}
   mapType: 1

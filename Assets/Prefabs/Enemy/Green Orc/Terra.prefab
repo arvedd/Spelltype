@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 8483536002419387708}
   - component: {fileID: 5768648217067509009}
   - component: {fileID: -1388627278702017780}
-  - component: {fileID: 86487247528709087}
   - component: {fileID: 6114697187986774526}
+  - component: {fileID: 2745977343089871602}
   m_Layer: 0
   m_Name: Terra
   m_TagString: Untagged
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1141291207
-  m_SortingLayer: 2
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 3752433217845318590, guid: 25846fceeea37f64eadbdd1242d65414, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -160,23 +160,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.2864932, y: 0.63264555}
   m_EdgeRadius: 0
---- !u!114 &86487247528709087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3453524605822138424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Explosion: {fileID: 9142671769178947627, guid: 63ef37002931e284e8b3383b582b392e, type: 3}
-  spellData: {fileID: 11400000, guid: 062eda66dee00f143bfd29cd5cc9ac7f, type: 2}
-  caster: 1
-  counterTextInstance: {fileID: 3135754680848676296}
-  TextOffest: 0.6
 --- !u!50 &6114697187986774526
 Rigidbody2D:
   serializedVersion: 5
@@ -204,6 +187,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2745977343089871602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3453524605822138424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Explosion: {fileID: 9142671769178947627, guid: 63ef37002931e284e8b3383b582b392e, type: 3}
+  spellData: {fileID: 11400000, guid: 062eda66dee00f143bfd29cd5cc9ac7f, type: 2}
+  caster: 0
+  counterTextInstance: {fileID: 3135754680848676296}
+  TextOffest: 0.6
 --- !u!1 &3901439601185667336
 GameObject:
   m_ObjectHideFlags: 0
@@ -283,7 +283,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -45093889
-  m_SortingLayer: 4
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &3135754680848676296

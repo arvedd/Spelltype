@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: ShopMap
   m_EditorClassIdentifier: 
   mapName: Shop
-  mapSprite: {fileID: 111779283608777272, guid: 2c641be499e41bb4c85e680fdf96f5fd, type: 3}
+  mapSprite: {fileID: 21300000, guid: a19ef62d5e7566b4abd2a3ff650ed1c2, type: 3}
   mapType: 0

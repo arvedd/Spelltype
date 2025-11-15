@@ -1,52 +1,76 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Collections;
 
 public class SpellMenuController : MonoBehaviour
 {
     [Header("UI References")]
-    public TMP_InputField inputField;
-    public TMP_Text feedbackText;
+    public TMP_Text inputDisplay;
+    public AudioSource acceptSound;
+    private string typedBuffer = "";
+    private string[] validSpells = { "start", "credit", "exit" };
 
-    private string[] validSpells = { "start", "settings", "exit" };
-
-    void Start()
+    void Update()
     {
-        inputField.ActivateInputField();
-        feedbackText.text = "";
-        inputField.onSubmit.AddListener(OnSubmit);
+        InputString();
+    }
+
+    void InputString()
+    {
+        if (Input.anyKeyDown)
+        {
+            string keysPressed = Input.inputString.ToLower();
+
+            if (keysPressed == "\b" && typedBuffer.Length > 0)
+                typedBuffer = typedBuffer.Substring(0, typedBuffer.Length - 1);
+
+            else if (keysPressed == "\n" || keysPressed == "\r")
+                CheckInput(typedBuffer);
+
+            else if (keysPressed.Length == 1 && char.IsLetter(keysPressed[0]))
+                typedBuffer += keysPressed;
+
+            if (inputDisplay != null)
+                inputDisplay.text = typedBuffer;
+        }
     }
 
 
-    void OnSubmit(string spell)
+    void CheckInput(string spell)
     {
         spell = spell.ToLower().Trim();
         if (System.Array.Exists(validSpells, s => s == spell))
         {
-            feedbackText.text = $"> {spell.ToUpper()}...";
             switch (spell)
             {
                 case "start":
-                    StartCoroutine(LoadSceneAfterDelay("LevelSelection", 1f));
+                    PlaySound();
+                    StartCoroutine(LoadSceneAfterDelay("MapSelection", 1f));
+                    Debug.Log("start");
                     break;
-                case "settings":
-                    StartCoroutine(LoadSceneAfterDelay("SettingsScene", 1f));
+                case "credit":
+                    PlaySound();
+                    StartCoroutine(LoadSceneAfterDelay("Credit", 1f));
                     break;
                 case "exit":
+                    PlaySound();
                     Application.Quit();
                     break;
             }
-        }
-        else
-        {
-            feedbackText.text = "> The spell fizzles...";
+            typedBuffer = "";
         }
 
-        inputField.text = "";
-        inputField.ActivateInputField();
+        inputDisplay.text = "";
+        typedBuffer = "";
     }
 
-    System.Collections.IEnumerator LoadSceneAfterDelay(string sceneName, float delay)
+    void PlaySound()
+    {
+        acceptSound.Play();
+    }
+    
+    IEnumerator LoadSceneAfterDelay(string sceneName, float delay)
     {
         yield return new WaitForSeconds(delay);
         SceneManager.LoadScene(sceneName);

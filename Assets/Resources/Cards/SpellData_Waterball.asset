@@ -14,8 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellName: waterball
   spellDamage: 10
-  spellSpeed: 5
+  spellSpeed: 7
   spellCost: 1
+  spellHeal: 0
+  cardImage: {fileID: 4730069839182679705, guid: f555429eb3c84a443b8604e2aaaca88b, type: 3}
   elementImage: {fileID: 9078400949441492495, guid: 802027f28ad3f9845b5f99a75e04144d, type: 3}
+  cardBadge: {fileID: 7915956377670714453, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
+  cardAP: {fileID: 7915956377670714453, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
   typeSpell: 1
+  spellCategory: 0
   spellPrefab: {fileID: 6751884239596387401, guid: c8f4cf3921e411c43983faaa94451d90, type: 3}
+  castSFX: {fileID: 8300000, guid: 43bf502fdc97893499462fb7e7fbdb8f, type: 3}
+  impactSFX: {fileID: 8300000, guid: e44c8a9be9091694fa56af946ee114b9, type: 3}
+  counterWords: []

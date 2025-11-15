@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6310318620715810937}
   - component: {fileID: 1778158975812256228}
   - component: {fileID: 1886959596402890677}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 20, y: 5}
+  m_AnchoredPosition: {x: -0.06, y: 0.61}
+  m_SizeDelta: {x: 14.3683, y: 1.1174}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &1778158975812256228
 MeshRenderer:
@@ -79,7 +79,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -45093889
-  m_SortingLayer: 4
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &1886959596402890677
@@ -102,7 +102,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sample text
+  m_text: dadadadadadd
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3a6bec5cf6e5c9b4eaaa0a1b865f273f, type: 2}
   m_sharedMaterial: {fileID: -5535090927929170644, guid: 3a6bec5cf6e5c9b4eaaa0a1b865f273f, type: 2}
@@ -167,7 +167,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 0, w: 0.43173033}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -187,7 +187,7 @@ GameObject:
   - component: {fileID: 2457167317729400821}
   - component: {fileID: 8027843642114072721}
   - component: {fileID: 3892319505384634557}
-  - component: {fileID: 1445299887149663342}
+  - component: {fileID: 2615607379033662062}
   m_Layer: 0
   m_Name: Lazer Charge
   m_TagString: Untagged
@@ -252,8 +252,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -164762275
-  m_SortingLayer: 3
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 6937817954938267909, guid: 40be268f07ca21143a1674a31c41c279, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -288,7 +288,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1445299887149663342
+--- !u!114 &2615607379033662062
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,11 +297,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8909912608629640619}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f55579cf9070abc4b9e48096f82b56c0, type: 3}
+  m_Script: {fileID: 11500000, guid: 7aa547ecc88408749bd1ece0c4863c10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Explosion: {fileID: 0}
   spellData: {fileID: 11400000, guid: 19c23c7902ab38540886fe3eacc80db7, type: 2}
   caster: 1
   counterTextInstance: {fileID: 1886959596402890677}
-  TextOffest: 1
+  TextOffest: 2.9

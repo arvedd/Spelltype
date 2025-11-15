@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: e3c124e4963af3b4d9d7943e5c4ce0d4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -820489177016745774
+    second: PlatWitchSpecialStart_0
+  - first:
+      213: 1162237581655578252
+    second: PlatWitchSpecialStart_1
+  - first:
+      213: -3418421595898968423
+    second: PlatWitchSpecialStart_2
+  - first:
+      213: 2738394218157088274
+    second: PlatWitchSpecialStart_3
+  - first:
+      213: -2732866850664365980
+    second: PlatWitchSpecialStart_4
+  - first:
+      213: -6374652460071419304
+    second: PlatWitchSpecialStart_5
+  - first:
+      213: -4840432302991838688
+    second: PlatWitchSpecialStart_6
+  - first:
+      213: -6597333747372271348
+    second: PlatWitchSpecialStart_7
+  - first:
+      213: 3520991100457177522
+    second: PlatWitchSpecialStart_8
+  - first:
+      213: -805413680301592804
+    second: PlatWitchSpecialStart_9
+  - first:
+      213: -8174052235636364428
+    second: PlatWitchSpecialStart_10
+  - first:
+      213: -7253557043641833638
+    second: PlatWitchSpecialStart_11
+  - first:
+      213: 5325473706259959135
+    second: PlatWitchSpecialStart_12
+  - first:
+      213: -2472407896301572443
+    second: PlatWitchSpecialStart_13
+  - first:
+      213: -1315845663311056116
+    second: PlatWitchSpecialStart_14
+  - first:
+      213: 7883088409672081411
+    second: PlatWitchSpecialStart_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 3
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d04dddc0790d94f0800000000000000
+      internalID: -820489177016745774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 3
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8690373ce8112010800000000000000
+      internalID: 1162237581655578252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3
+        width: 39
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9960beb8ba35f80d0800000000000000
+      internalID: -3418421595898968423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e9c34680bb00620800000000000000
+      internalID: 2738394218157088274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 3
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460c5b32418e21ad0800000000000000
+      internalID: -2732866850664365980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 3
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8528fd6ac5fa887a0800000000000000
+      internalID: -6374652460071419304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 3
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02278d4577453dcb0800000000000000
+      internalID: -4840432302991838688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_7
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 3
+        width: 27
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c09dd2339ef8174a0800000000000000
+      internalID: -6597333747372271348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_8
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 3
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b1df0830c21dd030800000000000000
+      internalID: 3520991100457177522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_9
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 3
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f2268668892d4f0800000000000000
+      internalID: -805413680301592804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_10
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 3
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b2867bcceef8e80800000000000000
+      internalID: -8174052235636364428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_11
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 3
+        width: 27
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5722bfbc40365b90800000000000000
+      internalID: -7253557043641833638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_12
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 3
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5dce4ace12e7e940800000000000000
+      internalID: 5325473706259959135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_13
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 3
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aee2112e1e30bdd0800000000000000
+      internalID: -2472407896301572443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_14
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 3
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c033b13475d2dbde0800000000000000
+      internalID: -1315845663311056116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlatWitchSpecialStart_15
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 3
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300e087642b566d60800000000000000
+      internalID: 7883088409672081411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PlatWitchSpecialStart_0: -820489177016745774
+      PlatWitchSpecialStart_1: 1162237581655578252
+      PlatWitchSpecialStart_10: -8174052235636364428
+      PlatWitchSpecialStart_11: -7253557043641833638
+      PlatWitchSpecialStart_12: 5325473706259959135
+      PlatWitchSpecialStart_13: -2472407896301572443
+      PlatWitchSpecialStart_14: -1315845663311056116
+      PlatWitchSpecialStart_15: 7883088409672081411
+      PlatWitchSpecialStart_2: -3418421595898968423
+      PlatWitchSpecialStart_3: 2738394218157088274
+      PlatWitchSpecialStart_4: -2732866850664365980
+      PlatWitchSpecialStart_5: -6374652460071419304
+      PlatWitchSpecialStart_6: -4840432302991838688
+      PlatWitchSpecialStart_7: -6597333747372271348
+      PlatWitchSpecialStart_8: 3520991100457177522
+      PlatWitchSpecialStart_9: -805413680301592804
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

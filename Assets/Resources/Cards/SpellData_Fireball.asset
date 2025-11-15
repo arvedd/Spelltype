@@ -14,8 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spellName: fireball
   spellDamage: 10
-  spellSpeed: 5
+  spellSpeed: 7
   spellCost: 1
+  spellHeal: 0
+  cardImage: {fileID: -5888778427120200628, guid: f555429eb3c84a443b8604e2aaaca88b, type: 3}
   elementImage: {fileID: -2350200725867972502, guid: 36fff5f8053ff844aa034ce0003eddf3, type: 3}
+  cardBadge: {fileID: -1170750627889782531, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
+  cardAP: {fileID: -1170750627889782531, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
   typeSpell: 0
+  spellCategory: 0
   spellPrefab: {fileID: 4252530064130196430, guid: 22c6fd3ddc5549f4aaf574c215ad6c09, type: 3}
+  castSFX: {fileID: 8300000, guid: c68332fc41e201b46be000e2073a9b28, type: 3}
+  impactSFX: {fileID: 8300000, guid: d80b01cb8f7d2e44384906a823b6af02, type: 3}
+  counterWords: []

@@ -3,7 +3,7 @@
 <table>
   <tr>
     <td align="left" width="50%">
-      <img width="100%" alt="gif1" src="https://media.giphy.com/media/Vxcamtr1OBzeSyHkR7/giphy.gif">
+      <img width="100%" alt="gif1" src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcXZiMHlyNzdlaXhseGhpaHY2d2JsbDVnMmk5a2Z3ZGt4NWhjNGNqMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bp2kVKOiw0UYZKtuoz/giphy.gif">
     </td>
     <!-- <td align="right" width="50%">
       <img width="100%" alt="gif2" src="https://github.com/user-attachments/assets/f96b78ce-3f23-4b2e-a17f-c7c1581d5cf5">

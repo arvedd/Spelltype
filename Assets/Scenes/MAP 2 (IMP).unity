@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &36171122
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2764,7 +2764,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -6440,7 +6440,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1872759424}
   card: {fileID: 1682011122}
-  input: {fileID: 36171121}
   word: {fileID: 916285508}
   turnText: {fileID: 634832400}
   pointer: {fileID: 0}
@@ -7020,8 +7019,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.23181152, y: -459.8501}
-  m_SizeDelta: {x: -1377.3383, y: -991.7}
+  m_AnchoredPosition: {x: -0.23181152, y: -93.999985}
+  m_SizeDelta: {x: -1377.3383, y: -991.69995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &963155535
 GameObject:
@@ -7052,7 +7051,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960aded118fcff342b97b48465ceb169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minEnemies: 1
+  minEnemies: 3
   maxEnemies: 3
   enemyPool:
   - enemyPrefab: {fileID: 3557295288415227418, guid: a953da318a396ea45950f436ed914e36, type: 3}
@@ -9466,7 +9465,6 @@ MonoBehaviour:
   goldText: {fileID: 127259811}
   turnText: {fileID: 634832400}
   cards: {fileID: 1682011122}
-  bgInput: {fileID: 36171121}
   spellTyperObject: {fileID: 0}
   apIcons:
   - {fileID: 634352865}
@@ -12761,6 +12759,7 @@ GameObject:
   - component: {fileID: 2084815076}
   - component: {fileID: 2084815077}
   - component: {fileID: 2084815078}
+  - component: {fileID: 2084815079}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -12823,6 +12822,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c65a899528544624781ad56d9d8e0c8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2084815079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084815074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0750076027c1ec4bbcc9c0bfcdf2871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pfDamagePopup: {fileID: 2688580027201015736, guid: 06e1a61748b046749aa78e0060dfd9a6, type: 3}
 --- !u!1 &2113853384
 GameObject:
   m_ObjectHideFlags: 0

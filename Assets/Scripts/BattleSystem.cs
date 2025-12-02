@@ -165,7 +165,7 @@ public class BattleSystem : MonoBehaviour
                 // short delay between enemy starts 
                 if (enemiesFinishedCasting < enemiesToAct)
                 {
-                    float randomDelay = UnityEngine.Random.Range(0.5f, 0.7f);
+                    float randomDelay = UnityEngine.Random.Range(0.7f, 1f);
                     yield return new WaitForSeconds(randomDelay);
                 }
             }

@@ -107,14 +107,13 @@ public class SpellTyper : MonoBehaviour
             case SpellCategory.Attack:
                 CastAttackSpell(spell);
                 isAttack = true;
+                SetAttackFlag(true);
                 break;
             case SpellCategory.Heal:
-                CastHealSpell(spell);
                 isAttack = true;
+                CastHealSpell(spell);
+                
                 break;
-            // case SpellCategory.Strike:
-            //     CastStrikeSpell(spell);
-            //     break;
         }
 
 
@@ -131,32 +130,17 @@ public class SpellTyper : MonoBehaviour
         Attack atk = obj.GetComponent<Attack>();
         if (atk != null)
         {
+            Debug.Log($"Is Attack = {isAttack}!");
             AudioManager.Instance.PlaySpellSFX(spell, false);
-
-
             player.AttackAnim();
             Vector2 dir = Vector2.right;
             atk.Initialize(spell.spellDamage, spell.spellSpeed, dir, Caster.Player);
         }
     }
-
-    // private void CastStrikeSpell(SpellData spell)
-    // {
-    //     Transform strikePoint = handManager.currentTargetEnemy.strikePoint;  
-
-    //     GameObject obj = Instantiate(spell.spellPrefab, strikePoint.position, Quaternion.identity);
-
-    //     Attack atk = obj.GetComponent<Attack>();
-    //     if (atk != null)
-    //     {
-    //         player.AttackAnim();
-    //         Vector2 dir = Vector2.down;
-    //         atk.Initialize(spell.spellDamage, spell.spellSpeed, dir, Caster.Player);
-    //     }
-    // }
     
     private void CastHealSpell(SpellData spell)
     {
+        Debug.Log($"Is Attack = {isAttack}!");
         GameObject healEffect = Instantiate(spell.spellPrefab, castHealPoint.position, Quaternion.identity);
         Animator anim = healEffect.GetComponent<Animator>();
 
@@ -167,6 +151,9 @@ public class SpellTyper : MonoBehaviour
         
         player.Heal(spell.spellHeal);
         Debug.Log($"Player healed by {spell.spellHeal}!");
+
+        Destroy(healEffect, 1f);
+        SetAttackFlag(false);
         
     }
 

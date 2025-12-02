@@ -56,10 +56,27 @@ public class PauseMenuTyper : MonoBehaviour
         {
             PauseManager.IsPaused = false;
 
-            // Ambil PauseManager di scene ini
             PauseManager pm = FindAnyObjectByType<PauseManager>();
             if (pm != null)
-            pm.ResumeGame();   // ← INI PENTING BANGET
+            pm.ResumeGame();
+
+            SceneManager.LoadScene("MainMenu");
+        }
+
+        if (typedBuffer == "restartgame")
+        {
+            PauseManager.IsPaused = false;
+            Ending.isResetting = true;
+
+            PauseManager pm = FindAnyObjectByType<PauseManager>();
+            if (pm != null)
+            pm.ResumeGame();
+
+            PlayerPrefs.SetInt("PlayerHP", 100);
+            PlayerPrefs.DeleteKey("PlayerLevel");
+            PlayerPrefs.DeleteKey("PlayerGold");
+            PlayerPrefs.DeleteKey("InventoryData");
+            PlayerPrefs.Save();
 
             SceneManager.LoadScene("MainMenu");
         }

@@ -80,6 +80,13 @@ public class Inventory : MonoBehaviour
     public void LoadInventory(List<ShopData> allShopItems)
     {
 
+        if (Ending.isResetting) 
+        {
+            inventory.Clear();
+            itemDictionary.Clear();
+            return;
+        }
+
         if (PlayerPrefs.HasKey("InventoryData"))
         {
             string json = PlayerPrefs.GetString("InventoryData");
@@ -145,5 +152,13 @@ public class Inventory : MonoBehaviour
             SaveInventory();
             OnInventoryChanged?.Invoke();
         }
+    }
+
+    public void ResetInventory()
+    {
+        inventory.Clear();
+        itemDictionary.Clear();
+        PlayerPrefs.DeleteKey("InventoryData");
+        PlayerPrefs.Save();
     }
 }

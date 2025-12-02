@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyName: 2
   enemyWeakness: 1
-  enemyMaxHealth: 160
-  enemyHealth: 160
+  enemyMaxHealth: 200
+  enemyHealth: 200

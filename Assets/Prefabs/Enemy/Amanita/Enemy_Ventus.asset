@@ -13,20 +13,31 @@ MonoBehaviour:
   m_Name: Enemy_Ventus
   m_EditorClassIdentifier: 
   spellName: ventus
-  spellDamage: 15
+  spellDamage: 30
   spellSpeed: 3
   spellCost: 0
   spellHeal: 0
   cardImage: {fileID: 0}
   elementImage: {fileID: -7663805648475577251, guid: 3c9e667696243d240924cad48b81427d, type: 3}
   cardBadge: {fileID: 0}
+  cardAP: {fileID: 0}
   typeSpell: 2
   spellCategory: 0
   spellPrefab: {fileID: 4590801902712024796, guid: 862b239b2212eec438e72363735dc699, type: 3}
   castSFX: {fileID: 8300000, guid: 84227b507086cc14a9e280351d109854, type: 3}
   impactSFX: {fileID: 8300000, guid: 24a67651715a364469517bfaaabb3d0e, type: 3}
   counterWords:
-  - mushroom
-  - woodland
-  - verdant
-  - wildflower
+  - Aeroblast
+  - Skybound
+  - Skyblast
+  - Airburst
+  - Galestorm
+  - Cyclonic
+  - Airslash
+  - Hurricane
+  - Airstone
+  - Verdant
+  - Gustwave
+  - Wingbeat
+  - Skydrift
+  - Ventdash

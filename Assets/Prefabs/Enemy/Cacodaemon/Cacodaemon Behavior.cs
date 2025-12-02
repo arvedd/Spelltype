@@ -16,7 +16,7 @@ public class CacodaemonBehavior : EnemyBehavior
 
 
     [Header("Misc")]
-    public float chargeTime = 7f;
+    public float chargeTime = 3f;
     private Animator animator;
     private bool chargeInterrupted = false;
     private int attackPhase = 0;
@@ -125,7 +125,7 @@ public class CacodaemonBehavior : EnemyBehavior
         
         yield return new WaitForSeconds(0.3f);
 
-        int shotCount = 2;
+        int shotCount = 3;
         for (int i = 0; i < shotCount; i++)
         {
             animator.Play("Cacodaemon Attack");

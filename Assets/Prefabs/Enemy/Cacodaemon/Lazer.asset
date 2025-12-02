@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: Lazer
   m_EditorClassIdentifier: 
   spellName: Lazer
-  spellDamage: 30
+  spellDamage: 50
   spellSpeed: 0
   spellCost: 0
   spellHeal: 0
   cardImage: {fileID: 0}
   elementImage: {fileID: 0}
   cardBadge: {fileID: 0}
+  cardAP: {fileID: 0}
   typeSpell: 0
   spellCategory: 0
   spellPrefab: {fileID: 3456693856958319898, guid: f86183f890a4d5e4787b72e6bc867f38, type: 3}

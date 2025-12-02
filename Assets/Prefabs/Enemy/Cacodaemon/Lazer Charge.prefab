@@ -78,9 +78,9 @@ MeshRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -45093889
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 989829471
+  m_SortingLayer: 1
+  m_SortingOrder: 1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &1886959596402890677
 MonoBehaviour:
@@ -304,4 +304,4 @@ MonoBehaviour:
   spellData: {fileID: 11400000, guid: 19c23c7902ab38540886fe3eacc80db7, type: 2}
   caster: 1
   counterTextInstance: {fileID: 1886959596402890677}
-  TextOffest: 2.9
+  TextOffest: 0.6

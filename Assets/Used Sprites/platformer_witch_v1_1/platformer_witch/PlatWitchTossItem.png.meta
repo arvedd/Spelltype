@@ -272,7 +272,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitchTossItem_0: -3408608133467687891
+      PlatWitchTossItem_1: -6151647488839346203
+      PlatWitchTossItem_2: -8805602926567037259
+      PlatWitchTossItem_3: -7142171912484428573
+      PlatWitchTossItem_4: -7644131716655714123
+      PlatWitchTossItem_5: -30662519807927652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

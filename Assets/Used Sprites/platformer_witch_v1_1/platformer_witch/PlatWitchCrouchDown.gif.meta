@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitchCrouchDown_0: 5033396529144109902
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

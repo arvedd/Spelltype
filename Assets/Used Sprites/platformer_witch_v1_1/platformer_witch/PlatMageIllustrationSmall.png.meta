@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatMageIllustrationSmall_0: 2723355197795395499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitch_toBatTransform_0: 2024711887357985213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

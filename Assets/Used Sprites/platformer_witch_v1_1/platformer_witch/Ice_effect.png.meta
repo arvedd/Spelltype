@@ -497,7 +497,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ice_effect_0: 5510028261324337556
+      Ice_effect_1: -3944875868468209912
+      Ice_effect_10: -5871547086017716579
+      Ice_effect_11: -8613792081548320034
+      Ice_effect_12: -1973083955005346910
+      Ice_effect_13: 4131225444990055399
+      Ice_effect_14: 5915277293635343919
+      Ice_effect_2: 4875129337479585007
+      Ice_effect_3: 4043554494239517610
+      Ice_effect_4: 6057977943262763362
+      Ice_effect_5: -4991429146060351473
+      Ice_effect_6: 3344720065383322051
+      Ice_effect_7: -8775613800283174758
+      Ice_effect_8: -6146138271581195421
+      Ice_effect_9: -2534231418456386392
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

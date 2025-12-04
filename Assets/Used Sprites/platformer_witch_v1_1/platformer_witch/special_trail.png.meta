@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      special_trail_0: -7773194005295542419
+      special_trail_1: -3881104215888961704
+      special_trail_2: 488783057051069229
+      special_trail_3: -6459110689339292891
+      special_trail_4: 274057293245032536
+      special_trail_5: 2403660360173069012
+      special_trail_6: -4262651104279768995
+      special_trail_7: 6314572570694231099
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitchCrouch_Cast_0: -4199447975842337608
+      PlatWitchCrouch_Cast_1: 9067744040743011514
+      PlatWitchCrouch_Cast_2: 3436652125414169704
+      PlatWitchCrouch_Cast_3: 967434933091238003
+      PlatWitchCrouch_Cast_4: -7968102214956212213
+      PlatWitchCrouch_Cast_5: -581283158323005017
+      PlatWitchCrouch_Cast_6: 6447892032738900630
+      PlatWitchCrouch_Cast_7: 8408978184430087716
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

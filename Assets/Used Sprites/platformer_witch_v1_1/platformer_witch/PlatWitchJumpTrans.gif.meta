@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitchJumpTrans_0: 2445757974358634499
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

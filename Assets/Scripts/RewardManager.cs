@@ -1,140 +1,256 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 using UnityEngine.SceneManagement;
+using TMPro;
+using UnityEngine.UI;
+using System.Collections;
 
-public class RewardTyper : MonoBehaviour
+public class RewardManager : MonoBehaviour
 {
-    [Header("UI References")]
-    public TextMeshProUGUI infoText;
-    public TextMeshProUGUI inputDisplay;
-    public Transform rewardCardParent;
+    public static RewardManager Instance;
+
+    [Header("UI")]
+    public GameObject rewardPopup;
+    public TMP_InputField inputField;
+    public TMP_Text infoText;
+    public PlayerLevel playerLevel;
+    public EnemyType enemyType;
+
+    [Header("Player Reference")] 
+    public GameObject playerInstance;
+    [Header("Card Spawn")]
+    public Transform cardParent;
     public GameObject cardPrefab;
 
-    [Header("Reward Logic")]
-    public PlayerDeckManager playerDeckManager;
-    public string nextSceneName = "NextScene";
+    [Header("Reward Settings")]
+    public int numberOfCards = 3;
 
-    private List<SpellData> rewardSpells = new List<SpellData>();
-    private string currentInput = "";
-    private Color defaultColor;
-    private Color wrongColor = Color.red;
-    private Color correctColor = Color.green;
-    private float colorResetDelay = 1f;
+    [Header("Spell Database (ISI MANUAL)")]
+    public List<SpellData> spellDatabase;   
 
+    private List<SpellData> rewardCards = new List<SpellData>();
+    private SpellData currentCard;
+    private int currentIndex = 0;
+
+    [Header("Scene Settings")]
+    public string nextSceneName = "MapSelection";
+
+    private bool isTyping = false;
+    
     void Awake()
     {
-        
-        if (infoText == null)
-            infoText = GameObject.Find("InfoText")?.GetComponent<TextMeshProUGUI>();
-        if (inputDisplay == null)
-            inputDisplay = GameObject.Find("Word")?.GetComponent<TextMeshProUGUI>();
-        if (rewardCardParent == null)
-        {
-            GameObject parent = GameObject.Find("RewardCardParent");
-            if (parent != null) rewardCardParent = parent.transform;
-        }
-        if (playerDeckManager == null)
-            playerDeckManager = FindAnyObjectByType<PlayerDeckManager>();
-        if (cardPrefab == null)
-            cardPrefab = Resources.Load<GameObject>("Prefabs/CardPrefab");
+        Instance = this;
 
-        defaultColor = infoText.color;
-    }
+        if (rewardPopup != null)
+            rewardPopup.SetActive(false);
 
-    void Start()
+        if (playerInstance != null)
     {
-        GenerateRewardChoices();
-    }
-
-    void Update()
-    {
-        foreach (char c in Input.inputString)
+        playerLevel = playerInstance.GetComponentInChildren<PlayerLevel>();
+        if (playerLevel == null)
         {
-            if (c == '\b')
-            {
-                if (currentInput.Length > 0)
-                    currentInput = currentInput.Substring(0, currentInput.Length - 1);
-            }
-            else if (c == '\n' || c == '\r')
-            {
-                ValidateSpellInput();
-            }
-            else if (char.IsLetter(c))
-            {
-                currentInput += c;
-            }
-
-            inputDisplay.text = currentInput;
+            Debug.LogError("PlayerLevel component not found in children of playerInstance!");
         }
     }
+    }
 
-    void GenerateRewardChoices()
+    
+    public void StartRewardSequence()
     {
-        if (playerDeckManager == null || playerDeckManager.allCards.Count == 0)
+        Debug.Log("Reward sequence started!");
+
+        rewardPopup.SetActive(true);
+        GenerateCards();
+
+        currentIndex = 0;
+        ShowNextCard();
+
+        inputField.text = "";
+        inputField.Select();
+        inputField.ActivateInputField();
+
+        isTyping = true;
+    }   
+
+    void GenerateCards()
+    {
+        rewardCards.Clear();
+
+        if (spellDatabase == null || spellDatabase.Count == 0)
+        {
+            Debug.LogError("❌ spellDatabase kosong! Isi SpellData di RewardManager.");
             return;
+        }
 
-        rewardSpells.Clear();
+        rewardCards.AddRange(GetRandomSpells(numberOfCards));
 
-        
-        for (int i = 0; i < 3; i++)
+        // Bersihkan parent
+        foreach (Transform t in cardParent)
+            Destroy(t.gameObject);
+
+        // --- Spacing mirip RewardTyper ---
+        float spacing = 350f;
+        int total = rewardCards.Count;
+        float startX = -(spacing * (total - 1) / 2f);
+
+        for (int i = 0; i < total; i++)
         {
-            SpellData spell = playerDeckManager.allCards[Random.Range(0, playerDeckManager.allCards.Count)];
-            rewardSpells.Add(spell);
+            SpellData spell = rewardCards[i];
 
-            GameObject cardObj = Instantiate(cardPrefab, rewardCardParent);
-            CardDispay cd = cardObj.GetComponent<CardDispay>();
+            GameObject c = Instantiate(cardPrefab, cardParent);
+            CardDispay cd = c.GetComponent<CardDispay>();
+
             if (cd != null)
             {
                 cd.spellData = spell;
                 cd.UpdateCard();
             }
 
-            
-            float spacing = 350f;
-            cardObj.transform.localPosition = new Vector3((i - 1) * spacing, 0, 0);
+            // Posisi identik dengan RewardTyper
+            float posX = startX + (i * spacing);
+            c.transform.localPosition = new Vector3(posX, 0, 0);
         }
-
-        infoText.text = "Type the spell name to claim your reward";
-        inputDisplay.text = "";
     }
 
-    void ValidateSpellInput()
-    {
-        if (string.IsNullOrEmpty(currentInput))
-            return;
 
-        string userInput = currentInput.Trim().ToLower();
-
-        foreach (var s in rewardSpells)
+    List<SpellData> GetRandomSpells(int count)
         {
-            string spellName = s.spellName.Trim().ToLower();
-            if (userInput == spellName)
+    
+    List<SpellData> all = spellDatabase.FindAll(
+        s => !SpellBook.Instance.unlockedSpells.Contains(s)
+        );
+
+    List<SpellData> pick = new List<SpellData>();
+
+    for (int i = 0; i < count && all.Count > 0; i++)
+        {
+        int r = Random.Range(0, all.Count);
+        pick.Add(all[r]);
+        all.RemoveAt(r);   
+        }
+
+    return pick;
+    }
+
+
+    void Update()
+    {
+        if (!isTyping) return;
+
+        if (Input.GetKeyDown(KeyCode.Return))
+            ValidateWord();
+    }
+
+    void ShowNextCard()
+    {
+        
+        string prompt = "Type the name of ONE of the displayed spells to claim it:";
+
+        infoText.text = prompt;
+
+        inputField.text = "";
+        inputField.Select();
+        inputField.ActivateInputField();
+    }
+    void ValidateWord()
+    {
+        string typed = inputField.text.Trim();
+        
+        SpellData claimedSpell = null;
+
+        // Loop melalui SEMUA kartu reward yang tersedia
+        foreach (var spell in rewardCards)
+        {
+            if (typed.Equals(spell.spellName, System.StringComparison.OrdinalIgnoreCase))
             {
-                StartCoroutine(ShowFeedback($"You got {s.spellName}!", correctColor));
-                playerDeckManager.AddCardToDeck(s.spellName);
-                Invoke(nameof(LoadNextScene), 1.5f);
-                currentInput = "";
-                return;
+                claimedSpell = spell;
+                break; 
             }
         }
 
-        StartCoroutine(ShowFeedback("Wrong spell! Try again...", wrongColor));
-        currentInput = "";
+        if (claimedSpell != null)
+        {
+            // Klaim berhasil
+            SpellBook.Instance.UnlockSpell(claimedSpell);
+            Debug.Log($"🎉 Spell claimed: {claimedSpell.spellName}");
+
+            // Tampilkan pesan reward
+            infoText.text = $"🎉 You have obtained the spell: <b>{claimedSpell.spellName}</b>!";
+
+            // Delay sebelum keluar popup
+            StartCoroutine(EndRewardDelay());
+        }
+
+        else
+        {
+            
+            infoText.text = $"❌ Wrong! The word '{typed}' does not match any available spell. Try again.";
+            
+            inputField.text = "";
+            inputField.Select();
+        }
     }
 
-    IEnumerator ShowFeedback(string message, Color color)
+    void EndReward()
     {
-        infoText.text = message;
-        infoText.color = color;
-        yield return new WaitForSeconds(colorResetDelay);
-        infoText.text = "Type the spell name to claim your reward";
-        infoText.color = defaultColor;
+        isTyping = false;
+        rewardPopup.SetActive(false);
+
+        GetGoldReward();
+
+        if (playerLevel.currentLevel > 5)
+            {
+                StartCoroutine(ChangeSceneAfterBattle("Ending"));
+            }
+             else
+            {
+                StartCoroutine(ChangeSceneAfterBattle("MapSelection"));
+            
+            }
+
+    }
+    void GetGoldReward()
+    {
+        int goldReward = 0;
+
+            switch (enemyType)
+            {
+                case EnemyType.Normal:
+                goldReward = UnityEngine.Random.Range(70, 91);
+                break;
+
+                case EnemyType.Elite:
+                goldReward = UnityEngine.Random.Range(91, 121);
+                break;
+
+                case EnemyType.Boss:
+                goldReward = 150;
+                break;
+            }
+
+            GoldManager.AddGold(goldReward);
+
+            Debug.Log("Gold Reward: " + goldReward);
+            Debug.Log("Total Gold: " + GoldManager.GetGold());
+
+            return;
+    }
+    public IEnumerator ChangeSceneAfterBattle(string sceneName)
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene(sceneName);
+        
+    }
+    public IEnumerator StartRewardWithDelay(float delayTime)
+    {   
+        yield return new WaitForSeconds(delayTime);
+        StartRewardSequence();
+    }
+    IEnumerator EndRewardDelay()
+    {
+        yield return new WaitForSeconds(1.5f); 
+        EndReward();
     }
 
-    void LoadNextScene()
-    {
-        SceneManager.LoadScene(nextSceneName);
-    }
+
 }

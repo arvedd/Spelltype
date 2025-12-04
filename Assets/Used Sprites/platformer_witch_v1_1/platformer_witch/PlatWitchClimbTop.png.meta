@@ -447,7 +447,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitchClimbTop_0: -1506983570468871047
+      PlatWitchClimbTop_1: 8743982423003768199
+      PlatWitchClimbTop_10: -6040105017747594473
+      PlatWitchClimbTop_11: 2512583641507788413
+      PlatWitchClimbTop_12: -4012684371916528696
+      PlatWitchClimbTop_2: -327470020069469621
+      PlatWitchClimbTop_3: 6292831810848298906
+      PlatWitchClimbTop_4: 1212648045967353440
+      PlatWitchClimbTop_5: -7345095023884792829
+      PlatWitchClimbTop_6: -5157025682191692663
+      PlatWitchClimbTop_7: -2568584552793312777
+      PlatWitchClimbTop_8: -7121972335378395421
+      PlatWitchClimbTop_9: 7494887584786763868
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -208,7 +208,7 @@ MonoBehaviour:
   castPoint: {fileID: 8664005560399154114}
   stunPoint: {fileID: 8531246658541021703}
   StunEffect: {fileID: 521598980135122879, guid: 2e758b8ce740a93488a01c85a8ce22a7, type: 3}
-  chargeTime: 7
+  chargeTime: 3
 --- !u!114 &4139640653372960287
 MonoBehaviour:
   m_ObjectHideFlags: 0

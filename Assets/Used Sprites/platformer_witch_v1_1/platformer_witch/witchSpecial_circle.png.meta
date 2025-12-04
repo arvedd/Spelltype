@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      witchSpecial_circle_0: -8112302026475273670
+      witchSpecial_circle_1: -4129758685392723874
+      witchSpecial_circle_10: -598119350072435192
+      witchSpecial_circle_11: -1624052700995505392
+      witchSpecial_circle_12: 1370738261509705566
+      witchSpecial_circle_13: -1077860706200909758
+      witchSpecial_circle_14: 6245129249293815208
+      witchSpecial_circle_15: -341103505327607643
+      witchSpecial_circle_16: -5892163222387767494
+      witchSpecial_circle_17: -9174688497156359507
+      witchSpecial_circle_18: -3765366868301068392
+      witchSpecial_circle_19: -2901988571121854290
+      witchSpecial_circle_2: 4102729884441486740
+      witchSpecial_circle_3: 8697107179983694295
+      witchSpecial_circle_4: 5033842429423743282
+      witchSpecial_circle_5: 4143668413504132129
+      witchSpecial_circle_6: -6019245090097876550
+      witchSpecial_circle_7: -5807587976043166192
+      witchSpecial_circle_8: 5178722088047351127
+      witchSpecial_circle_9: -2089753406651649891
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

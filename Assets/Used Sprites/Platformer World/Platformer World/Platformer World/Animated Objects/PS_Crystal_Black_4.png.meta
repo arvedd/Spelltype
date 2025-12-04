@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PS_Crystal_Black_4_0: -4898582536107556307
+      PS_Crystal_Black_4_1: 2041005441016858320
+      PS_Crystal_Black_4_2: 1504948317363849924
+      PS_Crystal_Black_4_3: -4966021187208450909
+      PS_Crystal_Black_4_4: -7547020478413048714
+      PS_Crystal_Black_4_5: -7818870566191251679
+      PS_Crystal_Black_4_6: 7402730356260541204
+      PS_Crystal_Black_4_7: 1318573478361720535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

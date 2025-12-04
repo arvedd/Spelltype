@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitchClimbTopExample_0: -1052701089313247028
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

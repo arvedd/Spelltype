@@ -6,14 +6,38 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MAP 1 NICHO.unity
-    guid: 64514ad257b2f4946afafa7ec4abf10f
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6ca3ef30301e7b5408dc969f03d70373
   - enabled: 1
-    path: Assets/Scenes/RewardScene.unity
-    guid: a541a6fcf39aa564f9e51a51c1ad5846
+    path: Assets/Scenes/MapSelection.unity
+    guid: 702fffae0e01fc94faf477ab41736271
   - enabled: 1
-    path: Assets/Scenes/MAP 2.unity
-    guid: f756b6e830edb0c47afabf8dda566aa9
+    path: Assets/Scenes/Shop.unity
+    guid: 37e038109eee2694880745e14b3dab33
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 6872822f5e4864244b13223dc737f53f
+  - enabled: 1
+    path: Assets/Scenes/Boss.unity
+    guid: 178d90afea5ca7f41bf626f4f445a2d5
+  - enabled: 1
+    path: Assets/Scenes/MAP 1 (IMP).unity
+    guid: f14ecea860920d24abb3f57ba44f6e0c
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: 3557a50d96cca2b498834a283ba588a8
+  - enabled: 1
+    path: Assets/Scenes/MAP 2 (IMP).unity
+    guid: 656c89f30f4093e489835483425e67d0
+  - enabled: 1
+    path: Assets/Scenes/MAP 4 (IMP).unity
+    guid: 3c9fe621d51aba149b80085c5adb472a
+  - enabled: 1
+    path: Assets/Scenes/Rest.unity
+    guid: 13d876aafcd5543419c6d62aa67c3dae
+  - enabled: 1
+    path: Assets/Scenes/MAP 3 (IMP).unity
+    guid: 5257f01d2b0b50043bf98b778f6b5fc7
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

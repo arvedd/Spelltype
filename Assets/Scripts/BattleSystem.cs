@@ -276,41 +276,9 @@ public class BattleSystem : MonoBehaviour
             state = BattleState.WON;
             turnText.text = "YOU WIN!";
             playerData.WinAnim();
+            StartCoroutine(RewardManager.Instance.StartRewardWithDelay(2.0f));
 
  
-            int goldReward = 0;
-
-            switch (enemyType)
-            {
-                case EnemyType.Normal:
-                goldReward = UnityEngine.Random.Range(70, 91);
-                break;
-
-                case EnemyType.Elite:
-                goldReward = UnityEngine.Random.Range(91, 121);
-                break;
-
-                case EnemyType.Boss:
-                goldReward = 150;
-                break;
-            }
-
-            GoldManager.AddGold(goldReward);
-
-            Debug.Log("Gold Reward: " + goldReward);
-            Debug.Log("Total Gold: " + GoldManager.GetGold());
-
-            if (playerLevel.currentLevel > 5)
-            {
-                StartCoroutine(ChangeSceneAfterBattle("Ending"));
-            }
-             else
-            {
-                StartCoroutine(ChangeSceneAfterBattle("MapSelection"));
-            
-            }
-
-            return;
         }
 
         if (playerData.currentHP <= 0)
@@ -392,5 +360,6 @@ public class BattleSystem : MonoBehaviour
             StartCoroutine(DelayedEndEnemyTurn());
         }
     }
+    
 
 }

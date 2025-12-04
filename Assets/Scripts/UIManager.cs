@@ -8,7 +8,6 @@ public class UIManager : MonoBehaviour
     public TMP_Text goldText;
     public GameObject turnText;
     public GameObject cards;
-    public GameObject bgInput;
     public GameObject spellTyperObject;
     public GameObject[] apIcons;
     public GameObject[] hpIcons;
@@ -33,6 +32,12 @@ public class UIManager : MonoBehaviour
         {
             player = FindAnyObjectByType<Player>();
             return;
+        }
+
+        spellTyper = FindAnyObjectByType<SpellTyper>();
+        if (spellTyper != null)
+        {
+            spellTyperObject = spellTyper.gameObject;
         }
 
         goldText.text = GoldManager.GetGold().ToString();
@@ -81,7 +86,6 @@ public class UIManager : MonoBehaviour
     {
         turnText.SetActive(false);
         cards.SetActive(false);
-        bgInput.SetActive(false);
         spellTyperObject.SetActive(false);
         Debug.Log("Panggil DisableUI di UIManager");
     }
@@ -90,7 +94,6 @@ public class UIManager : MonoBehaviour
     {
         turnText.SetActive(true);
         cards.SetActive(true);
-        bgInput.SetActive(true);
         spellTyperObject.SetActive(true);
         Debug.Log("Panggil EnableUI di UIManager");
     }

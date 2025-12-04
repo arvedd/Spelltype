@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Ending : MonoBehaviour
 {
+    public static bool isResetting = false;
+
     void Update()
     {
         EndGame();
@@ -20,6 +22,8 @@ public class Ending : MonoBehaviour
 
     IEnumerator Delayed()
     {
+        Ending.isResetting = true;
+
         yield return new WaitForSeconds(2f);
 
         PlayerPrefs.SetInt("PlayerHP", 100);

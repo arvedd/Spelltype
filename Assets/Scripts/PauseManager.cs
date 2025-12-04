@@ -5,7 +5,6 @@ public class PauseManager : MonoBehaviour
 {
     public GameObject pauseUI;  
     public GameObject card;
-    public GameObject input;
     public GameObject word;
     public GameObject turnText;
     public GameObject pointer;
@@ -68,9 +67,6 @@ public class PauseManager : MonoBehaviour
 
         if (card != null)      
             card.SetActive(true);
-
-        if (input != null)     
-            input.SetActive(true);
 
         if (word != null)      
             word.SetActive(true);

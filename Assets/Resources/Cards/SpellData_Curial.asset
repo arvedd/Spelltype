@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SpellData_Curial
   m_EditorClassIdentifier: 
   spellName: curial
-  spellDamage: 0
+  spellDamage: 15
   spellSpeed: 0
   spellCost: 2
   spellHeal: 15

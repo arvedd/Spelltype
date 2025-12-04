@@ -13,20 +13,31 @@ MonoBehaviour:
   m_Name: Enemy_Terra
   m_EditorClassIdentifier: 
   spellName: terra
-  spellDamage: 10
+  spellDamage: 20
   spellSpeed: 3
   spellCost: 0
   spellHeal: 0
   cardImage: {fileID: 0}
   elementImage: {fileID: -9182391099804656440, guid: ebada34f31b32be4b9fe39df24772bd4, type: 3}
   cardBadge: {fileID: 0}
+  cardAP: {fileID: 0}
   typeSpell: 3
   spellCategory: 0
   spellPrefab: {fileID: 3453524605822138424, guid: d17ca8030daa4874fa87e640c91ed083, type: 3}
   castSFX: {fileID: 8300000, guid: 238f4c2f32ef1c44f9361bf2a1be7212, type: 3}
   impactSFX: {fileID: 8300000, guid: 238f4c2f32ef1c44f9361bf2a1be7212, type: 3}
   counterWords:
-  - Mud
   - Earth
-  - Bang
-  - Tell
+  - Rock
+  - Soil
+  - Sand
+  - Stone
+  - Geos
+  - Quake
+  - Gems
+  - Shard
+  - Mount
+  - Tecto
+  - Slate
+  - Land
+  - Ores

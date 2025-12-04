@@ -14,16 +14,19 @@ public class Enemy : Damageable
     [SerializeField] private EnemyData enemy;
     [SerializeField] private SpellData spellData;
     [SerializeField] public Transform castPoint;
+    [SerializeField] public Transform DamagePoint;
     [SerializeField] private Healthbar healthbar;
     public int enemyMaxHp;
     public Animator animator;
     public event Action<Enemy> OnEnemyDeath;
+    public DamagePopupSpawner damagePopup;
 
     [Header("Enemy Type")]
     public EnemyType enemyType = EnemyType.Normal;
 
     void Start()
     {
+        damagePopup = GameObject.Find("GameManager").GetComponent<DamagePopupSpawner>();
         healthbar = GetComponentInChildren<Healthbar>();
         animator = GetComponent<Animator>();
 
@@ -45,14 +48,18 @@ public class Enemy : Damageable
         if (spell.typeSpell == enemy.enemyWeakness)
         {
             Debug.Log(enemy.enemyName + " is weak to " + spell.typeSpell);
+            damagePopup.Create(DamagePoint.position, damage, true);
         }
         else
         {
             damage /= 2;
             Debug.Log(enemy.enemyName + " is not weak to " + spell.typeSpell + "! Half damage");
+            damagePopup.Create(DamagePoint.position, damage, false);
         }
 
         TakeDamage(damage);
+        
+
 
     }
 
@@ -61,17 +68,14 @@ public class Enemy : Damageable
         Debug.Log($"{gameObject.name} died!");
 
         OnEnemyDeath?.Invoke(this);
-
-        // Play death animation
         animator.SetTrigger("Death");
 
-        // Hancurkan object setelah animasi selesai
         StartCoroutine(DestroyAfterDeath());
     }
 
     private IEnumerator DestroyAfterDeath()
     {
-        yield return new WaitForSeconds(1f); // durasi animasi Death
+        yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }
 
@@ -99,13 +103,13 @@ public class Enemy : Damageable
         Attack atk = obj.GetComponent<Attack>();
         if (atk != null)
         {
-            
             Vector2 dir = Vector2.left;
             atk.Initialize(spellData.spellDamage, spellData.spellSpeed, dir, Caster.Enemy);
             return atk;
         }
-
+        
         return null;
+        
     }
 
     public IEnumerator DoTurn(BattleSystem battle)
@@ -141,6 +145,11 @@ public class Enemy : Damageable
             default:
                 return 1;
         }
+    }
+
+    private IEnumerator DelayedAttack()
+    {
+        yield return new WaitForSeconds(5f);
     }
 
 

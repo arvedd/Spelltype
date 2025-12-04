@@ -19,7 +19,7 @@ public class Player : Damageable
         }
         else
         {
-            currentHP = player.playerHealth;
+            currentHP = player.playerMaxHealth;
             Debug.Log("Player ga punya pref");
         }
 
@@ -30,6 +30,8 @@ public class Player : Damageable
 
     void OnDisable()
     {
+        if (Ending.isResetting) return;
+
         if (currentHP == 0 )
         {
             PlayerPrefs.SetInt("PlayerHP", 100);

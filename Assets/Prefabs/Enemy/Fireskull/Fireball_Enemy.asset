@@ -13,20 +13,32 @@ MonoBehaviour:
   m_Name: Fireball_Enemy
   m_EditorClassIdentifier: 
   spellName: fireball
-  spellDamage: 10
+  spellDamage: 20
   spellSpeed: 3
   spellCost: 1
   spellHeal: 0
   cardImage: {fileID: 0}
   elementImage: {fileID: -2350200725867972502, guid: 36fff5f8053ff844aa034ce0003eddf3, type: 3}
   cardBadge: {fileID: 0}
+  cardAP: {fileID: 0}
   typeSpell: 0
   spellCategory: 0
   spellPrefab: {fileID: 4252530064130196430, guid: 221f72d3404115543bb7a9102f496907, type: 3}
   castSFX: {fileID: 8300000, guid: c68332fc41e201b46be000e2073a9b28, type: 3}
   impactSFX: {fileID: 8300000, guid: d80b01cb8f7d2e44384906a823b6af02, type: 3}
   counterWords:
-  - Boom
-  - Out
-  - Spent
-  - Pop
+  - Blaze
+  - Ember
+  - Pyro
+  - Flame
+  - Flare
+  - Solar
+  - Heat
+  - Spark
+  - Ignis
+  - Burn
+  - Lava
+  - Melt
+  - Volca
+  - Torch
+  - Smoke

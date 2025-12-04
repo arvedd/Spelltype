@@ -885,7 +885,11 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -0.2319336, y: -459.8501}
+=======
+  m_AnchoredPosition: {x: -0.23181152, y: -94}
+>>>>>>> 884939e8c2a70920b44a27efda8465c5ae272935
   m_SizeDelta: {x: -1377.338, y: -991.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &198737214
@@ -2132,7 +2136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &446951540
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2933,7 +2937,7 @@ MonoBehaviour:
   m_Intensity: 1
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
-  m_ApplyToSortingLayers: 00000000
+  m_ApplyToSortingLayers: 000000005f99ff3a
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -4244,7 +4248,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -4583,15 +4587,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 960aded118fcff342b97b48465ceb169, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minEnemies: 1
-  maxEnemies: 3
+  minEnemies: 2
+  maxEnemies: 2
   enemyPool:
   - enemyPrefab: {fileID: 3557295288415227418, guid: a953da318a396ea45950f436ed914e36, type: 3}
     spawnWeight: 0.5
   - enemyPrefab: {fileID: 5510261400782452176, guid: c256ad9801e7d0d42a03cedb8181be59, type: 3}
     spawnWeight: 0.5
   spawnPoints:
-  - {fileID: 1679803745}
   - {fileID: 2112907192}
   - {fileID: 548629832}
   enemyContainer: {fileID: 270115063}
@@ -8443,6 +8446,8 @@ GameObject:
   - component: {fileID: 1299333904}
   - component: {fileID: 1299333906}
   - component: {fileID: 1299333907}
+  - component: {fileID: 1299333908}
+  - component: {fileID: 1299333909}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -8505,6 +8510,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c65a899528544624781ad56d9d8e0c8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1299333908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299333903}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7220af1c76c43b4408d4328f5a0c6044, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePopup: {fileID: 1299333909}
+--- !u!114 &1299333909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299333903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0750076027c1ec4bbcc9c0bfcdf2871, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pfDamagePopup: {fileID: 2688580027201015736, guid: 06e1a61748b046749aa78e0060dfd9a6, type: 3}
 --- !u!1 &1312137077
 GameObject:
   m_ObjectHideFlags: 0
@@ -9079,7 +9110,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseUI: {fileID: 1461632392}
   card: {fileID: 486467303}
-  input: {fileID: 446951539}
   word: {fileID: 198737212}
   turnText: {fileID: 1475116662}
   pointer: {fileID: 0}
@@ -11098,7 +11128,7 @@ GameObject:
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1679803745
 Transform:
   m_ObjectHideFlags: 0
@@ -14263,7 +14293,6 @@ MonoBehaviour:
   goldText: {fileID: 1636723188}
   turnText: {fileID: 1475116662}
   cards: {fileID: 486467303}
-  bgInput: {fileID: 446951539}
   spellTyperObject: {fileID: 0}
   apIcons:
   - {fileID: 1892534876}

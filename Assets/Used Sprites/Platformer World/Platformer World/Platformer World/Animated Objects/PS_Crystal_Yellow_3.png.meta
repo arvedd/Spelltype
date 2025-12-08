@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PS_Crystal_Yellow_3_0: -9204886194951891931
+      PS_Crystal_Yellow_3_1: -5622386653536086537
+      PS_Crystal_Yellow_3_2: -3757573339440564129
+      PS_Crystal_Yellow_3_3: 148620000408483084
+      PS_Crystal_Yellow_3_4: 2716021991094236570
+      PS_Crystal_Yellow_3_5: -7027214886692832873
+      PS_Crystal_Yellow_3_6: 267930367992399626
+      PS_Crystal_Yellow_3_7: 4969253151944643010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

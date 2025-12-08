@@ -272,43 +272,15 @@ public class BattleSystem : MonoBehaviour
         if (enemies.Count == 0 || enemies.TrueForAll(e => e == null || e.currentHP <= 0))
         {
             battleEnded = true;
-            playerLevel.LevelUp();
             state = BattleState.WON;
             turnText.text = "YOU WIN!";
+            playerLevel.LevelUp();
             playerData.WinAnim();
 
- 
-            int goldReward = 0;
-
-            switch (enemyType)
-            {
-                case EnemyType.Normal:
-                goldReward = UnityEngine.Random.Range(70, 91);
-                break;
-
-                case EnemyType.Elite:
-                goldReward = UnityEngine.Random.Range(91, 121);
-                break;
-
-                case EnemyType.Boss:
-                goldReward = 150;
-                break;
-            }
-
-            GoldManager.AddGold(goldReward);
-
-            Debug.Log("Gold Reward: " + goldReward);
-            Debug.Log("Total Gold: " + GoldManager.GetGold());
-
-            if (playerLevel.currentLevel > 5)
-            {
-                StartCoroutine(ChangeSceneAfterBattle("Ending"));
-            }
-             else
-            {
-                StartCoroutine(ChangeSceneAfterBattle("MapSelection"));
             
-            }
+            Debug.Log("▶ Reward triggered from BattleSystem");
+            RewardManager.Instance.enemyType = enemyType;
+            StartCoroutine(RewardManager.Instance.StartRewardWithDelay(1f));
 
             return;
         }

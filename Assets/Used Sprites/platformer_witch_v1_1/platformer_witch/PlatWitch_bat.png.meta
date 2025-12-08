@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitch_bat_0: 7552692443743776566
+      PlatWitch_bat_1: 582251922272263687
+      PlatWitch_bat_2: -61264917908711660
+      PlatWitch_bat_3: 5374713765505474456
+      PlatWitch_bat_4: -5785915996573297803
+      PlatWitch_bat_5: 8702169385051012005
+      PlatWitch_bat_6: 1179191809229868398
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -547,7 +547,24 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Earth_attack_0: 4986532434358108901
+      Earth_attack_1: 1025537381438600056
+      Earth_attack_10: 8122100382011004189
+      Earth_attack_11: -8191600212882167557
+      Earth_attack_12: -6968474726843969793
+      Earth_attack_13: -6028290245693684331
+      Earth_attack_14: 2697168430783464611
+      Earth_attack_15: -4601268866216847947
+      Earth_attack_16: 3325662326120979689
+      Earth_attack_2: -2775874100062169922
+      Earth_attack_3: 792809296864264557
+      Earth_attack_4: 4784193197110955961
+      Earth_attack_5: -6798171221712723615
+      Earth_attack_6: -6043990778929207602
+      Earth_attack_7: 5635677096080286064
+      Earth_attack_8: -1375534452406862935
+      Earth_attack_9: -8618891945496447932
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

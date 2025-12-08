@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitch_earth_air_0: 283172008866247879
+      PlatWitch_earth_air_1: 9017538306001397470
+      PlatWitch_earth_air_2: 6181462342823855875
+      PlatWitch_earth_air_3: -140459822171492298
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

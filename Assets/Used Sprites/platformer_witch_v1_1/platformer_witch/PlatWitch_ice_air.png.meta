@@ -372,7 +372,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitch_ice_air_0: -5155681802583058490
+      PlatWitch_ice_air_1: -5180158858812243242
+      PlatWitch_ice_air_2: 4329674730103531674
+      PlatWitch_ice_air_3: 8955131537493821436
+      PlatWitch_ice_air_4: 6415340563795635695
+      PlatWitch_ice_air_5: 6545337551286162121
+      PlatWitch_ice_air_6: 1938048013524656662
+      PlatWitch_ice_air_7: 426410939669229749
+      PlatWitch_ice_air_8: -6407146103391459656
+      PlatWitch_ice_air_9: -2237685179527248801
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitch_fire_air_0: -27830911409398332
+      PlatWitch_fire_air_1: 4862664362061173836
+      PlatWitch_fire_air_2: -7841866742312239588
+      PlatWitch_fire_air_3: -1618907759352729166
+      PlatWitch_fire_air_4: -3755122426151302005
+      PlatWitch_fire_air_5: -2145426048595143550
+      PlatWitch_fire_air_6: -7107673200686827995
+      PlatWitch_fire_air_7: 8952559015532905028
+      PlatWitch_fire_air_8: -7899963215216893393
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PlatWitchClimbDown_0: -3495617639119321215
+      PlatWitchClimbDown_1: -8761157741956096767
+      PlatWitchClimbDown_2: -3502474646146144148
+      PlatWitchClimbDown_3: 7587263877419932903
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -347,7 +347,16 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Air Burst_0: 1586163436078421409
+      Air Burst_1: -8931572146811203989
+      Air Burst_2: 5945081630054022074
+      Air Burst_3: -3500500125322871106
+      Air Burst_4: 103765426463475453
+      Air Burst_5: 7067746560027327115
+      Air Burst_6: -4615270458522554370
+      Air Burst_7: 488014277025362852
+      Air Burst_8: 4483963681993577527
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

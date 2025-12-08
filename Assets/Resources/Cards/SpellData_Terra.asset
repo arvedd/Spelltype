@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SpellData_Terra
   m_EditorClassIdentifier: 
   spellName: terra
-  spellDamage: 15
+  spellDamage: 100
   spellSpeed: 6
   spellCost: 1
   spellHeal: 0

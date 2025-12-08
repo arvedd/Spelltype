@@ -6,14 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MAP 1 NICHO.unity
-    guid: 64514ad257b2f4946afafa7ec4abf10f
+    path: Assets/Scenes/MAP 1 (IMP).unity
+    guid: 5b095e783163ce744885c84517701ed0
   - enabled: 1
-    path: Assets/Scenes/RewardScene.unity
-    guid: a541a6fcf39aa564f9e51a51c1ad5846
+    path: Assets/Scenes/MapSelection.unity
+    guid: 702fffae0e01fc94faf477ab41736271
   - enabled: 1
-    path: Assets/Scenes/MAP 2.unity
-    guid: f756b6e830edb0c47afabf8dda566aa9
+    path: Assets/Scenes/MAP 2 (IMP).unity
+    guid: ea418ba9438efc14aaf9aa4ef6b84722
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 6ca3ef30301e7b5408dc969f03d70373
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

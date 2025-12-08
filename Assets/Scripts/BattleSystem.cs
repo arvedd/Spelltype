@@ -272,17 +272,13 @@ public class BattleSystem : MonoBehaviour
         if (enemies.Count == 0 || enemies.TrueForAll(e => e == null || e.currentHP <= 0))
         {
             battleEnded = true;
+            playerLevel.LevelUp();
             state = BattleState.WON;
             turnText.text = "YOU WIN!";
-            playerLevel.LevelUp();
             playerData.WinAnim();
+            StartCoroutine(RewardManager.Instance.StartRewardWithDelay(2.0f));
 
-            
-            Debug.Log("▶ Reward triggered from BattleSystem");
-            RewardManager.Instance.enemyType = enemyType;
-            StartCoroutine(RewardManager.Instance.StartRewardWithDelay(1f));
-
-            return;
+ 
         }
 
         if (playerData.currentHP <= 0)
@@ -364,5 +360,6 @@ public class BattleSystem : MonoBehaviour
             StartCoroutine(DelayedEndEnemyTurn());
         }
     }
+    
 
 }

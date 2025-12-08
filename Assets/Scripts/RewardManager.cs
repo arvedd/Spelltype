@@ -17,7 +17,7 @@ public class RewardManager : MonoBehaviour
     public GameObject playerInstance;
     public PlayerLevel playerLevel;
 
-    private SpellTyper spellTyper;   // ⭐ ADDED
+    private SpellTyper spellTyper;      // ⭐ SpellTyper Support
 
     [Header("Enemy Type")]
     public EnemyType enemyType;
@@ -31,7 +31,6 @@ public class RewardManager : MonoBehaviour
 
     [Header("Spell Database (ISI MANUAL)")]
     public List<SpellData> spellDatabase;
-
     private List<SpellData> rewardCards = new List<SpellData>();
 
     [Header("Scene Settings")]
@@ -65,10 +64,11 @@ public class RewardManager : MonoBehaviour
     // ---------------------------------------------------------
     void Start()
     {
-        // ⭐ ADDED : cari SpellTyper otomatis
+        // ⭐ Cari SpellTyper otomatis
         spellTyper = FindObjectOfType<SpellTyper>();
+
         if (spellTyper == null)
-            Debug.LogWarning("SpellTyper not found in the scene!");
+            Debug.LogWarning("SpellTyper not found in scene!");
     }
 
 
@@ -79,11 +79,12 @@ public class RewardManager : MonoBehaviour
     {
         Debug.Log("Reward sequence started!");
 
-        // ⭐ ADDED : matikan SpellTyper supaya player tidak bisa ketik spell
+        // ⭐ NONAKTIFKAN SpellTyper supaya player tidak bisa ngetik spell battle
         if (spellTyper != null)
             spellTyper.enabled = false;
 
         rewardPopup.SetActive(true);
+
         GenerateCards();
 
         inputField.text = "";
@@ -108,11 +109,14 @@ public class RewardManager : MonoBehaviour
             return;
         }
 
+        // ⭐ Abaikan spell yang sudah pernah di-unlock
         rewardCards.AddRange(GetRandomSpells(numberOfCards));
 
+        // Bersihkan parent
         foreach (Transform t in cardParent)
             Destroy(t.gameObject);
 
+        // Posisi kartu
         float spacing = 350f;
         int total = rewardCards.Count;
         float startX = -(spacing * (total - 1) / 2f);
@@ -136,22 +140,31 @@ public class RewardManager : MonoBehaviour
     }
 
 
+    // ---------------------------------------------------------
+    // Pick Random Spells (yang belum dimiliki)
+    // ---------------------------------------------------------
     List<SpellData> GetRandomSpells(int count)
     {
-        List<SpellData> temp = new List<SpellData>(spellDatabase);
+        List<SpellData> available = spellDatabase.FindAll(
+            s => !SpellBook.Instance.unlockedSpells.Contains(s)
+        );
+
         List<SpellData> selected = new List<SpellData>();
 
-        for (int i = 0; i < count && temp.Count > 0; i++)
+        for (int i = 0; i < count && available.Count > 0; i++)
         {
-            int r = Random.Range(0, temp.Count);
-            selected.Add(temp[r]);
-            temp.RemoveAt(r);
+            int r = Random.Range(0, available.Count);
+            selected.Add(available[r]);
+            available.RemoveAt(r);
         }
 
         return selected;
     }
 
 
+    // ---------------------------------------------------------
+    // Update
+    // ---------------------------------------------------------
     void Update()
     {
         if (!isTyping) return;
@@ -161,6 +174,9 @@ public class RewardManager : MonoBehaviour
     }
 
 
+    // ---------------------------------------------------------
+    // Prompt Text
+    // ---------------------------------------------------------
     void ShowNextCard()
     {
         infoText.text = "Type the name of ONE of the displayed spells to claim it:";
@@ -170,6 +186,9 @@ public class RewardManager : MonoBehaviour
     }
 
 
+    // ---------------------------------------------------------
+    // Validate Input
+    // ---------------------------------------------------------
     void ValidateWord()
     {
         string typed = inputField.text.Trim();
@@ -187,6 +206,7 @@ public class RewardManager : MonoBehaviour
         if (claimedSpell != null)
         {
             SpellBook.Instance.UnlockSpell(claimedSpell);
+
             Debug.Log($"🎉 Spell claimed: {claimedSpell.spellName}");
 
             infoText.text =
@@ -196,19 +216,22 @@ public class RewardManager : MonoBehaviour
         }
         else
         {
-            infoText.text = $"❌ Wrong! The word '{typed}' does not match any available spell. Try again.";
+            infoText.text = $"❌ Wrong! '{typed}' does not match any available spell.";
             inputField.text = "";
             inputField.Select();
         }
     }
 
 
+    // ---------------------------------------------------------
+    // End Reward
+    // ---------------------------------------------------------
     void EndReward()
     {
         isTyping = false;
         rewardPopup.SetActive(false);
 
-        // ⭐ ADDED : hidupkan SpellTyper kembali
+        // ⭐ AKTIFKAN KEMBALI SpellTyper
         if (spellTyper != null)
             spellTyper.enabled = true;
 
@@ -221,6 +244,9 @@ public class RewardManager : MonoBehaviour
     }
 
 
+    // ---------------------------------------------------------
+    // Gold Reward
+    // ---------------------------------------------------------
     void GetGoldReward()
     {
         int goldReward = enemyType switch
@@ -232,11 +258,15 @@ public class RewardManager : MonoBehaviour
         };
 
         GoldManager.AddGold(goldReward);
+
         Debug.Log("Gold Reward: " + goldReward);
         Debug.Log("Total Gold: " + GoldManager.GetGold());
     }
 
 
+    // ---------------------------------------------------------
+    // Scene Change
+    // ---------------------------------------------------------
     public IEnumerator ChangeSceneAfterBattle(string sceneName)
     {
         yield return new WaitForSeconds(3f);

@@ -17,7 +17,7 @@ public class RewardManager : MonoBehaviour
     public GameObject playerInstance;
     public PlayerLevel playerLevel;
 
-    private SpellTyper spellTyper;      // ⭐ SpellTyper Support
+    private SpellTyper spellTyper;      
 
     [Header("Enemy Type")]
     public EnemyType enemyType;

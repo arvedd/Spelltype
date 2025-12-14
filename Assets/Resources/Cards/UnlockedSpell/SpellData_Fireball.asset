@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: SpellData_Fireball
   m_EditorClassIdentifier: 
   spellName: fireball
-  spellDamage: 100
+  spellDamage: 10
   spellSpeed: 7
   spellCost: 1
   spellHeal: 0

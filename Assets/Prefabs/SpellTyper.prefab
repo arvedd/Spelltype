@@ -45,4 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputDisplay: {fileID: 0}
-  messageDisplay: {fileID: 0}
+  playerDeckManager: {fileID: 0}
+  castAttackPoint: {fileID: 0}
+  castHealPoint: {fileID: 0}
+  handManager: {fileID: 0}
+  player: {fileID: 0}

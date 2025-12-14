@@ -24,12 +24,29 @@ public class SpellBook : MonoBehaviour
 
     public void UnlockSpell(SpellData spell)
     {
+        if (spell == null)
+        {
+            Debug.LogWarning("Tried to unlock null spell!");
+            return;
+        }
+
         if (!unlockedSpells.Contains(spell))
         {
             unlockedSpells.Add(spell);
-            Debug.Log($"✨ Added to SpellBook: {spell.spellName}");
+            Debug.Log($"Added to SpellBook: {spell.spellName}");
+
+            
+            if (PlayerDeckManager.instance != null)
+            {
+                PlayerDeckManager.instance.AddUnlockedSpellToDeck(spell);
+            }
+            else
+            {
+                Debug.LogWarning("PlayerDeckManager instance not found!");
+            }
         }
     }
+
 
     public bool HasSpell(string spellName)
     {

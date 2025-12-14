@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using Microsoft.Unity.VisualStudio.Editor;
 
 public class RewardManager : MonoBehaviour
 {
@@ -12,12 +13,13 @@ public class RewardManager : MonoBehaviour
     public GameObject rewardPopup;
     public TMP_InputField inputField;
     public TMP_Text infoText;
+    public TMP_Text CoinText;
+    public Image CoinImage;
 
     [Header("Player Reference")]
     public GameObject playerInstance;
     public PlayerLevel playerLevel;
-
-    private SpellTyper spellTyper;      
+    public SpellTyper spellTyper;     
 
     [Header("Enemy Type")]
     public EnemyType enemyType;
@@ -62,14 +64,6 @@ public class RewardManager : MonoBehaviour
     // ---------------------------------------------------------
     // Start
     // ---------------------------------------------------------
-    void Start()
-    {
-        // ⭐ Cari SpellTyper otomatis
-        spellTyper = FindObjectOfType<SpellTyper>();
-
-        if (spellTyper == null)
-            Debug.LogWarning("SpellTyper not found in scene!");
-    }
 
 
     // ---------------------------------------------------------
@@ -77,16 +71,13 @@ public class RewardManager : MonoBehaviour
     // ---------------------------------------------------------
     public void StartRewardSequence()
     {
-        Debug.Log("Reward sequence started!");
-
-        // ⭐ NONAKTIFKAN SpellTyper supaya player tidak bisa ngetik spell battle
-        if (spellTyper != null)
-            spellTyper.enabled = false;
-
         rewardPopup.SetActive(true);
 
-        GenerateCards();
+        var st = FindSpellTyper();
+        if (st != null)
+            st.gameObject.SetActive(false);
 
+        GenerateCards();
         inputField.text = "";
         inputField.Select();
         inputField.ActivateInputField();
@@ -96,27 +87,35 @@ public class RewardManager : MonoBehaviour
     }
 
 
+
     // ---------------------------------------------------------
     // Generate Reward Cards
-    // ---------------------------------------------------------
+        // ---------------------------------------------------------
+    private SpellTyper FindSpellTyper()
+    {
+        if (spellTyper == null)
+            spellTyper = FindAnyObjectByType<SpellTyper>();
+
+        return spellTyper;
+    }
     void GenerateCards()
     {
         rewardCards.Clear();
 
         if (spellDatabase == null || spellDatabase.Count == 0)
         {
-            Debug.LogError("❌ spellDatabase kosong!");
+            Debug.LogError("spellDatabase kosong!");
             return;
         }
 
-        // ⭐ Abaikan spell yang sudah pernah di-unlock
+        
         rewardCards.AddRange(GetRandomSpells(numberOfCards));
 
-        // Bersihkan parent
+        
         foreach (Transform t in cardParent)
             Destroy(t.gameObject);
 
-        // Posisi kartu
+        
         float spacing = 350f;
         int total = rewardCards.Count;
         float startX = -(spacing * (total - 1) / 2f);
@@ -138,6 +137,7 @@ public class RewardManager : MonoBehaviour
             cardObj.transform.localPosition = new Vector3(posX, 0, 0);
         }
     }
+
 
 
     // ---------------------------------------------------------
@@ -179,7 +179,7 @@ public class RewardManager : MonoBehaviour
     // ---------------------------------------------------------
     void ShowNextCard()
     {
-        infoText.text = "Type the name of ONE of the displayed spells to claim it:";
+        infoText.text = "Type One Spell that You Want to Claim:";
         inputField.text = "";
         inputField.Select();
         inputField.ActivateInputField();
@@ -207,16 +207,16 @@ public class RewardManager : MonoBehaviour
         {
             SpellBook.Instance.UnlockSpell(claimedSpell);
 
-            Debug.Log($"🎉 Spell claimed: {claimedSpell.spellName}");
+            Debug.Log($"Spell claimed: {claimedSpell.spellName}");
 
             infoText.text =
-                $"🎉 You have obtained the spell: <b>{claimedSpell.spellName}</b>!";
+                $"You have obtained the spell: <b>{claimedSpell.spellName}</b>!";
 
             StartCoroutine(EndRewardDelay());
         }
         else
         {
-            infoText.text = $"❌ Wrong! '{typed}' does not match any available spell.";
+            infoText.text = $"Wrong! '{typed}' does not match any available spell.";
             inputField.text = "";
             inputField.Select();
         }
@@ -231,9 +231,11 @@ public class RewardManager : MonoBehaviour
         isTyping = false;
         rewardPopup.SetActive(false);
 
-        // ⭐ AKTIFKAN KEMBALI SpellTyper
-        if (spellTyper != null)
-            spellTyper.enabled = true;
+        FindSpellTyper();
+
+        var st = FindSpellTyper();
+        if (st != null)
+            st.gameObject.SetActive(false);
 
         GetGoldReward();
 
@@ -256,7 +258,7 @@ public class RewardManager : MonoBehaviour
             EnemyType.Boss => 150,
             _ => 0
         };
-
+        CoinText.text = "" + goldReward;
         GoldManager.AddGold(goldReward);
 
         Debug.Log("Gold Reward: " + goldReward);

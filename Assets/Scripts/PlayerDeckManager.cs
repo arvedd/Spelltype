@@ -23,6 +23,7 @@ public class PlayerDeckManager : MonoBehaviour
             
             
             InitializeDefaultDeck();
+            SyncWithSpellBook();
         }
         else
         {
@@ -87,6 +88,23 @@ public class PlayerDeckManager : MonoBehaviour
             Debug.LogWarning("Tried to add a null card to deck!");
         }
     }
+    public void AddUnlockedSpellToDeck(SpellData spell)
+    {
+        if (spell == null)
+        {
+            Debug.LogWarning("Spell null, tidak bisa ditambahkan ke deck.");
+            return;
+        }
+
+        if (PlayerDeck.Contains(spell))
+        {
+            Debug.Log($"Spell {spell.spellName} sudah ada di deck.");
+            return;
+        }
+
+        PlayerDeck.Add(spell);
+        Debug.Log($"Spell {spell.spellName} ditambahkan ke deck dari SpellBook!");
+    }
 
     public void LoadDeck()
     {
@@ -99,6 +117,20 @@ public class PlayerDeckManager : MonoBehaviour
                 AddCardToDeck(name);
         }
     }
+    private void SyncWithSpellBook()
+    {
+        if (SpellBook.Instance == null) return;
+
+        foreach (SpellData spell in SpellBook.Instance.unlockedSpells)
+        {
+            if (!PlayerDeck.Contains(spell))
+            {
+                PlayerDeck.Add(spell);
+                Debug.Log($"🔄 Sync spell {spell.spellName} ke PlayerDeck");
+            }
+        }
+    }
+
 
     [System.Serializable]
     public class DeckSaveData

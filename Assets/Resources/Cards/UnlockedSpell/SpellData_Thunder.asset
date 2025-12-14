@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3806971701a5a1d489e706f2e92124c9, type: 3}
+  m_Name: SpellData_Thunder
+  m_EditorClassIdentifier: 
+  spellName: thunder
+  spellDamage: 15
+  spellSpeed: 7
+  spellCost: 1
+  spellHeal: 0
+  cardImage: {fileID: -9083412473908507979, guid: f555429eb3c84a443b8604e2aaaca88b, type: 3}
+  elementImage: {fileID: 3604826811677434782, guid: c26aa4d3162fa604fbafa42fa96a634e, type: 3}
+  cardBadge: {fileID: 4625735416416964746, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
+  cardAP: {fileID: 4625735416416964746, guid: 1b98157b7f0e42e4ab3eafac0c48ed07, type: 3}
+  typeSpell: 4
+  spellCategory: 0
+  spellPrefab: {fileID: 9109426178214024234, guid: 2fac54b35e9b49e4c85d7dafb7f504fc, type: 3}
+  castSFX: {fileID: 8300000, guid: 0d1983ec586fe5d418787d8516138ea3, type: 3}
+  impactSFX: {fileID: 8300000, guid: 0bb89434535c58c43819f6324fbcfe7f, type: 3}
+  counterWords: []

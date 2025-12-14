@@ -1,124 +1,61 @@
 fileFormatVersion: 2
-guid: 51ff112cff27ca04fb769d17099d8b91
+guid: ef5f03f13aff84644ac3497adaf461b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6817854425926531477
-    second: Irregular rock Spritesheet_0
+      213: 7500512873372086633
+    second: Projectile 2 w blur_0
   - first:
-      213: 3929869733720270682
-    second: Irregular rock Spritesheet_1
+      213: -1812733314322964255
+    second: Projectile 2 w blur_1
   - first:
-      213: 4127516468003071197
-    second: Irregular rock Spritesheet_2
+      213: -3464328750421249107
+    second: Projectile 2 w blur_2
   - first:
-      213: 1028570765121418880
-    second: Irregular rock Spritesheet_3
+      213: 2072515557276878258
+    second: Projectile 2 w blur_3
   - first:
-      213: 9065550577972586202
-    second: Irregular rock Spritesheet_4
+      213: -5518606991394623254
+    second: Projectile 2 w blur_4
   - first:
-      213: -8989927587475101345
-    second: Irregular rock Spritesheet_5
+      213: 5135337471649977886
+    second: Projectile 2 w blur_5
   - first:
-      213: 6241315977421750294
-    second: Irregular rock Spritesheet_6
+      213: 5844295346341884940
+    second: Projectile 2 w blur_6
   - first:
-      213: 7533774863159523364
-    second: Irregular rock Spritesheet_7
+      213: 2129517590968210810
+    second: Projectile 2 w blur_7
   - first:
-      213: 4652531855074350399
-    second: Irregular rock Spritesheet_8
+      213: 3578728315820483940
+    second: Projectile 2 w blur_8
   - first:
-      213: 6534051041330954201
-    second: Irregular rock Spritesheet_9
+      213: 3162611521050100833
+    second: Projectile 2 w blur_9
   - first:
-      213: -3343438215909404515
-    second: Irregular rock Spritesheet_10
+      213: -5849357038880739807
+    second: Projectile 2 w blur_10
   - first:
-      213: -6788042236567042082
-    second: Irregular rock Spritesheet_11
+      213: 6767274383393989327
+    second: Projectile 2 w blur_11
   - first:
-      213: -6194457198056353991
-    second: Irregular rock Spritesheet_12
+      213: -8033765590690817754
+    second: Projectile 2 w blur_12
   - first:
-      213: 6007498753023369116
-    second: Irregular rock Spritesheet_13
+      213: 2292490251402995524
+    second: Projectile 2 w blur_13
   - first:
-      213: 6091465645535039831
-    second: Irregular rock Spritesheet_14
+      213: 8784988125661888379
+    second: Projectile 2 w blur_14
   - first:
-      213: -4321160117395831649
-    second: Irregular rock Spritesheet_15
+      213: -8145942063312395449
+    second: Projectile 2 w blur_15
   - first:
-      213: 7206299117451202057
-    second: Irregular rock Spritesheet_16
+      213: -560224610148970167
+    second: Projectile 2 w blur_16
   - first:
-      213: -7707361352214409159
-    second: Irregular rock Spritesheet_17
-  - first:
-      213: -5147183455552720384
-    second: Irregular rock Spritesheet_18
-  - first:
-      213: 3203043285842868894
-    second: Irregular rock Spritesheet_19
-  - first:
-      213: -4470253474484518024
-    second: Irregular rock Spritesheet_20
-  - first:
-      213: -8368435015195482407
-    second: Irregular rock Spritesheet_21
-  - first:
-      213: -1709079328729588410
-    second: Irregular rock Spritesheet_22
-  - first:
-      213: -1367501769827770986
-    second: Irregular rock Spritesheet_23
-  - first:
-      213: -4289661245468500897
-    second: Irregular rock Spritesheet_24
-  - first:
-      213: -1870178389995875790
-    second: Irregular rock Spritesheet_25
-  - first:
-      213: -1906338401571038327
-    second: Irregular rock Spritesheet_26
-  - first:
-      213: -1770259218699078603
-    second: Irregular rock Spritesheet_27
-  - first:
-      213: -2972587096974016527
-    second: Irregular rock Spritesheet_28
-  - first:
-      213: -4745107520386140258
-    second: Irregular rock Spritesheet_29
-  - first:
-      213: -946241638000124233
-    second: Irregular rock Spritesheet_30
-  - first:
-      213: 8704366182776669192
-    second: Irregular rock Spritesheet_31
-  - first:
-      213: -7671184441708515118
-    second: Irregular rock Spritesheet_32
-  - first:
-      213: -7101315866480858657
-    second: Irregular rock Spritesheet_33
-  - first:
-      213: 9018614844079514161
-    second: Irregular rock Spritesheet_34
-  - first:
-      213: -8452559259369415581
-    second: Irregular rock Spritesheet_35
-  - first:
-      213: 4547941816826633886
-    second: Irregular rock Spritesheet_36
-  - first:
-      213: 8343379876572843741
-    second: Irregular rock Spritesheet_37
-  - first:
-      213: -6570804015154340277
-    second: Irregular rock Spritesheet_38
+      213: 1137103409137525598
+    second: Projectile 2 w blur_17
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -189,7 +126,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -210,28 +147,15 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_0
+      name: Projectile 2 w blur_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -242,18 +166,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 599fca35a72ed9e50800000000000000
-      internalID: 6817854425926531477
+      spriteID: 961769a08bc271860800000000000000
+      internalID: 7500512873372086633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_1
+      name: Projectile 2 w blur_1
       rect:
         serializedVersion: 2
         x: 48
-        y: 48
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -264,18 +188,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a57a4f393b3b98630800000000000000
-      internalID: 3929869733720270682
+      spriteID: 1e06347a7a0e7d6e0800000000000000
+      internalID: -1812733314322964255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_2
+      name: Projectile 2 w blur_2
       rect:
         serializedVersion: 2
         x: 96
-        y: 48
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -286,18 +210,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd4e5efeb52e74930800000000000000
-      internalID: 4127516468003071197
+      spriteID: da3f7f53b5b3cefc0800000000000000
+      internalID: -3464328750421249107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_3
+      name: Projectile 2 w blur_3
       rect:
         serializedVersion: 2
         x: 144
-        y: 48
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -308,18 +232,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 086f96949a7364e00800000000000000
-      internalID: 1028570765121418880
+      spriteID: 2b585fe2bed03cc10800000000000000
+      internalID: 2072515557276878258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_4
+      name: Projectile 2 w blur_4
       rect:
         serializedVersion: 2
         x: 192
-        y: 48
+        y: 0
         width: 48
         height: 48
       alignment: 0
@@ -330,39 +254,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad6a465283e4fcd70800000000000000
-      internalID: 9065550577972586202
+      spriteID: ae0bfee1e28f963b0800000000000000
+      internalID: -5518606991394623254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_5
+      name: Projectile 2 w blur_5
       rect:
         serializedVersion: 2
         x: 240
-        y: 48
-        width: 48
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f59ef086d7c5d3380800000000000000
-      internalID: -8989927587475101345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Irregular rock Spritesheet_6
-      rect:
-        serializedVersion: 2
-        x: 0
         y: 0
         width: 48
         height: 48
@@ -374,17 +276,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 610813540db9d9650800000000000000
-      internalID: 6241315977421750294
+      spriteID: e161377e832644740800000000000000
+      internalID: 5135337471649977886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_7
+      name: Projectile 2 w blur_6
       rect:
         serializedVersion: 2
-        x: 48
+        x: 288
         y: 0
         width: 48
         height: 48
@@ -396,17 +298,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 428f36882585d8860800000000000000
-      internalID: 7533774863159523364
+      spriteID: c043d2137ab1b1150800000000000000
+      internalID: 5844295346341884940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_8
+      name: Projectile 2 w blur_7
       rect:
         serializedVersion: 2
-        x: 96
+        x: 336
         y: 0
         width: 48
         height: 48
@@ -418,17 +320,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3555ef621d119040800000000000000
-      internalID: 4652531855074350399
+      spriteID: a751b9067f09d8d10800000000000000
+      internalID: 2129517590968210810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_9
+      name: Projectile 2 w blur_8
       rect:
         serializedVersion: 2
-        x: 144
+        x: 384
         y: 0
         width: 48
         height: 48
@@ -440,17 +342,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9df7dce9dcc9daa50800000000000000
-      internalID: 6534051041330954201
+      spriteID: 465ac1c31723aa130800000000000000
+      internalID: 3578728315820483940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Irregular rock Spritesheet_10
+      name: Projectile 2 w blur_9
       rect:
         serializedVersion: 2
-        x: 192
+        x: 432
         y: 0
         width: 48
         height: 48
@@ -462,8 +364,140 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d90114c28a8b991d0800000000000000
-      internalID: -3343438215909404515
+      spriteID: 164cfb21c6ad3eb20800000000000000
+      internalID: 3162611521050100833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile 2 w blur_10
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e251da3c8e2dea0800000000000000
+      internalID: -5849357038880739807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile 2 w blur_11
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2acc772303aed50800000000000000
+      internalID: 6767274383393989327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile 2 w blur_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6291e1e82c4528090800000000000000
+      internalID: -8033765590690817754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile 2 w blur_13
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 447ebedccbf80df10800000000000000
+      internalID: 2292490251402995524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile 2 w blur_14
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ff91ac72c8ae970800000000000000
+      internalID: 8784988125661888379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile 2 w blur_15
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7432a5b3adcc3fe80800000000000000
+      internalID: -8145942063312395449
       vertices: []
       indices: 
       edges: []
@@ -472,7 +506,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: dfb0dec2a05c1d749809e99bde99fe7a
+    spriteID: ce67b32d270df364593e3f5479824d0d
     internalID: 0
     vertices: []
     indices: 
@@ -482,17 +516,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Irregular rock Spritesheet_0: 6817854425926531477
-      Irregular rock Spritesheet_1: 3929869733720270682
-      Irregular rock Spritesheet_10: -3343438215909404515
-      Irregular rock Spritesheet_2: 4127516468003071197
-      Irregular rock Spritesheet_3: 1028570765121418880
-      Irregular rock Spritesheet_4: 9065550577972586202
-      Irregular rock Spritesheet_5: -8989927587475101345
-      Irregular rock Spritesheet_6: 6241315977421750294
-      Irregular rock Spritesheet_7: 7533774863159523364
-      Irregular rock Spritesheet_8: 4652531855074350399
-      Irregular rock Spritesheet_9: 6534051041330954201
+      Projectile 2 w blur_0: 7500512873372086633
+      Projectile 2 w blur_1: -1812733314322964255
+      Projectile 2 w blur_10: -5849357038880739807
+      Projectile 2 w blur_11: 6767274383393989327
+      Projectile 2 w blur_12: -8033765590690817754
+      Projectile 2 w blur_13: 2292490251402995524
+      Projectile 2 w blur_14: 8784988125661888379
+      Projectile 2 w blur_15: -8145942063312395449
+      Projectile 2 w blur_2: -3464328750421249107
+      Projectile 2 w blur_3: 2072515557276878258
+      Projectile 2 w blur_4: -5518606991394623254
+      Projectile 2 w blur_5: 5135337471649977886
+      Projectile 2 w blur_6: 5844295346341884940
+      Projectile 2 w blur_7: 2129517590968210810
+      Projectile 2 w blur_8: 3578728315820483940
+      Projectile 2 w blur_9: 3162611521050100833
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

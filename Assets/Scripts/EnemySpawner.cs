@@ -78,7 +78,6 @@ public class EnemySpawner : MonoBehaviour
     {
         if (enemyPool == null || enemyPool.Length == 0)
         {
-            Debug.LogError("Enemy pool is empty!");
             return null;
         }
 
@@ -119,8 +118,6 @@ public class EnemySpawner : MonoBehaviour
     {
         spawnedEnemies.Remove(deadEnemy);
 
-        Debug.Log($"Enemy died! Remaining: {spawnedEnemies.Count}");
-
         if (spawnedEnemies.Count == 0)
         {
             OnAllEnemiesDefeated();
@@ -129,8 +126,6 @@ public class EnemySpawner : MonoBehaviour
 
     void OnAllEnemiesDefeated()
     {
-        Debug.Log("All enemies defeated! Victory!");
-        
         FindAnyObjectByType<BattleSystem>().CheckIfDied();
     }
 

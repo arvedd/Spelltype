@@ -66,7 +66,6 @@ public class SpellTyper : MonoBehaviour
         {
             if (isAttack == false)
             {
-                Debug.Log("Cannot end turn yet, spell still active!");
                 OnPlayerFinished?.Invoke();
                 typedBuffer = "";
                 if (inputDisplay) inputDisplay.text = "";
@@ -140,7 +139,6 @@ public class SpellTyper : MonoBehaviour
     
     private void CastHealSpell(SpellData spell)
     {
-        Debug.Log($"Is Attack = {isAttack}!");
         GameObject healEffect = Instantiate(spell.spellPrefab, castHealPoint.position, Quaternion.identity);
         Animator anim = healEffect.GetComponent<Animator>();
 

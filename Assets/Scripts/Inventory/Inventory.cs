@@ -38,44 +38,44 @@ public class Inventory : MonoBehaviour
     }
 
     public void Add(ShopData itemData)
-{
-    if (itemDictionary.TryGetValue(itemData, out InventoryItem item))
     {
-        item.AddToStack();
+        if (itemDictionary.TryGetValue(itemData, out InventoryItem item))
+        {
+            item.AddToStack();
+        }
+        else
+        {
+            InventoryItem newItem = new InventoryItem(itemData);
+            newItem.AddToStack();
+            inventory.Add(newItem);
+            itemDictionary.Add(itemData, newItem);
+        }
+        
+        SaveInventory();
+        OnInventoryChanged?.Invoke();
     }
-    else
-    {
-        InventoryItem newItem = new InventoryItem(itemData);
-        newItem.AddToStack();
-        inventory.Add(newItem);
-        itemDictionary.Add(itemData, newItem);
-    }
-    
-    SaveInventory();
-    OnInventoryChanged?.Invoke();
-}
 
     public void SaveInventory()
-{
-    CleanupEmptyItems();
-    
-    InventorySaveData saveData = new InventorySaveData();
-
-    foreach (var item in inventory)
     {
-        if (item.stackSize > 0)
+        CleanupEmptyItems();
+        
+        InventorySaveData saveData = new InventorySaveData();
+
+        foreach (var item in inventory)
         {
-            saveData.itemNames.Add(item.itemData.itemName);
-            saveData.itemAmounts.Add(item.stackSize);
+            if (item.stackSize > 0)
+            {
+                saveData.itemNames.Add(item.itemData.itemName);
+                saveData.itemAmounts.Add(item.stackSize);
+            }
         }
+
+        string json = JsonUtility.ToJson(saveData);
+        PlayerPrefs.SetString("InventoryData", json);
+        PlayerPrefs.Save();
+
+        OnInventoryChanged?.Invoke();
     }
-
-    string json = JsonUtility.ToJson(saveData);
-    PlayerPrefs.SetString("InventoryData", json);
-    PlayerPrefs.Save();
-
-    OnInventoryChanged?.Invoke();
-}
 
     public void LoadInventory(List<ShopData> allShopItems)
     {

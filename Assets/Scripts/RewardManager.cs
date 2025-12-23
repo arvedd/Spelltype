@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-using Microsoft.Unity.VisualStudio.Editor;
+using UnityEngine.UI;
 
 public class RewardManager : MonoBehaviour
 {
@@ -41,9 +41,6 @@ public class RewardManager : MonoBehaviour
     private bool isTyping = false;
 
 
-    // ---------------------------------------------------------
-    // Awake
-    // ---------------------------------------------------------
     void Awake()
     {
         Instance = this;
@@ -61,14 +58,6 @@ public class RewardManager : MonoBehaviour
     }
 
 
-    // ---------------------------------------------------------
-    // Start
-    // ---------------------------------------------------------
-
-
-    // ---------------------------------------------------------
-    // Start Reward
-    // ---------------------------------------------------------
     public void StartRewardSequence()
     {
         rewardPopup.SetActive(true);
@@ -87,10 +76,6 @@ public class RewardManager : MonoBehaviour
     }
 
 
-
-    // ---------------------------------------------------------
-    // Generate Reward Cards
-        // ---------------------------------------------------------
     private SpellTyper FindSpellTyper()
     {
         if (spellTyper == null)
@@ -139,10 +124,6 @@ public class RewardManager : MonoBehaviour
     }
 
 
-
-    // ---------------------------------------------------------
-    // Pick Random Spells (yang belum dimiliki)
-    // ---------------------------------------------------------
     List<SpellData> GetRandomSpells(int count)
     {
         List<SpellData> available = spellDatabase.FindAll(
@@ -161,10 +142,6 @@ public class RewardManager : MonoBehaviour
         return selected;
     }
 
-
-    // ---------------------------------------------------------
-    // Update
-    // ---------------------------------------------------------
     void Update()
     {
         if (!isTyping) return;
@@ -173,22 +150,14 @@ public class RewardManager : MonoBehaviour
             ValidateWord();
     }
 
-
-    // ---------------------------------------------------------
-    // Prompt Text
-    // ---------------------------------------------------------
     void ShowNextCard()
     {
-        infoText.text = "Type One Spell that You Want to Claim:";
+        infoText.text = "";
         inputField.text = "";
         inputField.Select();
         inputField.ActivateInputField();
     }
 
-
-    // ---------------------------------------------------------
-    // Validate Input
-    // ---------------------------------------------------------
     void ValidateWord()
     {
         string typed = inputField.text.Trim();
@@ -207,8 +176,6 @@ public class RewardManager : MonoBehaviour
         {
             SpellBook.Instance.UnlockSpell(claimedSpell);
 
-            Debug.Log($"Spell claimed: {claimedSpell.spellName}");
-
             infoText.text =
                 $"You have obtained the spell: <b>{claimedSpell.spellName}</b>!";
 
@@ -222,10 +189,6 @@ public class RewardManager : MonoBehaviour
         }
     }
 
-
-    // ---------------------------------------------------------
-    // End Reward
-    // ---------------------------------------------------------
     void EndReward()
     {
         isTyping = false;
@@ -246,9 +209,6 @@ public class RewardManager : MonoBehaviour
     }
 
 
-    // ---------------------------------------------------------
-    // Gold Reward
-    // ---------------------------------------------------------
     void GetGoldReward()
     {
         int goldReward = enemyType switch
@@ -261,14 +221,9 @@ public class RewardManager : MonoBehaviour
         CoinText.text = "" + goldReward;
         GoldManager.AddGold(goldReward);
 
-        Debug.Log("Gold Reward: " + goldReward);
-        Debug.Log("Total Gold: " + GoldManager.GetGold());
     }
 
 
-    // ---------------------------------------------------------
-    // Scene Change
-    // ---------------------------------------------------------
     public IEnumerator ChangeSceneAfterBattle(string sceneName)
     {
         yield return new WaitForSeconds(3f);

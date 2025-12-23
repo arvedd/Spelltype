@@ -98,8 +98,6 @@ public class BattleSystem : MonoBehaviour
     {
         enemies.Remove(deadEnemy);
         
-        Debug.Log($"Enemy died! Remaining: {enemies.Count}");
-        
         if (enemies.Count > 0)
         {
             currentTargetEnemy = enemies[0];
@@ -182,7 +180,6 @@ public class BattleSystem : MonoBehaviour
 
         if (activeEnemyAttacks.Count == 0)
         {
-            Debug.Log("No active enemy attacks after all enemies acted. Ending enemy turn.");
             EndEnemyTurn();
         }
         else
@@ -196,12 +193,10 @@ public class BattleSystem : MonoBehaviour
                     activeList += "[Null Attack Reference]\n";
             }
 
-            Debug.Log($"Enemies have cast; waiting for {activeEnemyAttacks.Count} active attacks to resolve:\n{activeList}");
         }
 
         if (allEnemiesHaveCast && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
         {
-            Debug.Log("All enemies finished acting with no active attacks, ending enemy turn (safety fallback).");
             StartCoroutine(DelayedEndEnemyTurn());
         }
     }
@@ -213,7 +208,6 @@ public class BattleSystem : MonoBehaviour
         if (activeEnemyAttacks.Contains(destroyedAttack))
         {
             activeEnemyAttacks.Remove(destroyedAttack);
-            Debug.Log($"Attack destroyed. Remaining active enemy attacks: {activeEnemyAttacks.Count}");
         }
         else
         {
@@ -222,7 +216,6 @@ public class BattleSystem : MonoBehaviour
 
         if (allEnemiesHaveCast && enemiesFinishedCasting >= enemiesToAct && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
         {
-            Debug.Log("All enemies have acted AND all attacks resolved, ending enemy turn.");
             StartCoroutine(DelayedEndEnemyTurn());
         }
     }
@@ -276,7 +269,15 @@ public class BattleSystem : MonoBehaviour
             state = BattleState.WON;
             turnText.text = "YOU WIN!";
             playerData.WinAnim();
-            StartCoroutine(RewardManager.Instance.StartRewardWithDelay(2.0f));
+           
+            if (enemyType == EnemyType.Boss)
+            {
+                StartCoroutine(ChangeSceneAfterBattle("Ending"));
+            }
+            else
+            {
+                StartCoroutine(RewardManager.Instance.StartRewardWithDelay(2.0f));
+            }
 
  
         }
@@ -307,8 +308,6 @@ public class BattleSystem : MonoBehaviour
         
         currentEnemyIndex = (currentEnemyIndex + 1) % enemies.Count;
         currentTargetEnemy = enemies[currentEnemyIndex];
-        
-        Debug.Log($"Target switched to: {currentTargetEnemy.gameObject.name}");
         
     }
 
@@ -356,7 +355,6 @@ public class BattleSystem : MonoBehaviour
     {
         if (allEnemiesHaveCast && activeEnemyAttacks.Count == 0 && state == BattleState.ENEMYTURN)
         {
-            Debug.Log("Enemy turn ended via manual check.");
             StartCoroutine(DelayedEndEnemyTurn());
         }
     }

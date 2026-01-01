@@ -276,7 +276,7 @@ public class BattleSystem : MonoBehaviour
             state = BattleState.WON;
             turnText.text = "YOU WIN!";
             playerData.WinAnim();
-            StartCoroutine(RewardManager.Instance.StartRewardWithDelay(2.0f));
+            StartCoroutine(ShowRewardAfterDelay());
 
  
         }
@@ -351,6 +351,12 @@ public class BattleSystem : MonoBehaviour
         SceneManager.LoadScene(sceneName);
         
     }
+        IEnumerator ShowRewardAfterDelay()
+    {
+        yield return new WaitForSeconds(2f);
+        RewardManager.Instance.StartRewardSequence();
+    }
+
 
     public void CheckIfEnemyTurnShouldEnd()
     {

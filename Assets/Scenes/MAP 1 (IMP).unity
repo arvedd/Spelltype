@@ -1228,7 +1228,6 @@ MonoBehaviour:
   rewardPopup: {fileID: 1999136942}
   inputField: {fileID: 907712172}
   infoText: {fileID: 1920850901}
-  CoinText: {fileID: 0}
   playerInstance: {fileID: 6158286435452607656, guid: 2fa8b0f54261ce74e830c6fa9ba4ea84, type: 3}
   playerLevel: {fileID: 0}
   spellTyper: {fileID: 0}
@@ -1238,9 +1237,10 @@ MonoBehaviour:
   numberOfCards: 3
   spellDatabase:
   - {fileID: 11400000, guid: e9b373d9adf6ae8469885450b07acc24, type: 2}
-  - {fileID: 11400000, guid: d598a380c649b5640847f73d1ca6f8ca, type: 2}
   - {fileID: 11400000, guid: 1eb51cd6843134b41b8b16fd08c08ba5, type: 2}
   - {fileID: 11400000, guid: 453eeea4d3d3ff740a92c0ca00060fde, type: 2}
+  - {fileID: 11400000, guid: 440468a56c6cc364b8c0345f0b228cc9, type: 2}
+  - {fileID: 11400000, guid: 4793b5c64b1ea834b8b30d6294c66081, type: 2}
   nextSceneName: MapSelection
 --- !u!4 &225749890
 Transform:

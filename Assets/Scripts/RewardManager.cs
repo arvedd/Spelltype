@@ -13,8 +13,6 @@ public class RewardManager : MonoBehaviour
     public GameObject rewardPopup;
     public TMP_InputField inputField;
     public TMP_Text infoText;
-    public TMP_Text CoinText;
-    public Image CoinImage;
 
     [Header("Player Reference")]
     public GameObject playerInstance;
@@ -50,15 +48,8 @@ public class RewardManager : MonoBehaviour
 
         if (rewardPopup != null)
             rewardPopup.SetActive(false);
-
-        if (playerInstance != null)
-        {
-            playerLevel = playerInstance.GetComponentInChildren<PlayerLevel>();
-
-            if (playerLevel == null)
-                Debug.LogError("PlayerLevel component not found!");
-        }
     }
+
 
 
     // ---------------------------------------------------------
@@ -72,12 +63,14 @@ public class RewardManager : MonoBehaviour
     public void StartRewardSequence()
     {
         rewardPopup.SetActive(true);
+        inputField = FindInputFieldByName("RewardInputField");
 
         var st = FindSpellTyper();
         if (st != null)
             st.gameObject.SetActive(false);
 
         GenerateCards();
+
         inputField.text = "";
         inputField.Select();
         inputField.ActivateInputField();
@@ -87,10 +80,18 @@ public class RewardManager : MonoBehaviour
     }
 
 
+    IEnumerator FocusInput()
+    {
+        yield return null;
+        inputField.Select();
+        inputField.ActivateInputField();
+}
+
+
 
     // ---------------------------------------------------------
     // Generate Reward Cards
-        // ---------------------------------------------------------
+    // ---------------------------------------------------------
     private SpellTyper FindSpellTyper()
     {
         if (spellTyper == null)
@@ -226,24 +227,30 @@ public class RewardManager : MonoBehaviour
     // ---------------------------------------------------------
     // End Reward
     // ---------------------------------------------------------
-    void EndReward()
+        void EndReward()
     {
         isTyping = false;
-        rewardPopup.SetActive(false);
 
-        FindSpellTyper();
+        if (rewardPopup != null)
+            rewardPopup.SetActive(false);
 
         var st = FindSpellTyper();
         if (st != null)
-            st.gameObject.SetActive(false);
+            st.gameObject.SetActive(true); 
 
         GetGoldReward();
 
-        if (playerLevel.currentLevel > 5)
+        if (playerLevel != null && playerLevel.currentLevel > 5)
+        {
+            SpellBook.Instance.ResetSpellBook();
             StartCoroutine(ChangeSceneAfterBattle("Ending"));
+        }
         else
+        {
             StartCoroutine(ChangeSceneAfterBattle("MapSelection"));
+        }
     }
+
 
 
     // ---------------------------------------------------------
@@ -258,7 +265,7 @@ public class RewardManager : MonoBehaviour
             EnemyType.Boss => 150,
             _ => 0
         };
-        CoinText.text = "" + goldReward;
+        
         GoldManager.AddGold(goldReward);
 
         Debug.Log("Gold Reward: " + goldReward);
@@ -285,5 +292,12 @@ public class RewardManager : MonoBehaviour
     {
         yield return new WaitForSeconds(1.5f);
         EndReward();
+    }
+    TMP_InputField FindInputFieldByName(string name)
+    {
+        GameObject go = GameObject.Find(name);
+        if (go == null) return null;
+
+        return go.GetComponent<TMP_InputField>();
     }
 }

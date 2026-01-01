@@ -54,9 +54,7 @@ public class PlayerDeckManager : MonoBehaviour
         AddCardToDeck("ventus");
         AddCardToDeck("waterball");
         AddCardToDeck("curial");
-        AddCardToDeck("waterblast");
-        AddCardToDeck("infernoblast");
-        
+       
         
         Debug.Log("Deck default telah diinisialisasi.");
     }

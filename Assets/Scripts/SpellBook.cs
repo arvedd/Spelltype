@@ -46,6 +46,7 @@ public class SpellBook : MonoBehaviour
             }
         }
     }
+    
 
 
     public bool HasSpell(string spellName)
@@ -57,4 +58,10 @@ public class SpellBook : MonoBehaviour
     {
         return unlockedSpells.Find(s => s.spellName.Equals(spellName, System.StringComparison.OrdinalIgnoreCase));
     }
+    public void ResetSpellBook()
+    {
+        unlockedSpells.Clear();
+        Debug.Log("SpellBook has been reset!");
+    }
+
 }

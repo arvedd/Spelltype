@@ -38,14 +38,12 @@ public class PlayerDeckManager : MonoBehaviour
     {
         SpellData[] cards = Resources.LoadAll<SpellData>("Cards");
         allCards.AddRange(cards);
-        Debug.Log($"Loaded {allCards.Count} total SpellData from Resources.");
     }
 
     public void InitializeDefaultDeck()
     {
         if (PlayerDeck.Count > 0)
         {
-            Debug.Log("Deck sudah ada. Melewati inisialisasi default.");
             return;
         }
 
@@ -66,31 +64,18 @@ public class PlayerDeckManager : MonoBehaviour
         if (cardToAdd != null)
         {
             PlayerDeck.Add(cardToAdd);
-            Debug.Log($"Added {cardName} to deck! Total cards: {PlayerDeck.Count}");
         }
         else
         {
-            Debug.LogWarning($"{cardName} does not exist in allCards list!");
+            Debug.LogWarning($"{cardName} ga ada di allCards list!");
         }
     }
     
-    public void AddCard(SpellData cardToAdd)
-    {
-        if (cardToAdd != null)
-        {
-            PlayerDeck.Add(cardToAdd);
-            Debug.Log($"Added {cardToAdd.spellName} to player's deck (from Reward)! Total cards: {PlayerDeck.Count}");
-        }
-        else
-        {
-            Debug.LogWarning("Tried to add a null card to deck!");
-        }
-    }
     public void AddUnlockedSpellToDeck(SpellData spell)
     {
         if (spell == null)
         {
-            Debug.LogWarning("Spell null, tidak bisa ditambahkan ke deck.");
+            Debug.LogWarning("Spell null, ga bisa ditambahkan ke deck.");
             return;
         }
 
@@ -104,17 +89,7 @@ public class PlayerDeckManager : MonoBehaviour
         Debug.Log($"Spell {spell.spellName} ditambahkan ke deck dari SpellBook!");
     }
 
-    public void LoadDeck()
-    {
-        string json = PlayerPrefs.GetString("PlayerDeck", "");
-        if (!string.IsNullOrEmpty(json))
-        {
-            DeckSaveData data = JsonUtility.FromJson<DeckSaveData>(json);
-            PlayerDeck.Clear();
-            foreach (string name in data.cardNames)
-                AddCardToDeck(name);
-        }
-    }
+
     private void SyncWithSpellBook()
     {
         if (SpellBook.Instance == null) return;
@@ -124,7 +99,6 @@ public class PlayerDeckManager : MonoBehaviour
             if (!PlayerDeck.Contains(spell))
             {
                 PlayerDeck.Add(spell);
-                Debug.Log($"🔄 Sync spell {spell.spellName} ke PlayerDeck");
             }
         }
     }

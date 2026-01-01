@@ -65,8 +65,6 @@ public class GameStateManager : MonoBehaviour
         {
             SetState(GameState.MapSelection);
         }
-        
-        Debug.Log($"[GameStateManager] state awal: {currentState}");
     }
 
     void HandleStateInput()
@@ -140,9 +138,6 @@ public class GameStateManager : MonoBehaviour
 
         previousState = currentState;
         currentState = newState;
-
-        Debug.Log($"[GameStateManager] State ganti dari: {previousState} -> {currentState}");
-
         OnStateChanged?.Invoke(previousState, currentState);
     }
 

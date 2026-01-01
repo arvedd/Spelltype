@@ -30,6 +30,7 @@ public class Ending : MonoBehaviour
         PlayerPrefs.DeleteKey("PlayerLevel");
         PlayerPrefs.DeleteKey("PlayerGold");
         PlayerPrefs.DeleteKey("InventoryData");
+        PlayerPrefs.DeleteKey("PlayerDeck");
         PlayerPrefs.Save();
 
         SceneManager.LoadScene("MainMenu");

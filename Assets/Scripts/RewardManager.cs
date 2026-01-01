@@ -240,15 +240,7 @@ public class RewardManager : MonoBehaviour
 
         GetGoldReward();
 
-        if (playerLevel != null && playerLevel.currentLevel > 5)
-        {
-            SpellBook.Instance.ResetSpellBook();
-            StartCoroutine(ChangeSceneAfterBattle("Ending"));
-        }
-        else
-        {
-            StartCoroutine(ChangeSceneAfterBattle("MapSelection"));
-        }
+        StartCoroutine(ChangeSceneAfterBattle("MapSelection"));
     }
 
 

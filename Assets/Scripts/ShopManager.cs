@@ -55,7 +55,6 @@ public class ShopManager : MonoBehaviour
 
     void Update()
     {
-        // Jangan izinkan input apa pun saat pause
         if (PauseManager.IsPaused) return;
 
         goldText.text = GoldManager.GetGold().ToString();

@@ -8,12 +8,11 @@ public class PlayerLevel : MonoBehaviour
     void Awake()
     {
         currentLevel = PlayerPrefs.GetInt("PlayerLevel", 1);
-        Debug.Log($"[Awake] Loaded Level: {currentLevel}");
     }
 
     void Start()
     {
-        Debug.Log($"[Start] Current Level: {currentLevel}");
+        Debug.Log($" Current Level: {currentLevel}");
     }
 
     public void LevelUp()

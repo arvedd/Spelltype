@@ -50,7 +50,6 @@ public class DeckManager : MonoBehaviour
             Drawpiletext.text = drawPile.Count.ToString();
 
             Shuffle(drawPile);
-            Debug.Log("Reshuffled discard pile back into deck.");
         }
 
         if (handManager.cardsInHand.Count < maxHandSize)
@@ -88,8 +87,6 @@ public class DeckManager : MonoBehaviour
         {
             SpellData data = cardDisplay.spellData;
             discardPile.Add(data);
-
-            Debug.Log($"Discarded {data.spellName}. Total discard pile: {discardPile.Count}");
         }
 
         // Remove from hand list

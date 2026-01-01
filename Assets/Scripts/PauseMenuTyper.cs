@@ -10,7 +10,7 @@ public class PauseMenuTyper : MonoBehaviour
 
     void Start()
     {
-            if (SceneManager.GetActiveScene().name == "MainMenu")
+        if (SceneManager.GetActiveScene().name == "MainMenu")
         {
             this.enabled = false;
         }

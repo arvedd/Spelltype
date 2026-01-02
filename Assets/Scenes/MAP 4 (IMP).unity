@@ -406,7 +406,7 @@ MonoBehaviour:
   playerTyper: {fileID: 0}
   playerLevel: {fileID: 0}
   enemySpawner: {fileID: 1192657908}
-  enemyType: 0
+  enemyType: 1
   turnText: {fileID: 807765753}
   handManager: {fileID: 510329771}
   deckManager: {fileID: 2021184891}
@@ -7553,6 +7553,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 453eeea4d3d3ff740a92c0ca00060fde, type: 2}
   - {fileID: 11400000, guid: e9b373d9adf6ae8469885450b07acc24, type: 2}
   - {fileID: 11400000, guid: d598a380c649b5640847f73d1ca6f8ca, type: 2}
+  - {fileID: 11400000, guid: 440468a56c6cc364b8c0345f0b228cc9, type: 2}
   nextSceneName: MapSelection
 --- !u!4 &1194386670
 Transform:

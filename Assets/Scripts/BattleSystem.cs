@@ -269,7 +269,6 @@ public class BattleSystem : MonoBehaviour
             state = BattleState.WON;
             turnText.text = "YOU WIN!";
             playerData.WinAnim();
-            playerLevel.LevelUp();
             
             if(enemyType == EnemyType.Boss)
             {

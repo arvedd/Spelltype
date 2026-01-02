@@ -6462,7 +6462,7 @@ MonoBehaviour:
   playerTyper: {fileID: 0}
   playerLevel: {fileID: 0}
   enemySpawner: {fileID: 1019247220}
-  enemyType: 0
+  enemyType: 1
   turnText: {fileID: 1865723684}
   handManager: {fileID: 303408541}
   deckManager: {fileID: 1435542580}
@@ -7028,7 +7028,7 @@ MonoBehaviour:
   playerInstance: {fileID: 6158286435452607656, guid: 2fa8b0f54261ce74e830c6fa9ba4ea84, type: 3}
   playerLevel: {fileID: 0}
   spellTyper: {fileID: 0}
-  enemyType: 0
+  enemyType: 1
   cardParent: {fileID: 1980897482}
   cardPrefab: {fileID: 7659125822636706942, guid: eb95f8c85f2101445a852cb792769b82, type: 3}
   numberOfCards: 3
@@ -7037,6 +7037,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 453eeea4d3d3ff740a92c0ca00060fde, type: 2}
   - {fileID: 11400000, guid: e9b373d9adf6ae8469885450b07acc24, type: 2}
   - {fileID: 11400000, guid: d598a380c649b5640847f73d1ca6f8ca, type: 2}
+  - {fileID: 11400000, guid: 440468a56c6cc364b8c0345f0b228cc9, type: 2}
   nextSceneName: MapSelection
 --- !u!4 &1147612884
 Transform:

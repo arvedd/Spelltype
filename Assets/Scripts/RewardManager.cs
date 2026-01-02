@@ -213,12 +213,14 @@ public class RewardManager : MonoBehaviour
             infoText.text =
                 $"You have obtained the spell: <b>{claimedSpell.spellName}</b>!";
 
+            inputField.DeactivateInputField();
             StartCoroutine(EndRewardDelay());
         }
         else
         {
             infoText.text = $"Wrong! '{typed}' does not match any available spell.";
             inputField.text = "";
+            inputField.ActivateInputField();
             inputField.Select();
         }
     }
